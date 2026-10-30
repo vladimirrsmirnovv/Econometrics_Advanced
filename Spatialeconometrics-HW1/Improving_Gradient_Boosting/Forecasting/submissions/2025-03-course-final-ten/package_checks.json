@@ -1,0 +1,16 @@
+{
+  "status": "passed",
+  "csv_count": 10,
+  "distinct_forecasts": 10,
+  "prior_files_compared": 26,
+  "no_forecast_duplicates": true,
+  "all_headers_ids_values_and_sizes_valid": true,
+  "zip_crc_and_sha_passed": true,
+  "frozen_decision_unchanged": true,
+  "archive_sha256": "ed86774aafaa534efc64324a81587fb9adb2371983225b4e65b56aab6b58cf6a",
+  "evaluation_context_corrected": true,
+  "existing_csv_bytes_unchanged": true,
+  "blend_rules_unchanged": true,
+  "contest_results_recorded": true,
+  "contest_mapping_order_explicitly_confirmed": false
+}

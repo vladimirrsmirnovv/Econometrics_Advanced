@@ -1,0 +1,23 @@
+{
+  "mae": 3561299.5871799923,
+  "rmse": 8534286.893941758,
+  "mape": 4.001544269591642,
+  "bias_pct": 0.9017329452846032,
+  "fold": "2024-03",
+  "model": "catboost_log_level",
+  "configuration": "sdem_standalone",
+  "backend": "Economic postprocessing",
+  "economy_weight": 1,
+  "validation_only": true,
+  "leakage_check": "passed",
+  "source": "sem_forecasts.py",
+  "parameters": {
+    "W": "knn8",
+    "lambda_grid": [
+      0,
+      0.3,
+      0.6
+    ]
+  },
+  "limitation": "Forecast approximation; no causal interpretation; short pooled panel"
+}

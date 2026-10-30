@@ -1,0 +1,6 @@
+{
+  "status": "passed",
+  "runs": 76,
+  "rule": "Previous strictly earlier temporal OOF only; fixed 0.5 shrinkage; current outcomes inaccessible to prior_signals",
+  "implementation_sha256": "c116936f0bc22ee6f5bc296e122bf90eae742850060804afb581044b293f527c"
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "original_csv_sha256": "eaa200f244eb23e4143da05a0f8f7ec88d058f389bff698df8d847fabeb7dc4c",
+  "original_csv_byte_identical": true,
+  "max_relative_difference": 0.0,
+  "tolerance_relative": 1e-12
+}

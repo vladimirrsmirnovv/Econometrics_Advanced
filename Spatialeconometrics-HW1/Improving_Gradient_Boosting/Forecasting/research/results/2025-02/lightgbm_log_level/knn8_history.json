@@ -1,0 +1,63 @@
+{
+  "mae": 4137268.963161867,
+  "rmse": 7671700.375189175,
+  "mape": 5.123014983694364,
+  "bias_pct": 3.0065622341973963,
+  "model": "lightgbm_log_level",
+  "best_iteration": 484,
+  "features": 38,
+  "train_rows": 466425,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "knn8_history",
+  "fold": "2025-02",
+  "backend": "CPU",
+  "seconds": 13.421041999943554,
+  "baseline_mape": 5.150556425344623,
+  "delta_mape": -0.027541441650259735,
+  "relative_improvement_pct": 0.5347275007945755,
+  "shops_improved_pct": 49.57924639545479,
+  "ape_change_quantiles": {
+    "0.05": -2.8246004100871107,
+    "0.25": -0.9810379722281057,
+    "0.5": 0.01410369829095337,
+    "0.75": 0.9776864454526413,
+    "0.95": 2.548456690286021
+  },
+  "features_added": [
+    "knn8_history__level_lag1",
+    "knn8_history__daily_growth_lag1",
+    "knn8_history__growth_1_3",
+    "knn8_history__own_peer_gap_lag1"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "max_depth": 4,
+    "num_leaves": 15,
+    "n_estimators": 8000,
+    "learning_rate": 0.04531627412595812,
+    "min_child_samples": 130,
+    "min_child_weight": 0.040163626155384095,
+    "min_split_gain": 0.02347677898370515,
+    "subsample": 0.8463795928214712,
+    "colsample_bytree": 0.652567919146617,
+    "reg_alpha": 0.02058508138335955,
+    "reg_lambda": 68.63746198978158,
+    "max_bin": 255
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

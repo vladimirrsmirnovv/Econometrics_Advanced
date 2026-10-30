@@ -1,0 +1,42 @@
+{
+  "fold": "2024-06",
+  "model": "lightgbm_log_level",
+  "configuration": "seasonal_spatial",
+  "trees": 392,
+  "early_stopping": true,
+  "stopping_target_known_before": "2024-07",
+  "parameters": {
+    "max_depth": 4,
+    "num_leaves": 15,
+    "n_estimators": 8000,
+    "learning_rate": 0.04531627412595812,
+    "min_child_samples": 130,
+    "min_child_weight": 0.040163626155384095,
+    "min_split_gain": 0.02347677898370515,
+    "subsample": 0.8463795928214712,
+    "colsample_bytree": 0.652567919146617,
+    "reg_alpha": 0.02058508138335955,
+    "reg_lambda": 68.63746198978158,
+    "max_bin": 255,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [
+    "seasonal_control__own_same_month",
+    "seasonal_control__region_same_month",
+    "seasonal_control__national_same_month",
+    "seasonal_spatial__peer_same_month",
+    "seasonal_spatial__peer_same_month_innovation",
+    "seasonal_spatial__own_peer_season_gap"
+  ],
+  "model_file": "inner/2024-06/lightgbm_log_level/models/seasonal_spatial.txt",
+  "model_sha256": "77ee67e031780dcb045fc343bdcefc12b62032387a7bfaceb129ba55ee964425",
+  "prediction_sha256": "92271f592b07dc118763687020c80cea40a3834773fcf5fe1ee9381589600bed",
+  "mae": 4472376.536544044,
+  "rmse": 8894490.895274423,
+  "mape": 4.49072432521133,
+  "bias_pct": -0.933963718162398
+}

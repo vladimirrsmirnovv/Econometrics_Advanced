@@ -1,0 +1,81 @@
+{
+  "model": "lightgbm_log_level",
+  "fold": "2024-08",
+  "configuration": "baseline",
+  "underlying_configuration": "baseline",
+  "protocol": "rolling",
+  "trees": 1865,
+  "inner_selected_trees": 1865,
+  "inner_fold": "2024-07",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "01f134030a626b7937674298f50cedad51fcad41172243f807d2f837b3887f20",
+  "parameters": {
+    "max_depth": 4,
+    "num_leaves": 15,
+    "n_estimators": 1865,
+    "learning_rate": 0.04531627412595812,
+    "min_child_samples": 130,
+    "min_child_weight": 0.040163626155384095,
+    "min_split_gain": 0.02347677898370515,
+    "subsample": 0.8463795928214712,
+    "colsample_bytree": 0.652567919146617,
+    "reg_alpha": 0.02058508138335955,
+    "reg_lambda": 68.63746198978158,
+    "max_bin": 255,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [],
+  "correction": null,
+  "seconds": 46.05850009992719,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-08/lightgbm_log_level/models/baseline.txt",
+  "model_sha256": "5589420b123e36397e144758abcb45cdf119076249233b8a0924f74e8d0908c1",
+  "prediction_sha256": "a9ca07ba3f85dc158a37a60ea63f08efc88337d8181d4370aedb52d83d2452c4",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 3679583.821719294,
+  "rmse": 6907598.306007784,
+  "mape": 4.075544783888446,
+  "bias_pct": 1.8384544584149294,
+  "originally_reported_implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

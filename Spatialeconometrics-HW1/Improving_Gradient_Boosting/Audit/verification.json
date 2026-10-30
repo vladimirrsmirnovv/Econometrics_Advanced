@@ -1,0 +1,185 @@
+{
+  "checks": [
+    {
+      "name": "Existing panel assertions",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "Inflation XLSX -> stored CSV",
+      "status": "passed",
+      "details": {
+        "rows": 4872,
+        "columns": 8
+      }
+    },
+    {
+      "name": "Wages XLSX -> stored CSV",
+      "status": "passed",
+      "details": {
+        "rows": 7830,
+        "columns": 5
+      }
+    },
+    {
+      "name": "Monthly unemployment XLSX -> stored CSV",
+      "status": "passed",
+      "details": {
+        "rows": 9831,
+        "columns": 7
+      }
+    },
+    {
+      "name": "Annual unemployment XLSX -> stored CSV",
+      "status": "passed",
+      "details": {
+        "rows": 783,
+        "columns": 4
+      }
+    },
+    {
+      "name": "Population XLSX -> stored CSV",
+      "status": "passed",
+      "details": {
+        "rows": 2294,
+        "columns": 12
+      }
+    },
+    {
+      "name": "Raw store panel assertions",
+      "status": "passed",
+      "details": null
+    },
+    {
+      "name": "Raw stores -> settlement IDs and static features",
+      "status": "passed",
+      "details": {
+        "rows": 933,
+        "columns": 25
+      }
+    },
+    {
+      "name": "Raw revenue -> stored monthly settlement aggregates",
+      "status": "passed",
+      "details": {
+        "rows": 24258,
+        "columns": 9
+      }
+    },
+    {
+      "name": "Population matching and manual links -> stored panel",
+      "status": "passed",
+      "details": {
+        "rows": 933,
+        "columns": 3
+      }
+    },
+    {
+      "name": "Regional indices and real wages -> stored panel",
+      "status": "passed",
+      "details": {
+        "rows": 1742,
+        "columns": 10
+      }
+    },
+    {
+      "name": "Deflation, logarithms, aggregation identities, model inputs",
+      "status": "passed",
+      "details": {
+        "deflator_base": "2023-01",
+        "all_model_inputs_complete": true
+      }
+    },
+    {
+      "name": "Independent W invariants and global Moran numerical cross-check",
+      "status": "passed",
+      "details": {
+        "moran_independent_spherical": 0.5814409139048047,
+        "moran_existing_R_log": 0.58161509,
+        "mean_neighbours": 85.88853161843515,
+        "isolates_within_100km": 30,
+        "id_order": "ascending settlement_id",
+        "distance_method": "haversine, radius 6371 km"
+      }
+    },
+    {
+      "name": "Published geographic coordinates, manual corrections, distances",
+      "status": "passed",
+      "details": {
+        "published_geonames_matches": 928,
+        "manual_replacements": 5,
+        "linkage": "region + normalized settlement name + settlement type"
+      }
+    },
+    {
+      "name": "Original tracked file hashes unchanged",
+      "status": "passed",
+      "details": {
+        "files": 153
+      }
+    }
+  ],
+  "limitations": [
+    "Rscript unavailable in this environment: no R estimators/permutation tests rerun.",
+    "Missing GeoNames diagnostics prevents full geography matching provenance verification.",
+    "No original X5 forecasting notebook, test file or submission sample present."
+  ],
+  "evidence": {
+    "panel": {
+      "rows": 24258,
+      "columns": 54,
+      "settlements": 933,
+      "regions": 67,
+      "stores": 15683,
+      "months": 26,
+      "start": "2023-01-01 00:00:00",
+      "end": "2025-02-01 00:00:00",
+      "population_sources": {
+        "rosstat_2024": 822,
+        "shops_median": 111
+      },
+      "missing_counts": {
+        "oktmo_code": 2886,
+        "population_rosstat_2024": 2886,
+        "population_reported_median": 26
+      }
+    },
+    "independent_panel_residuals": {
+      "twoways_FE_coefficients": [
+        0.05332903252326427,
+        0.0030963265420605817
+      ],
+      "FE_mean_Moran": 0.2418276068091032,
+      "region_month_mean_Moran": 0.02505019320635551,
+      "region_month_range": [
+        -0.032606444204677246,
+        0.0750841509448442
+      ],
+      "note": "Independent numpy calculation; spherical W, not a rerun of spatialreg/splm."
+    },
+    "unavailable_inputs": {
+      "Data/Interim_directory": false,
+      "GeoNames_diagnostics": false,
+      "Source/Qualifying/train.csv": false,
+      "Utils_directory": false,
+      "Proposal/README.md": false,
+      "Rules_directory": false
+    },
+    "Parsing/geonames_settlement_coordinates/build_settlement_coordinates.py": {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Parsing\\geonames_settlement_coordinates\\build_settlement_coordinates.py\", line 8, in <module>\n    from src.pipeline import run_pipeline\nModuleNotFoundError: No module named 'src.pipeline'\n"
+    },
+    "Parsing/geonames_settlement_coordinates/build_settlement_geographic_features.py": {
+      "returncode": 1,
+      "stderr": "Traceback (most recent call last):\n  File \"C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Parsing\\geonames_settlement_coordinates\\build_settlement_geographic_features.py\", line 14, in <module>\n    from Utils.preprocessing.geographic_features import (  # noqa: E402\nModuleNotFoundError: No module named 'Utils'\n"
+    },
+    "step5_missing_directory": "Cannot save file into a non-existent directory: 'C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\tmp\\audit\\checks\\nonexistent_parent'",
+    "step8_missing_input": "[Errno 2] No such file or directory: 'C:\\\\Users\\\\smirn\\\\OneDrive\\\\Рабочий стол\\\\Spatialeconometrics-HW1\\\\Parsing\\\\geonames_settlement_coordinates\\\\tmp\\\\geonames_ru\\\\service_outputs\\\\settlement_coordinates_diagnostics.csv'",
+    "paper_export_identical": true
+  },
+  "environment": {
+    "python": "3.12.14 (main, Aug 25 2026, 14:01:42) [MSC v.1944 64 bit (AMD64)]",
+    "pandas": "3.0.1",
+    "numpy": "2.3.5"
+  }
+}

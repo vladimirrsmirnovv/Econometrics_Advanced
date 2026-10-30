@@ -1,0 +1,85 @@
+{
+  "model": "lightgbm_log_diff",
+  "fold": "2024-06",
+  "configuration": "baseline",
+  "underlying_configuration": "baseline",
+  "protocol": "rolling",
+  "trees": 769,
+  "inner_selected_trees": 769,
+  "inner_fold": "2024-05",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "48c52b7fc744348a8ffa43d26dd08baddfc2b8b968ac4c9bac03c07c55f0bf9c",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 769,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [],
+  "correction": null,
+  "seconds": 28.11770429997705,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-06/lightgbm_log_diff/models/baseline.txt",
+  "model_sha256": "73a74f431063d063265ecdea4d19e0a26d2da1e7fb323a8c1302a0264e1e2da8",
+  "prediction_sha256": "63a397a40a547aacad3c6b345ce697b1f5baaf30e24a022e45a8931c9b34de60",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 5414889.417263686,
+  "rmse": 10008968.101334687,
+  "mape": 5.454062005744985,
+  "bias_pct": 1.4203298425217294,
+  "originally_reported_implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

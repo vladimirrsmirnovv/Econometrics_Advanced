@@ -1,0 +1,336 @@
+{
+  "status": "passed",
+  "runs": 66,
+  "checks": [
+    {
+      "fold": "2025-02",
+      "configuration": "baseline",
+      "mape": 4.4314600477414245
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "exp50_history",
+      "mape": 4.247131498595888
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "wx_means",
+      "mape": 4.4818431286727165
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "knn8_history",
+      "mape": 4.228268676011912
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "exp15_history",
+      "mape": 4.14868677516437
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "inverse75_history",
+      "mape": 4.169022681526303
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "binary75_history",
+      "mape": 4.1917001635661775
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "economic8_history",
+      "mape": 4.326843726490854
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "hybrid8_history",
+      "mape": 4.242888058467491
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "growth_exp50",
+      "mape": 4.3519944757819475
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "season_exp50",
+      "mape": 5.0025547991105705
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "multihop",
+      "mape": 4.456909195215216
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "wx_relative",
+      "mape": 4.334572382386889
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "regimes",
+      "mape": 4.478138505418975
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "lisa",
+      "mape": 4.959677532613268
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "eigenvectors",
+      "mape": 4.466087442010452
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "hybrid_slx",
+      "mape": 4.152369396680093
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "hybrid_gwr",
+      "mape": 4.794400773494479
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "within_market",
+      "mape": 4.301320925427113
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "density_weight",
+      "mape": 4.783439887420483
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "random_history",
+      "mape": 4.688415777919153
+    },
+    {
+      "fold": "2025-02",
+      "configuration": "geo_sensitivity",
+      "mape": 4.220377965629231
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "baseline",
+      "mape": 3.957215728729399
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "exp50_history",
+      "mape": 4.018575944357268
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "wx_means",
+      "mape": 4.002310828710531
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "knn8_history",
+      "mape": 3.982415241003455
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "exp15_history",
+      "mape": 3.994215274404448
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "inverse75_history",
+      "mape": 3.9664693194263716
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "binary75_history",
+      "mape": 3.9936476441644135
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "economic8_history",
+      "mape": 4.003295878741259
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "hybrid8_history",
+      "mape": 3.9499503110994127
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "growth_exp50",
+      "mape": 4.159954945779797
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "season_exp50",
+      "mape": 4.012001324804157
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "multihop",
+      "mape": 3.94879460847207
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "wx_relative",
+      "mape": 3.9861443847633757
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "regimes",
+      "mape": 3.9499541327816647
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "lisa",
+      "mape": 4.004939742783999
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "eigenvectors",
+      "mape": 3.992363813575915
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "hybrid_slx",
+      "mape": 4.392786341969043
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "hybrid_gwr",
+      "mape": 4.021865348612893
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "within_market",
+      "mape": 4.019099591218248
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "density_weight",
+      "mape": 3.972117151742576
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "random_history",
+      "mape": 4.037139070191925
+    },
+    {
+      "fold": "2025-01",
+      "configuration": "geo_sensitivity",
+      "mape": 3.986678258148473
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "baseline",
+      "mape": 3.676914703440828
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "exp50_history",
+      "mape": 3.7406988991966017
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "wx_means",
+      "mape": 4.05008183753113
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "knn8_history",
+      "mape": 3.7198888728074584
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "exp15_history",
+      "mape": 3.825116495676177
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "inverse75_history",
+      "mape": 3.824586063603988
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "binary75_history",
+      "mape": 3.902701859807477
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "economic8_history",
+      "mape": 3.784942785195179
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "hybrid8_history",
+      "mape": 3.7344166950670257
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "growth_exp50",
+      "mape": 4.5545810376172025
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "season_exp50",
+      "mape": 3.7879588363306183
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "multihop",
+      "mape": 3.6738133939443784
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "wx_relative",
+      "mape": 3.6389146631617026
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "regimes",
+      "mape": 3.8630855563175777
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "lisa",
+      "mape": 3.854284700547973
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "eigenvectors",
+      "mape": 3.658450219713382
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "hybrid_slx",
+      "mape": 3.64842760009621
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "hybrid_gwr",
+      "mape": 3.852609957500545
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "within_market",
+      "mape": 3.6894073591491634
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "density_weight",
+      "mape": 3.784557334619068
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "random_history",
+      "mape": 3.7812602749074804
+    },
+    {
+      "fold": "2024-03",
+      "configuration": "geo_sensitivity",
+      "mape": 3.8773050088688747
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "feature_cpu_gpu_byte_parity": false,
+  "canonical_feature_artifact_sha256": "0dac17446f216a9a069606357caafe7924a26fd21c478101a97129393f3d83f4",
+  "original_local_spatial_fits_require_replacement": true,
+  "original_raw_hash": "f1422045d80c673b28d3abcef91feb78308499eb511d4f5090a81adbebd44338",
+  "caches_imported": [
+    "2024-05",
+    "2024-06",
+    "2024-07",
+    "2024-08",
+    "2024-10",
+    "2024-11",
+    "2024-12"
+  ],
+  "archives_verified": true
+}

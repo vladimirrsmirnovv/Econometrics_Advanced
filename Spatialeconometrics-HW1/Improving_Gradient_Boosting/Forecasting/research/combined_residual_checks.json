@@ -1,0 +1,5 @@
+{
+  "status": "passed",
+  "runs": 15,
+  "rule": "Strictly earlier OOF from the same spatial CatBoost configuration"
+}

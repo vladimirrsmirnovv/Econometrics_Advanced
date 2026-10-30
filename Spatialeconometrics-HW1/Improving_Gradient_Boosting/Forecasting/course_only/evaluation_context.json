@@ -1,0 +1,14 @@
+{
+  "phase": "post_competition",
+  "score_scope": "final_full_march_2025_test_public_plus_private",
+  "reported_by_user": true,
+  "clarified_on": "2026-10-11",
+  "public_subset_only": false,
+  "exact_store_coverage_confirmed": true,
+  "full_test_coverage_confirmed_by_user": true,
+  "coverage_note": "In the report-preparation turn the user explicitly confirmed evaluation on the entire March test, following the contest condition: final score uses the whole test (public plus private). Earlier conversational usage of 'private' referred to this final ranking evaluation. The public/private split fraction is not given.",
+  "actual_march_targets_available": false,
+  "score_interpretation": "Observed performance on the contest's post-competition ranking test; do not describe it as the small public subset from the original live-competition rules.",
+  "selection_policy": "Prioritize observed final contest scores for choosing the contest mixture; retain validation as diagnostics and record that mixtures are selected after final-test feedback.",
+  "legacy_metadata_note": "Some historical filenames and keys retain 'public' for compatibility. Their score values refer to the final ranking set specified here."
+}

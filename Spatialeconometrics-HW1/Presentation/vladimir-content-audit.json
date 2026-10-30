@@ -1,0 +1,39 @@
+{
+  "original_frames": 4,
+  "adapted_frames": 4,
+  "frames": [
+    {
+      "original_slide": 1,
+      "new_slide": 21,
+      "russian_words": 59,
+      "all_russian_words_preserved_in_order": true,
+      "math_fragments": 0,
+      "all_math_preserved": true
+    },
+    {
+      "original_slide": 2,
+      "new_slide": 22,
+      "russian_words": 103,
+      "all_russian_words_preserved_in_order": true,
+      "math_fragments": 8,
+      "all_math_preserved": true
+    },
+    {
+      "original_slide": 3,
+      "new_slide": 23,
+      "russian_words": 76,
+      "all_russian_words_preserved_in_order": true,
+      "math_fragments": 6,
+      "all_math_preserved": true
+    },
+    {
+      "original_slide": 4,
+      "new_slide": 24,
+      "russian_words": 80,
+      "all_russian_words_preserved_in_order": true,
+      "math_fragments": 7,
+      "all_math_preserved": true
+    }
+  ],
+  "original_scheme_byte_identical": true
+}

@@ -1,0 +1,94 @@
+{
+  "model": "lightgbm_log_diff",
+  "fold": "2024-08",
+  "configuration": "innovations_spatial",
+  "underlying_configuration": "innovations_spatial",
+  "protocol": "rolling",
+  "trees": 142,
+  "inner_selected_trees": 142,
+  "inner_fold": "2024-07",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "18b98202ca7752cacb10539ae4774f98a51fe89764c96dea58cc4bc92b390bc4",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 142,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [
+    "innovations_control__own_region_gap_lag1",
+    "innovations_control__regional_growth_lag1",
+    "innovations_control__national_growth_lag1",
+    "innovations_control__regional_growth_mean3",
+    "innovations_spatial__peer_innovation_lag1",
+    "innovations_spatial__peer_innovation_mean3",
+    "innovations_spatial__peer_innovation_sd3",
+    "innovations_spatial__own_peer_innovation_gap"
+  ],
+  "correction": null,
+  "seconds": 9.997228599968366,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-08/lightgbm_log_diff/models/innovations_spatial.txt",
+  "model_sha256": "fe871ce2d88fe4804001a712d725043e7bea0847b1b499a979e55c0f487f0d79",
+  "prediction_sha256": "e97bf185b714ae0b35d2dd947230ce65e6e78862667c00ea07f9a141d5f68e67",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 4392041.622370244,
+  "rmse": 7241333.7067674,
+  "mape": 4.878981748917323,
+  "bias_pct": 3.4693372174286634,
+  "originally_reported_implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

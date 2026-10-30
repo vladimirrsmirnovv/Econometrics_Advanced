@@ -1,0 +1,14 @@
+{
+  "status": "historical_experiment_superseded_by_course_only_scope",
+  "original_csv_files_modified": false,
+  "stage2_csv_files_modified": false,
+  "original_reserved_acceptance_status": "passed",
+  "individual_improvement_on_march_established": false,
+  "new_xgboost_native_trees": 1,
+  "february_new_models_all_worse_than_original": true,
+  "new_ensemble_march_score_mapping_confirmed": false,
+  "current_recommended_improvement_established": false,
+  "review": "../../research_stage2/POST_SUBMISSION_REVIEW.md",
+  "active_scope": "../../course_only/README.md",
+  "future_comparison_training_counts": [6500, 7000, 8000, 3750]
+}

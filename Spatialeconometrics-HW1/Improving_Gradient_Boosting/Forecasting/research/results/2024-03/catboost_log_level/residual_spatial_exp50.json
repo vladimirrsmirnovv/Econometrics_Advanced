@@ -1,0 +1,33 @@
+{
+  "fold": "2024-03",
+  "model": "catboost_log_level",
+  "configuration": "residual_spatial_exp50",
+  "mape": 4.57713431260132,
+  "mae": 4411486.331852437,
+  "rmse": 10492994.564349182,
+  "bias_pct": -1.70175557083909,
+  "baseline_mape": 5.497081757842346,
+  "delta_mape": -0.9199474452410259,
+  "relative_improvement_pct": 16.735196705571894,
+  "shops_improved_pct": 77.38114380661413,
+  "ape_change_quantiles": {
+    "0.05": -2.089017781437267,
+    "0.25": -1.8626697597905757,
+    "0.5": -1.6436431148704775,
+    "0.75": -0.5746336000916382,
+    "0.95": 2.1051418641145228
+  },
+  "previous_oof_fold": "2024-02",
+  "correction_weight": 0.5,
+  "clipping_log_error": [
+    -0.2,
+    0.2
+  ],
+  "market_shrink_prior_count": 5,
+  "baseline_file_sha256": "09c31bd661106fd91e029edaa18edf59484e5b19c8ae0fc48e673174c630d26e",
+  "previous_oof_file_sha256": "d77008b1a47e0ada7f8f20b78be2ed62f9faae1ecdc1ac7469939fc8e963b508",
+  "backend": "OOF postprocessing",
+  "validation_only": true,
+  "leakage_check": "passed",
+  "current_targets_used_for_correction": false
+}

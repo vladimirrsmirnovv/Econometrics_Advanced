@@ -1,0 +1,62 @@
+{
+  "status": "passed",
+  "fits": [
+    {
+      "fold": "2024-08",
+      "model": "catboost_log_level",
+      "mape": 4.406958810157034,
+      "csv_sha256": "badf0fc40cec86b81cffd51675d31b9389b86cb87bc88f10598f5c41db466b2e",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-08\\catboost_log_level\\baseline.csv"
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_diff",
+      "mape": 4.468499113558167,
+      "csv_sha256": "4515ec09156adffb7be606bec2a53508162d36238995ce9204ba3737a5f2bc7e",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-08\\lightgbm_log_diff\\baseline.csv"
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_level",
+      "mape": 3.9611818547886,
+      "csv_sha256": "0ba68f0933fac2a0cbb0bdd334a4a57e25294ec5ca6b91abd8644f9fa561d3fc",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-08\\lightgbm_log_level\\baseline.csv"
+    },
+    {
+      "fold": "2024-08",
+      "model": "xgboost_log_diff",
+      "mape": 5.230685351848456,
+      "csv_sha256": "07a01b650855d99af51dc58100e41c7fce02e19509cb29e4b3ba676f36b80df9",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-08\\xgboost_log_diff\\baseline.csv"
+    },
+    {
+      "fold": "2024-12",
+      "model": "catboost_log_level",
+      "mape": 4.545839904703933,
+      "csv_sha256": "ff389d56d1132268e0e7b12e273d8ebde3a89a438c0615266f431bb455e05a9c",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-12\\catboost_log_level\\baseline.csv"
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_diff",
+      "mape": 7.557873926069078,
+      "csv_sha256": "a3d419630eca67fa9ade4c519f37b0644df3c42af575158a34ea6c125f9cef67",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-12\\lightgbm_log_diff\\baseline.csv"
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_level",
+      "mape": 3.824304997182538,
+      "csv_sha256": "43a0addfd63b9aaa27c195d46cc371a35ba83ee0b0c42d8541c3aa1159f789a2",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-12\\lightgbm_log_level\\baseline.csv"
+    },
+    {
+      "fold": "2024-12",
+      "model": "xgboost_log_diff",
+      "mape": 5.52553024512955,
+      "csv_sha256": "9cbcf4a3a00e0002d22e291331f1f7e4c1c28c5d66ed544e9a1cb6acd596b818",
+      "source": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\research_stage2\\results\\full\\2024-12\\xgboost_log_diff\\baseline.csv"
+    }
+  ],
+  "original_files_modified": false
+}

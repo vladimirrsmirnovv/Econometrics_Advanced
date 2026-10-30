@@ -1,0 +1,74 @@
+{
+  "status": "passed",
+  "archive_sha256": "bcb30210997d193eaee12b101eb5e93c5c3e40bd1fbcc47c77663ee0b02f54c6",
+  "tag": "ll",
+  "phase": "development",
+  "checks": {
+    "status": "passed",
+    "tag": "ll",
+    "model": "lightgbm_log_level",
+    "phase": "development",
+    "selected": null,
+    "baseline_parity": {
+      "max_relative_difference": 0.0,
+      "mape": 3.5122906423675797
+    },
+    "original_training_counts_preserved": true,
+    "private_existing_datasets_only": true,
+    "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+    "weights_manifest_sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42"
+  },
+  "verified_fits": [
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_level",
+      "configuration": "baseline",
+      "mape": 3.5122906423675797,
+      "trees": 8000
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "mape": 3.852708697818312,
+      "trees": 8000
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn12",
+      "mape": 3.9421055621020975,
+      "trees": 8000
+    },
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "mape": 3.549673800770914,
+      "trees": 8000
+    },
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn12",
+      "mape": 3.571880524486636,
+      "trees": 8000
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "mape": 3.956203048662156,
+      "trees": 8000
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn12",
+      "mape": 3.922592661725529,
+      "trees": 8000
+    }
+  ],
+  "execution_location": "Kaggle",
+  "archive_file": "kaggle_ll/output/development_ll.zip"
+}

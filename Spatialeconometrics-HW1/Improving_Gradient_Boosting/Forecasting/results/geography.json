@@ -1,0 +1,10 @@
+{
+  "locations": 3360,
+  "coordinate_locations": 3360,
+  "coordinate_stores": 18657,
+  "stores": 18657,
+  "ambiguous_coordinate_keys_rejected": 0,
+  "geometry": "settlement centroids; full competition store set",
+  "linkage": "normalized region + settlement name + settlement type; never old new_id",
+  "research_coordinate_overrides": 933
+}

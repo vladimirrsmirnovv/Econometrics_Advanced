@@ -1,0 +1,78 @@
+{
+  "development_months": [
+    "2024-06",
+    "2024-07",
+    "2024-08"
+  ],
+  "reserved_months": [
+    "2024-11",
+    "2024-12"
+  ],
+  "individual": {
+    "catboost_log_level": "hybrid8_history+seasonal_spatial",
+    "lightgbm_log_diff": "innovations_spatial",
+    "lightgbm_log_level": "seasonal_spatial",
+    "xgboost_log_diff": "seasonal_spatial"
+  },
+  "ensemble": {
+    "composition": "new",
+    "rule": "gated_1_08_no_weak"
+  },
+  "selection_rule": "mean delta <= -0.01; wins >=2/3; worst delta <=0.10; minimise mean+0.25*std",
+  "fallback_if_reserved_check_fails": {
+    "composition": "baseline",
+    "rule": "final_meta_logmean",
+    "protocol": "original full"
+  },
+  "individual_candidates": {
+    "catboost_log_level": [
+      "baseline",
+      "previous",
+      "exp50_history",
+      "hybrid8_history",
+      "knn8_history",
+      "eigenvectors",
+      "hybrid8_history+seasonal_spatial",
+      "innovations_control",
+      "seasonal_control",
+      "seasonal_spatial"
+    ],
+    "lightgbm_log_diff": [
+      "baseline",
+      "previous",
+      "exp50_history",
+      "hybrid8_history",
+      "knn8_history",
+      "eigenvectors",
+      "innovations_spatial",
+      "innovations_control"
+    ],
+    "lightgbm_log_level": [
+      "baseline",
+      "previous",
+      "exp50_history",
+      "hybrid8_history",
+      "knn8_history",
+      "eigenvectors",
+      "seasonal_spatial",
+      "seasonal_control"
+    ],
+    "xgboost_log_diff": [
+      "baseline",
+      "previous",
+      "exp50_history",
+      "hybrid8_history",
+      "knn8_history",
+      "eigenvectors",
+      "hybrid8_history+seasonal_spatial",
+      "seasonal_control",
+      "seasonal_spatial"
+    ]
+  },
+  "leaderboard_used_for_selection": false,
+  "reserved_acceptance_rule": "Both reserved months improve rolling baseline; mean delta <= -0.01 MAPE pp; mean MAPE does not exceed original full baseline",
+  "plan_sha256": "23ef1124454e6d5b0afbed73e63d0ecc707064da3cfc5eb539533819b6ae18f3",
+  "canonical_features_sha256": "0dac17446f216a9a069606357caafe7924a26fd21c478101a97129393f3d83f4",
+  "development_model_metrics_sha256": "6b277423e5b76a12fc522361325123d688c43381eeab9811ed082efa5a74166f",
+  "development_ensemble_metrics_sha256": "8d67d607a50cc9bed41183a1e81bd2778deaf21d15b8b4fabdceba0515334571"
+}

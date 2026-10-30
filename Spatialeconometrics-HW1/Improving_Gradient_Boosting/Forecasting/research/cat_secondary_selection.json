@@ -1,0 +1,16 @@
+{
+  "screen_month": "2025-02",
+  "candidates": [
+    "lisa",
+    "eigenvectors",
+    "hybrid_slx",
+    "hybrid_gwr",
+    "within_market",
+    "season_exp50"
+  ],
+  "selected": [
+    "lisa",
+    "season_exp50"
+  ],
+  "rule": "Two strongest distinct remaining mechanisms by screen MAPE"
+}

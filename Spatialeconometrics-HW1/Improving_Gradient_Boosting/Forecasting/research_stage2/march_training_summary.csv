@@ -1,0 +1,5 @@
+model,configuration,march_trees,inner_february_mape,native_reload_max_relative_difference
+catboost_log_level,hybrid8_history+seasonal_spatial,856,4.849058723492393,0.0
+lightgbm_log_diff,innovations_spatial,51,5.5903503357346525,0.0
+lightgbm_log_level,seasonal_spatial,134,5.5403856418845665,0.0
+xgboost_log_diff,seasonal_spatial,1,6.0614082532043225,0.0

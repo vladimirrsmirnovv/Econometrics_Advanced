@@ -1,0 +1,55 @@
+{
+  "model": "lightgbm_log_diff",
+  "screen": "2024-08",
+  "confirm_months": [
+    "2024-06",
+    "2024-07"
+  ],
+  "configs": [
+    "baseline",
+    "previous",
+    "exp50_history",
+    "hybrid8_history",
+    "knn8_history",
+    "eigenvectors",
+    "innovations_spatial",
+    "innovations_control"
+  ],
+  "scores": [
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "seasonal_control",
+      "mape": 5.075547179664985
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "seasonal_spatial",
+      "mape": 5.241735833858985
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "innovations_control",
+      "mape": 4.537810862550138
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "innovations_spatial",
+      "mape": 4.4393409884099295
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "dynamic_history",
+      "mape": 4.679458910707666
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "hybrid8_history+seasonal_spatial",
+      "mape": 5.033193247785402
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "knn8_history+eigenvectors",
+      "mape": 5.017930075545314
+    }
+  ]
+}

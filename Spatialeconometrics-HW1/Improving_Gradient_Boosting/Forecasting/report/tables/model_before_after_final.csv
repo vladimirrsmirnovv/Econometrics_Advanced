@@ -1,0 +1,5 @@
+model,before,WX,gain
+catboost_log_level,90.55,90.39,-0.1599999999999966
+lightgbm_log_diff,90.32,90.24,-0.0799999999999983
+lightgbm_log_level,90.57,90.55,-0.01999999999999602
+xgboost_log_diff,90.45,90.58,0.12999999999999545

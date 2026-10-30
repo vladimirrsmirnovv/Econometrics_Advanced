@@ -1,0 +1,417 @@
+{
+  "status": "passed",
+  "forecast_month": "2025-03",
+  "shops": 18657,
+  "training_months": [
+    "2023-01",
+    "2025-02"
+  ],
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "full_fit_counts": {
+    "catboost_log_level": 6500,
+    "lightgbm_log_diff": 7000,
+    "lightgbm_log_level": 8000,
+    "xgboost_log_diff": 3750
+  },
+  "no_early_stopping_in_full_fits": true,
+  "original_model_features_preserved": true,
+  "selected_configurations": {
+    "catboost_log_level": "exp50_history+residual_global",
+    "lightgbm_log_diff": "eigenvectors",
+    "lightgbm_log_level": "density_weight",
+    "xgboost_log_diff": "hybrid8_history"
+  },
+  "recommended_rule_selected_on_validation": "gated_1_08_all",
+  "actual_march_targets_available": false,
+  "primary_csv_files": [
+    "baseline/test_catboost_log_level.csv",
+    "baseline/test_lightgbm_log_diff.csv",
+    "baseline/test_lightgbm_log_level.csv",
+    "baseline/test_xgboost_log_diff.csv",
+    "spatial/test_catboost_log_level.csv",
+    "spatial/test_lightgbm_log_diff.csv",
+    "spatial/test_lightgbm_log_level.csv",
+    "spatial/test_xgboost_log_diff.csv",
+    "ensemble/baseline_final_meta_logmean.csv",
+    "ensemble/spatial_gated_1_08_all.csv",
+    "ensemble/spatial_final_meta_logmean.csv"
+  ],
+  "csv_files_checked": 19,
+  "files": [
+    {
+      "file": "baseline/test_catboost_log_level.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "8267a989ac8ba2a750961ef77c59a5f0c70973b6c9fbee9a8c2ef093b9368899",
+      "min_rto": 24198114.951585043,
+      "median_rto": 88455514.55679263,
+      "mean_rto": 103641870.74563538,
+      "max_rto": 471925276.2626761,
+      "total_rto": 1933646382501.319,
+      "model": "catboost_log_level",
+      "variant": "baseline",
+      "configuration": "baseline",
+      "trees": 6500,
+      "backend": "CPU"
+    },
+    {
+      "file": "baseline/test_lightgbm_log_diff.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "f0e5b6d81c41d8abff720b84fb349b81d007606ff17f87abce0b8d9923d738cb",
+      "min_rto": 15755682.44985802,
+      "median_rto": 88034813.37174655,
+      "mean_rto": 103824042.22271156,
+      "max_rto": 549440931.5814897,
+      "total_rto": 1937045155749.1296,
+      "model": "lightgbm_log_diff",
+      "variant": "baseline",
+      "configuration": "baseline",
+      "trees": 7000,
+      "backend": "CPU"
+    },
+    {
+      "file": "baseline/test_lightgbm_log_level.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "675b06c91b6103c9dd0b8b9e85c264e351f792ec995b5c537d48bc9ff13c582d",
+      "min_rto": 17004243.839285377,
+      "median_rto": 88824985.84187329,
+      "mean_rto": 104250081.6235983,
+      "max_rto": 472623503.5799382,
+      "total_rto": 1944993772851.4736,
+      "model": "lightgbm_log_level",
+      "variant": "baseline",
+      "configuration": "baseline",
+      "trees": 8000,
+      "backend": "CPU"
+    },
+    {
+      "file": "baseline/test_xgboost_log_diff.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "eaa200f244eb23e4143da05a0f8f7ec88d058f389bff698df8d847fabeb7dc4c",
+      "min_rto": 14667235.534142563,
+      "median_rto": 88266766.03219189,
+      "mean_rto": 103693731.36164509,
+      "max_rto": 538664491.5475256,
+      "total_rto": 1934613946014.2124,
+      "model": "xgboost_log_diff",
+      "variant": "baseline",
+      "configuration": "baseline",
+      "trees": 3750,
+      "backend": "CUDA"
+    },
+    {
+      "file": "spatial/test_catboost_log_level.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "7cfbc43c3409e1998cb8ca126249a5049d653cac07163370fb9745b0829cd6b0",
+      "min_rto": 23731729.405755956,
+      "median_rto": 87469589.48571101,
+      "mean_rto": 103986002.66189234,
+      "max_rto": 463569168.3647558,
+      "total_rto": 1940066851662.9253,
+      "model": "catboost_log_level",
+      "variant": "spatial",
+      "configuration": "exp50_history+residual_global",
+      "trees": 6500,
+      "backend": "CPU"
+    },
+    {
+      "file": "spatial/test_lightgbm_log_diff.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "fbae6ce0e187d158fd8e3abc17dee722568b0d5d403deabe1fe8c5227870d852",
+      "min_rto": 15745819.886200843,
+      "median_rto": 87693394.53562519,
+      "mean_rto": 103495729.80346581,
+      "max_rto": 545676155.9867817,
+      "total_rto": 1930919830943.2617,
+      "model": "lightgbm_log_diff",
+      "variant": "spatial",
+      "configuration": "eigenvectors",
+      "trees": 7000,
+      "backend": "CPU"
+    },
+    {
+      "file": "spatial/test_lightgbm_log_level.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "53f220f7f0fda47fb56468f0c30875437016a1c418a0d14664ac413c04466676",
+      "min_rto": 22069209.593029242,
+      "median_rto": 89242103.97211814,
+      "mean_rto": 104523812.82619482,
+      "max_rto": 447689905.1155567,
+      "total_rto": 1950100775898.317,
+      "model": "lightgbm_log_level",
+      "variant": "spatial",
+      "configuration": "density_weight",
+      "trees": 8000,
+      "backend": "CPU"
+    },
+    {
+      "file": "spatial/test_xgboost_log_diff.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "f4d5e039186d724141265b3faf1630fe96c490314ebed8ebd4dae50d9aadbcf3",
+      "min_rto": 15290149.01997353,
+      "median_rto": 88354860.20988014,
+      "mean_rto": 103691950.71564572,
+      "max_rto": 543032435.062718,
+      "total_rto": 1934580724501.8022,
+      "model": "xgboost_log_diff",
+      "variant": "spatial",
+      "configuration": "hybrid8_history",
+      "trees": 3750,
+      "backend": "CUDA"
+    },
+    {
+      "file": "ensemble/reference_rules/baseline_equal.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "e27327c3863443fef0eb074444d8bf265a1287188f2c3c60aff22ae7a58f47de",
+      "min_rto": 17921729.624864865,
+      "median_rto": 88444671.01966576,
+      "mean_rto": 103852431.48839758,
+      "max_rto": 506916900.40571475,
+      "total_rto": 1937574814279.0337,
+      "model": "ensemble",
+      "variant": "baseline",
+      "rule": "equal",
+      "components": "original"
+    },
+    {
+      "file": "ensemble/reference_rules/baseline_log_average.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "ea818f0ad9c80c193af1d06246584798a6aa2aa4e144cf97bba0a55cfe498dc9",
+      "min_rto": 17571438.34329754,
+      "median_rto": 88438735.99251416,
+      "mean_rto": 103840881.45594865,
+      "max_rto": 505722366.7049627,
+      "total_rto": 1937359325323.634,
+      "model": "ensemble",
+      "variant": "baseline",
+      "rule": "log_average",
+      "components": "original"
+    },
+    {
+      "file": "ensemble/reference_rules/baseline_gated_1_08_all.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "7234af832af882f97932c3dfb82091746486f06d1d189a94bf5ee4058de88a11",
+      "min_rto": 16379963.1445717,
+      "median_rto": 88444671.01966576,
+      "mean_rto": 103846682.09165086,
+      "max_rto": 504762755.2303964,
+      "total_rto": 1937467547783.93,
+      "model": "ensemble",
+      "variant": "baseline",
+      "rule": "gated_1_08_all",
+      "components": "original"
+    },
+    {
+      "file": "ensemble/reference_rules/baseline_gated_1_08_no_weak.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "c00872ad4db519fe961b03eaad4f0ca093b0183980a7f6babaa70bf0932d2485",
+      "min_rto": 17004243.839285377,
+      "median_rto": 88574092.09688295,
+      "mean_rto": 103845910.62308505,
+      "max_rto": 472623503.5799382,
+      "total_rto": 1937453154494.8977,
+      "model": "ensemble",
+      "variant": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "components": "original"
+    },
+    {
+      "file": "ensemble/baseline_final_meta_logmean.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "f7528c8d2e39cb6cdb969e6ecc5a72000110c9880e725aa67b4d23753241bcb4",
+      "min_rto": 17209346.130169008,
+      "median_rto": 88476061.86314498,
+      "mean_rto": 103845856.34066083,
+      "max_rto": 497293619.97292984,
+      "total_rto": 1937452141747.709,
+      "model": "ensemble",
+      "variant": "baseline",
+      "rule": "final_meta_logmean",
+      "components": "original"
+    },
+    {
+      "file": "ensemble/reference_rules/spatial_equal.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "97958eea497de04320382250c335e34e49ee5201471a7b770a773cd06f38714c",
+      "min_rto": 19818030.828785483,
+      "median_rto": 88241880.7224795,
+      "mean_rto": 103924374.00179969,
+      "max_rto": 496732294.16309565,
+      "total_rto": 1938917045751.5767,
+      "model": "ensemble",
+      "variant": "spatial",
+      "rule": "equal",
+      "components": {
+        "catboost_log_level": "exp50_history+residual_global",
+        "lightgbm_log_diff": "eigenvectors",
+        "lightgbm_log_level": "density_weight",
+        "xgboost_log_diff": "hybrid8_history"
+      }
+    },
+    {
+      "file": "ensemble/reference_rules/spatial_log_average.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "dbdffdbcda304e655965f068f77b31246913f4e5969058d7470d950d9f5ae0dc",
+      "min_rto": 19343618.837843146,
+      "median_rto": 88228727.22860362,
+      "mean_rto": 103911960.99756683,
+      "max_rto": 494987121.44242835,
+      "total_rto": 1938685456331.6045,
+      "model": "ensemble",
+      "variant": "spatial",
+      "rule": "log_average",
+      "components": {
+        "catboost_log_level": "exp50_history+residual_global",
+        "lightgbm_log_diff": "eigenvectors",
+        "lightgbm_log_level": "density_weight",
+        "xgboost_log_diff": "hybrid8_history"
+      }
+    },
+    {
+      "file": "ensemble/spatial_gated_1_08_all.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "8a6705637f5a0dd80953a8b81582a4908919841d457e57e651a8cc53be8c5555",
+      "min_rto": 19738774.6459784,
+      "median_rto": 88273915.28264466,
+      "mean_rto": 103927673.83813028,
+      "max_rto": 500501431.8586074,
+      "total_rto": 1938978610797.9966,
+      "model": "ensemble",
+      "variant": "spatial",
+      "rule": "gated_1_08_all",
+      "components": {
+        "catboost_log_level": "exp50_history+residual_global",
+        "lightgbm_log_diff": "eigenvectors",
+        "lightgbm_log_level": "density_weight",
+        "xgboost_log_diff": "hybrid8_history"
+      }
+    },
+    {
+      "file": "ensemble/reference_rules/spatial_gated_1_08_no_weak.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "561a07d4672cbe7d2f190d040590ec36e669a35e33d20867f8ecb1148284fa9f",
+      "min_rto": 22364548.984546486,
+      "median_rto": 88399948.3850274,
+      "mean_rto": 104054160.88540183,
+      "max_rto": 463569168.3647558,
+      "total_rto": 1941338479638.942,
+      "model": "ensemble",
+      "variant": "spatial",
+      "rule": "gated_1_08_no_weak",
+      "components": {
+        "catboost_log_level": "exp50_history+residual_global",
+        "lightgbm_log_diff": "eigenvectors",
+        "lightgbm_log_level": "density_weight",
+        "xgboost_log_diff": "hybrid8_history"
+      }
+    },
+    {
+      "file": "ensemble/spatial_final_meta_logmean.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "cd2f7fb08ed4df6724715afc55645297322c5e02018ad0c0ecfcd6abc2585a94",
+      "min_rto": 20585525.150157608,
+      "median_rto": 88289634.62248881,
+      "mean_rto": 103953942.34422617,
+      "max_rto": 488388763.6163428,
+      "total_rto": 1939468702316.2275,
+      "model": "ensemble",
+      "variant": "spatial",
+      "rule": "final_meta_logmean",
+      "components": {
+        "catboost_log_level": "exp50_history+residual_global",
+        "lightgbm_log_diff": "eigenvectors",
+        "lightgbm_log_level": "density_weight",
+        "xgboost_log_diff": "hybrid8_history"
+      }
+    },
+    {
+      "file": "diagnostics/catboost_history_before_global_correction.csv",
+      "rows": 18657,
+      "columns": [
+        "new_id",
+        "rto"
+      ],
+      "sha256": "86c8ab97ca89b5f576c43e2e388196070780bf8f09c8b94844e0ffc751172d9d",
+      "min_rto": 23701391.39305201,
+      "median_rto": 87357770.68516533,
+      "mean_rto": 103853069.7173163,
+      "max_rto": 462976553.8494565,
+      "total_rto": 1937586721715.9702,
+      "model": "catboost_log_level",
+      "variant": "spatial_history_only",
+      "diagnostic": true
+    }
+  ],
+  "limitation": "No March ground truth; validation MAPE does not certify competition score"
+}

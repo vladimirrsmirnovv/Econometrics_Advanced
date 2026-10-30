@@ -1,0 +1,28 @@
+{
+  "kernel": "vladimirsmirnovve/x5-frozen-cpu-audit-march-20261010",
+  "profile": "kaggle_final",
+  "private": true,
+  "new_dataset_upload": false,
+  "frozen_sha256": "4573488327d7678dc982b4bff3b30ec9c2930cfb306ff1ce76e5373108240a99",
+  "payload_bytes": 459783,
+  "files": {
+    "features.py": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "geo_control.py": "a40c7fd845f618a475a9cbac60ed928b12396bb513f87efe7daa65f24c81ebbb",
+    "experiment.py": "62c893407258a2d700e42302ec91a83f90546c7a20d0f9821d31282c19ff2eb1",
+    "notebook_api.py": "82a13c64444f4aa85e95acb03e36af3b2d00c9994501bd097c07d4aff8d6c2ec",
+    "run_validation.py": "6adefb1350f1e6e9d7779ba5fbbc17781548ae6d27641ec36219207278dc57a4",
+    "stores.parquet": "cc17be7e569c023946177c01ab4fb53bfb9372e6cb5b2240a9445d8ffa7923b7",
+    "locations.parquet": "5a28fc10efa2ebeefc68d50a7f2df47f6b38e1b6fc60b776e3c6977363a32aae",
+    "old_manifest.json": "54bec5955a1de3276711f7363095f6fdf6ee7007b627ac5987408709070bc8a5",
+    "expected_legacy.json": "5a079c3462a3d44d74ecaeb6fe11c3d4a082f188b3c4b189fb73ef4a1118ba42",
+    "march_forecast.py": "747ba08aa365bf13efe5e03481000ad66f64c6fadff2d6befade3e6e010e5ee4",
+    "extend_old.py": "c64b3ef0c611c9604db00fc681709f10527e809c8f2ef66e66242dc9d8dba876",
+    "frozen_final_selection.json": "4573488327d7678dc982b4bff3b30ec9c2930cfb306ff1ce76e5373108240a99",
+    "spatial_source.txt": "0d9b323e78e1e301378be235da3236c570a4e699c3d3b2a33b67787662d5e929",
+    "research_source.txt": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "preserved_knn8_weights.npz": "c93b42f46a81c6fe063e27176ec311f7a8b80da472aefb8eb0a757ce7cc1336b",
+    "preserved_hybrid8_weights.npz": "1fc0e1700ac33c2179be4277d53daaf0b3b212ad8ca38af86a5d9e12b620740a"
+  },
+  "requested_kernel": "vladimirsmirnovve/x5-frozen-cpu-main-audit-march-20261010",
+  "kernel_id": 138019798
+}

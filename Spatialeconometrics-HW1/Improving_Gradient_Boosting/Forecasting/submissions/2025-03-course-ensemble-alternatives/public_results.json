@@ -1,0 +1,60 @@
+{
+  "status": "user_screenshot",
+  "mapping_status": "inferred_from_numbered_package_order",
+  "assumption": "Same upload order 01,02,03 as the packaged folders; user has not explicitly reconfirmed this batch order",
+  "screenshot_file": "C:\\Users\\smirn\\AppData\\Local\\Temp\\codex-clipboard-11fab7b4-8b25-4efa-b6bc-ce6ae8995bf8.png",
+  "public_subset_only": false,
+  "scores_rounded_to_two_decimals": true,
+  "original_frozen_validation_decision_changed": false,
+  "submissions": [
+    {
+      "sequence_in_batch": 1,
+      "file": "01_only_xgb_wx_original_mix/test.csv",
+      "sha256": "58bf5b60943c9c17b53b8ec0d065391f135df49b790aae7b7a1fa2730018a152",
+      "label": "WX только у XGBoost; исходная формула ансамбля",
+      "submitted_at": "2026-10-11 13:04:28",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167916936,
+      "verdict": "OK",
+      "public_score": 90.8,
+      "contest_score": 90.8
+    },
+    {
+      "sequence_in_batch": 2,
+      "file": "02_all_wx_equal/test.csv",
+      "sha256": "3ed9652b4e31d41f3cf6dd927d61eff65c5114651b609f54cb47fc1860288d66",
+      "label": "Все четыре WX-модели; обычное среднее",
+      "submitted_at": "2026-10-11 13:04:35",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167916943,
+      "verdict": "OK",
+      "public_score": 90.78,
+      "contest_score": 90.78
+    },
+    {
+      "sequence_in_batch": 3,
+      "file": "03_all_wx_log_average/test.csv",
+      "sha256": "e8fa9009ea25ffd1c6d0d8e1b961c0777a18dd43b132ce661c51664860560372",
+      "label": "Все четыре WX-модели; логарифмическое среднее",
+      "submitted_at": "2026-10-11 13:04:43",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167916953,
+      "verdict": "OK",
+      "public_score": 90.77,
+      "contest_score": 90.77
+    }
+  ],
+  "evaluation_context": {
+    "phase": "post_competition",
+    "score_scope": "main_final_march_2025_ranking_set",
+    "reported_by_user": true,
+    "clarified_on": "2026-10-11",
+    "public_subset_only": false,
+    "exact_store_coverage_confirmed": false,
+    "coverage_note": "User reports the competition is long finished and scores come from the main final March test/private ranking set; exact distinction between all final stores and a private partition is uncertain.",
+    "actual_march_targets_available": false,
+    "score_interpretation": "Observed performance on the contest's post-competition ranking test; do not describe it as the small public subset from the original live-competition rules.",
+    "selection_policy": "Prioritize observed final contest scores for choosing the contest mixture; retain validation as diagnostics and record that mixtures are selected after final-test feedback.",
+    "legacy_metadata_note": "Some historical filenames and keys retain 'public' for compatibility. Their score values refer to the final ranking set specified here."
+  }
+}

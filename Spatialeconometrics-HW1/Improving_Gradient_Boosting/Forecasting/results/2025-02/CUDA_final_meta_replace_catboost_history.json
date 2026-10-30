@@ -1,0 +1,12 @@
+{
+  "mae": 3512218.2964735203,
+  "rmse": 7173488.526912188,
+  "mape": 4.356314198404874,
+  "bias_pct": 1.7999619653338108,
+  "model": "CUDA_final_meta_replace_catboost_history",
+  "year": 2025,
+  "month": 2,
+  "validation_only": true,
+  "baseline_mape": 4.452558454833349,
+  "delta_mape": -0.09624425642847534
+}

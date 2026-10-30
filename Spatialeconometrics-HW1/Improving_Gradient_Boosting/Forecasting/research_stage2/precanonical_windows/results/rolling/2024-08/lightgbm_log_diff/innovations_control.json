@@ -1,0 +1,90 @@
+{
+  "model": "lightgbm_log_diff",
+  "fold": "2024-08",
+  "configuration": "innovations_control",
+  "underlying_configuration": "innovations_control",
+  "protocol": "rolling",
+  "trees": 219,
+  "inner_selected_trees": 219,
+  "inner_fold": "2024-07",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "eb5ac60603d503a1dba7ea11296fc5e661b8afeeba91aef5d966ee1fd30fce84",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 219,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [
+    "innovations_control__own_region_gap_lag1",
+    "innovations_control__regional_growth_lag1",
+    "innovations_control__national_growth_lag1",
+    "innovations_control__regional_growth_mean3"
+  ],
+  "correction": null,
+  "seconds": 12.176294700009748,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-08/lightgbm_log_diff/models/innovations_control.txt",
+  "model_sha256": "f1f893e84874d4ea2d04953b24f0a722f4a2dd619f84ef012a307b2a96a1343c",
+  "prediction_sha256": "506cac6909d2f9390fdb95c0c96ef982d24635c0a74baf25a7ecf8dcb42f02a7",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 4049885.3652040316,
+  "rmse": 6715089.854027647,
+  "mape": 4.537810862550138,
+  "bias_pct": 2.6365892060396035,
+  "originally_reported_implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

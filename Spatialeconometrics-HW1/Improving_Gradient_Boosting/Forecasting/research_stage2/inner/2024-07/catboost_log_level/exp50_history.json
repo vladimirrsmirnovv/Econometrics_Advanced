@@ -1,0 +1,40 @@
+{
+  "fold": "2024-07",
+  "model": "catboost_log_level",
+  "configuration": "exp50_history",
+  "trees": 1371,
+  "early_stopping": true,
+  "stopping_target_known_before": "2024-08",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 6500,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": false,
+    "thread_count": 4,
+    "allow_writing_files": false
+  },
+  "features_added": [
+    "wy_log_daily_lag1",
+    "wy_daily_growth_lag1",
+    "wy_daily_growth_1_3",
+    "wy_log_daily_gap_lag1"
+  ],
+  "model_file": "inner/2024-07/catboost_log_level/models/exp50_history.cbm",
+  "model_sha256": "2f3c6ca64ef6dacba16cb9d7d6866c5f925f52220ad56d76c75d1e1f0a1a2bae",
+  "prediction_sha256": "082c0207998b42435f024069d54596d1993b0ec2b19fac870f2b2214d6d17763",
+  "mae": 4553881.696882417,
+  "rmse": 8815033.09692256,
+  "mape": 4.579398998825646,
+  "bias_pct": 1.30202705549792
+}

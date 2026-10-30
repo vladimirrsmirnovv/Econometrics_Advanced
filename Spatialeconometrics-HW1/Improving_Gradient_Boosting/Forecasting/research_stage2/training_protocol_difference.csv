@@ -1,0 +1,5 @@
+model,february_validation_trees,march_full_trees,ratio
+catboost_log_level,672,6500,9.672619047619047
+lightgbm_log_diff,685,7000,10.218978102189782
+lightgbm_log_level,369,8000,21.680216802168022
+xgboost_log_diff,441,3750,8.503401360544217

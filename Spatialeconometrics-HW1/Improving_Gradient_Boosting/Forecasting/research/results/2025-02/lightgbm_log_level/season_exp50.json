@@ -1,0 +1,65 @@
+{
+  "mae": 5013915.697575553,
+  "rmse": 9791052.265580498,
+  "mape": 5.559203286731183,
+  "bias_pct": 2.2595430074832907,
+  "model": "lightgbm_log_level",
+  "best_iteration": 143,
+  "features": 40,
+  "train_rows": 466425,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "season_exp50",
+  "fold": "2025-02",
+  "backend": "CPU",
+  "seconds": 6.690193500020541,
+  "baseline_mape": 5.150556425344623,
+  "delta_mape": 0.4086468613865595,
+  "relative_improvement_pct": -7.934033289601655,
+  "shops_improved_pct": 42.72927051508817,
+  "ape_change_quantiles": {
+    "0.05": -2.5436749766576257,
+    "0.25": -0.7594676315185955,
+    "0.5": 0.28603574386383995,
+    "0.75": 1.4063233205945709,
+    "0.95": 3.599919405332931
+  },
+  "features_added": [
+    "season_exp50__level_lag12",
+    "season_exp50__year_growth_lag1",
+    "season_exp50__level_mean3",
+    "season_exp50__growth_volatility6",
+    "season_exp50__growth_month_sin",
+    "season_exp50__growth_month_cos"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "max_depth": 4,
+    "num_leaves": 15,
+    "n_estimators": 8000,
+    "learning_rate": 0.04531627412595812,
+    "min_child_samples": 130,
+    "min_child_weight": 0.040163626155384095,
+    "min_split_gain": 0.02347677898370515,
+    "subsample": 0.8463795928214712,
+    "colsample_bytree": 0.652567919146617,
+    "reg_alpha": 0.02058508138335955,
+    "reg_lambda": 68.63746198978158,
+    "max_bin": 255
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

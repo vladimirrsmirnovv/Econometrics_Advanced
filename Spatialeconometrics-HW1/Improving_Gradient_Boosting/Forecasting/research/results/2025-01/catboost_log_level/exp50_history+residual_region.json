@@ -1,0 +1,17 @@
+{
+  "mae": 3714230.3522896124,
+  "rmse": 6999165.243933218,
+  "mape": 4.168506606694141,
+  "bias_pct": 1.1290317477437828,
+  "model": "catboost_log_level",
+  "fold": "2025-01",
+  "configuration": "exp50_history+residual_region",
+  "backend": "OOF postprocessing",
+  "validation_only": true,
+  "leakage_check": "passed",
+  "previous_oof_fold": "2024-12",
+  "previous_oof_configuration": "exp50_history",
+  "correction_weight": 0.5,
+  "current_targets_used_for_correction": false,
+  "feature_version": "legacy_history"
+}

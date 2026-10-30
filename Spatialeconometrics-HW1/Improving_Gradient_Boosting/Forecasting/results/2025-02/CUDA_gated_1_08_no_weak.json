@@ -1,0 +1,10 @@
+{
+  "mae": 3683164.8990032347,
+  "rmse": 7420710.387294154,
+  "mape": 4.478141427103373,
+  "bias_pct": 1.659644376000487,
+  "model": "CUDA_gated_1_08_no_weak",
+  "year": 2025,
+  "month": 2,
+  "validation_only": true
+}

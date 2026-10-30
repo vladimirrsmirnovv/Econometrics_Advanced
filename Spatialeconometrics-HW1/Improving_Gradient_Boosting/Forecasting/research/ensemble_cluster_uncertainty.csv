@@ -1,0 +1,4 @@
+fold,delta_mape,cluster_bootstrap_p025,cluster_bootstrap_p975,clusters,unit,replicates,limitation
+2024-03,-0.13290129100660109,-0.17146002007706637,-0.09796729161197397,67,region,1000,Conditional on selected configurations; does not account for searching many candidates or repeated seeds
+2025-01,-0.04708796393713806,-0.0677354715300947,-0.02464428055299708,67,region,1000,Conditional on selected configurations; does not account for searching many candidates or repeated seeds
+2025-02,-0.22169487521466885,-0.2546695958111991,-0.18715575542187815,67,region,1000,Conditional on selected configurations; does not account for searching many candidates or repeated seeds

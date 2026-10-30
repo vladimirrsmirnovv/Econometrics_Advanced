@@ -1,0 +1,20 @@
+{
+  "id": "vladimirsmirnovve/x5-lightgbm-final-resume-20261010",
+  "title": "X5 LightGBM Final Resume 20261010",
+  "code_file": "cpu_stage2.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": false,
+  "enable_internet": true,
+  "dataset_sources": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+    "vladimirsmirnovve/x5-spatial-research-20261009"
+  ],
+  "kernel_sources": [
+    "vladimirsmirnovve/x5-spatial-final-iteration-20261009",
+    "vladimirsmirnovve/x5-lightgbm-final-iteration-20261010"
+  ],
+  "competition_sources": [],
+  "model_sources": []
+}

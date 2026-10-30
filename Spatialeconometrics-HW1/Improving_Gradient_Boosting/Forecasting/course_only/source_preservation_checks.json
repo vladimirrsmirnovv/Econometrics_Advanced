@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "files": [
+    {
+      "file": "Data/Shops/train_2.csv",
+      "sha256": "f1422045d80c673b28d3abcef91feb78308499eb511d4f5090a81adbebd44338"
+    },
+    {
+      "file": "Forecasting/baseline/original_solution.ipynb",
+      "sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5"
+    },
+    {
+      "file": "Forecasting/research/geography_diagnostics.csv",
+      "sha256": "b51a5847780c65a237bc5c33ea74b4a508acc749f7683895d969eba1b18bb23d"
+    },
+    {
+      "file": "Forecasting/research/cache/stores.parquet",
+      "sha256": "dc3892243a3ae869ffacc85bf4768c6feb64a2791cfa0fcf6596f0a71557d28f"
+    },
+    {
+      "file": "Source/Seminars/Seminar4/municipalities_models.R",
+      "sha256": "a23b65b1ea52c499a93abbd71729f91ca328b537b96c6b89b6bd3733e9887049"
+    },
+    {
+      "file": "Source/Seminars/Seminar4/sim_cross_section_models.R",
+      "sha256": "4870720f94d300a145204c7f5a5f1f61562f4f8b7701c033c52919d30cf7e454"
+    },
+    {
+      "file": "Source/Seminars/Seminar2/sem2.R",
+      "sha256": "baf29b797d5217f623ceb522cc133653bc6ff439a9353ecac9b317a302b980fc"
+    }
+  ]
+}

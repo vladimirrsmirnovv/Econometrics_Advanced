@@ -1,0 +1,64 @@
+{
+  "mae": 3898377.277629335,
+  "rmse": 7840322.187984541,
+  "mape": 4.589358541094583,
+  "bias_pct": 0.7320603346216921,
+  "model": "catboost_log_level",
+  "best_iteration": 1389,
+  "features": 49,
+  "train_rows": 466425,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "hybrid_gwr",
+  "fold": "2025-02",
+  "backend": "CPU",
+  "seconds": 203.7827390000457,
+  "baseline_mape": 4.730607825406348,
+  "delta_mape": -0.14124928431176453,
+  "relative_improvement_pct": 2.9858591015126383,
+  "shops_improved_pct": 51.55705633274374,
+  "ape_change_quantiles": {
+    "0.05": -2.94814658345987,
+    "0.25": -1.1339608456098826,
+    "0.5": -0.060041922202714204,
+    "0.75": 1.0029608372847538,
+    "0.95": 2.6663348777003217
+  },
+  "features_added": [
+    "hybrid_gwr__market_growth_forecast",
+    "hybrid_gwr__forecast_vs_recent_growth"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 6500,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": 500
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

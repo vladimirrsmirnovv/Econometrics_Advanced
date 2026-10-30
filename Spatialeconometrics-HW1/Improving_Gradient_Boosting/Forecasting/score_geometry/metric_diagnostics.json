@@ -1,0 +1,44 @@
+{
+  "counterexample_same_predictions_and_endpoint_MAPE": [
+    {
+      "targets": [
+        1.3333333333333333,
+        2.2222222222222223,
+        2.2222222222222223
+      ],
+      "mape_at_0": 45.0,
+      "mape_at_1": 54.99999999999999,
+      "mape_at_half": 11.666666666666668,
+      "optimal_weight": 0.40740740740740744
+    },
+    {
+      "targets": [
+        1.5384615384615383,
+        1.5384615384615383,
+        2.857142857142857
+      ],
+      "mape_at_0": 44.99999999999999,
+      "mape_at_1": 55.00000000000001,
+      "mape_at_half": 15.000000000000002,
+      "optimal_weight": 0.5384615384615383
+    }
+  ],
+  "exact_RMSLE_formula_check": {
+    "recovered_weight": 0.5591875394541146,
+    "direct_weight": 0.5591875394541147,
+    "difference": 1.1102230246251565e-16
+  },
+  "exact_RMSLE_system_check": {
+    "correction_count": 2,
+    "probe_count": 4,
+    "recovered_weights": [
+      0.6369538538448124,
+      -1.0067457024505717
+    ],
+    "direct_weights": [
+      0.6369538538448121,
+      -1.006745702450569
+    ],
+    "max_weight_difference": 2.6645352591003757e-15
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "cpu_metric_parity": [
+    {
+      "model": "lightgbm_log_diff",
+      "local_mape": 4.901435162166991,
+      "kaggle_mape": 4.901435162166991,
+      "maximum_relative_prediction_difference": 4.440892098500626e-16
+    },
+    {
+      "model": "lightgbm_log_level",
+      "local_mape": 4.075544783888446,
+      "kaggle_mape": 4.075544783888446,
+      "maximum_relative_prediction_difference": 4.440892098500626e-16
+    }
+  ],
+  "original_local_fits_preserved": true,
+  "archive_sha256": "cf9e6a89f1cad34395e2ca971c3bb369f9a988ff4a20b143273445c106d31048",
+  "runtime": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.1.3"
+  }
+}

@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "reference": "original notebook validation function on CPU; full-fit part skipped",
+  "original_function_mape": 4.936438075648175,
+  "local_adapter_mape": 4.936438075648175,
+  "max_prediction_difference_from_csv": 5.960464477539063e-08
+}

@@ -1,0 +1,23 @@
+{
+  "mae": 3294907.0655701603,
+  "rmse": 7936291.507108139,
+  "mape": 3.72408694461485,
+  "bias_pct": -0.04808652725893195,
+  "fold": "2024-03",
+  "model": "lightgbm_log_diff",
+  "configuration": "sem_blend_0p1",
+  "backend": "Economic postprocessing",
+  "economy_weight": 0.1,
+  "validation_only": true,
+  "leakage_check": "passed",
+  "source": "sem_forecasts.py",
+  "parameters": {
+    "W": "knn8",
+    "lambda_grid": [
+      0,
+      0.3,
+      0.6
+    ]
+  },
+  "limitation": "Forecast approximation; no causal interpretation; short pooled panel"
+}

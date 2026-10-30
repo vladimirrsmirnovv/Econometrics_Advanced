@@ -1,0 +1,92 @@
+{
+  "model": "lightgbm_log_level",
+  "fold": "2024-08",
+  "configuration": "hybrid8_history+seasonal_spatial",
+  "underlying_configuration": "hybrid8_history+seasonal_spatial",
+  "protocol": "rolling",
+  "trees": 658,
+  "inner_selected_trees": 658,
+  "inner_fold": "2024-07",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "0a35d73f24a06d1b300dd918fc58bdc0a1d8f574d964f7345d61106867a60caa",
+  "parameters": {
+    "max_depth": 4,
+    "num_leaves": 15,
+    "n_estimators": 658,
+    "learning_rate": 0.04531627412595812,
+    "min_child_samples": 130,
+    "min_child_weight": 0.040163626155384095,
+    "min_split_gain": 0.02347677898370515,
+    "subsample": 0.8463795928214712,
+    "colsample_bytree": 0.652567919146617,
+    "reg_alpha": 0.02058508138335955,
+    "reg_lambda": 68.63746198978158,
+    "max_bin": 255,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [
+    "hybrid8_history__level_lag1",
+    "hybrid8_history__daily_growth_lag1",
+    "hybrid8_history__growth_1_3",
+    "hybrid8_history__own_peer_gap_lag1",
+    "seasonal_control__own_same_month",
+    "seasonal_control__region_same_month",
+    "seasonal_control__national_same_month",
+    "seasonal_spatial__peer_same_month",
+    "seasonal_spatial__peer_same_month_innovation",
+    "seasonal_spatial__own_peer_season_gap"
+  ],
+  "correction": null,
+  "seconds": 26.858232399914414,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-08/lightgbm_log_level/models/hybrid8_history+seasonal_spatial.txt",
+  "model_sha256": "5b9058edd75eb62ccfffee5d6a2a7cd7ff9484d42f23029c90e8cab8ad1ed533",
+  "prediction_sha256": "e8245ee52995c8eae298c636f831b726da7caf0bb5535c578ac1b5b41dd92422",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 3561955.607749783,
+  "rmse": 7286858.163975733,
+  "mape": 3.860196548098313,
+  "bias_pct": 1.2205560650196967,
+  "originally_reported_implementation_sha256": "22d88c77229ed8d672d6eeebcd98c97746997963320c3f90a2212993e51caa00",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

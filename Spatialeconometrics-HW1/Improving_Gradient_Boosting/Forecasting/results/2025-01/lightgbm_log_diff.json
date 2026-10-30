@@ -1,0 +1,26 @@
+{
+  "mae": 3468459.677642925,
+  "rmse": 6257315.058158446,
+  "mape": 4.003492094343937,
+  "bias_pct": -0.19640034051774855,
+  "model": "lightgbm_log_diff",
+  "best_iteration": 1384,
+  "features": 26,
+  "train_rows": 447768,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "year": 2025,
+  "month": 1,
+  "seconds": 27.553752799984068,
+  "validation_only": true,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "scikit-learn": "1.9.1"
+  }
+}

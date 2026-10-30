@@ -1,0 +1,608 @@
+{
+  "status": "retrospective_comparison",
+  "candidate_origin": "Original notebook blend formulas; no new weights or thresholds",
+  "composition_only_xgb_wx_motivated_by_public_results": true,
+  "all_months_previously_seen": true,
+  "metrics": [
+    {
+      "fold": "2024-08",
+      "composition": "baseline",
+      "rule": "equal",
+      "mape": 4.215709573621875
+    },
+    {
+      "fold": "2024-08",
+      "composition": "baseline",
+      "rule": "log_average",
+      "mape": 4.203217210837678
+    },
+    {
+      "fold": "2024-08",
+      "composition": "baseline",
+      "rule": "gated_1_08_all",
+      "mape": 4.148966603257258
+    },
+    {
+      "fold": "2024-08",
+      "composition": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.30091926542571
+    },
+    {
+      "fold": "2024-08",
+      "composition": "baseline",
+      "rule": "final_meta_logmean",
+      "mape": 4.204886854771312
+    },
+    {
+      "fold": "2024-08",
+      "composition": "all_wx",
+      "rule": "equal",
+      "mape": 4.148158516869789
+    },
+    {
+      "fold": "2024-08",
+      "composition": "all_wx",
+      "rule": "log_average",
+      "mape": 4.136856450734799
+    },
+    {
+      "fold": "2024-08",
+      "composition": "all_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.092811788192417
+    },
+    {
+      "fold": "2024-08",
+      "composition": "all_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.2484325890850165
+    },
+    {
+      "fold": "2024-08",
+      "composition": "all_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.147744528114021
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_xgb_wx",
+      "rule": "equal",
+      "mape": 4.246635936310284
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_xgb_wx",
+      "rule": "log_average",
+      "mape": 4.234543762855465
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.185685578936691
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.342439884742296
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_xgb_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.241014383508638
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_lgbdiff_wx",
+      "rule": "equal",
+      "mape": 4.1833997083242656
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_lgbdiff_wx",
+      "rule": "log_average",
+      "mape": 4.172056375075786
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.128242274576789
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.30091926542571
+    },
+    {
+      "fold": "2024-08",
+      "composition": "only_lgbdiff_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.187617218162471
+    },
+    {
+      "fold": "2024-11",
+      "composition": "baseline",
+      "rule": "equal",
+      "mape": 3.6654171111304397
+    },
+    {
+      "fold": "2024-11",
+      "composition": "baseline",
+      "rule": "log_average",
+      "mape": 3.663209653432136
+    },
+    {
+      "fold": "2024-11",
+      "composition": "baseline",
+      "rule": "gated_1_08_all",
+      "mape": 3.6525831593549523
+    },
+    {
+      "fold": "2024-11",
+      "composition": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.6450758504453105
+    },
+    {
+      "fold": "2024-11",
+      "composition": "baseline",
+      "rule": "final_meta_logmean",
+      "mape": 3.650172966823828
+    },
+    {
+      "fold": "2024-11",
+      "composition": "all_wx",
+      "rule": "equal",
+      "mape": 3.550171335935257
+    },
+    {
+      "fold": "2024-11",
+      "composition": "all_wx",
+      "rule": "log_average",
+      "mape": 3.547163540356294
+    },
+    {
+      "fold": "2024-11",
+      "composition": "all_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.5423869890183632
+    },
+    {
+      "fold": "2024-11",
+      "composition": "all_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.619437310796572
+    },
+    {
+      "fold": "2024-11",
+      "composition": "all_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.557884117489403
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_xgb_wx",
+      "rule": "equal",
+      "mape": 3.639712629504327
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_xgb_wx",
+      "rule": "log_average",
+      "mape": 3.6365327057838064
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.621638337734349
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.61918404426054
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_xgb_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.6217707183175136
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_lgbdiff_wx",
+      "rule": "equal",
+      "mape": 3.5626196215825536
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_lgbdiff_wx",
+      "rule": "log_average",
+      "mape": 3.560192507296663
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.556497380901184
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.6450758504453105
+    },
+    {
+      "fold": "2024-11",
+      "composition": "only_lgbdiff_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.574297872103891
+    },
+    {
+      "fold": "2024-12",
+      "composition": "baseline",
+      "rule": "equal",
+      "mape": 4.3849586440377015
+    },
+    {
+      "fold": "2024-12",
+      "composition": "baseline",
+      "rule": "log_average",
+      "mape": 4.4265756093838124
+    },
+    {
+      "fold": "2024-12",
+      "composition": "baseline",
+      "rule": "gated_1_08_all",
+      "mape": 4.263434730085498
+    },
+    {
+      "fold": "2024-12",
+      "composition": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.859719053904077
+    },
+    {
+      "fold": "2024-12",
+      "composition": "baseline",
+      "rule": "final_meta_logmean",
+      "mape": 4.159742805681484
+    },
+    {
+      "fold": "2024-12",
+      "composition": "all_wx",
+      "rule": "equal",
+      "mape": 3.738523279156384
+    },
+    {
+      "fold": "2024-12",
+      "composition": "all_wx",
+      "rule": "log_average",
+      "mape": 3.74297263994121
+    },
+    {
+      "fold": "2024-12",
+      "composition": "all_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.7504233816325545
+    },
+    {
+      "fold": "2024-12",
+      "composition": "all_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.7173080832265435
+    },
+    {
+      "fold": "2024-12",
+      "composition": "all_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.715062584216336
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_xgb_wx",
+      "rule": "equal",
+      "mape": 4.253173420244957
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_xgb_wx",
+      "rule": "log_average",
+      "mape": 4.290367301226383
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.085451915533878
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.802318125186811
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_xgb_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.045826769061486
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_lgbdiff_wx",
+      "rule": "equal",
+      "mape": 3.8958098376893826
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_lgbdiff_wx",
+      "rule": "log_average",
+      "mape": 3.9085525066843334
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.8573699051270705
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.859719053904077
+    },
+    {
+      "fold": "2024-12",
+      "composition": "only_lgbdiff_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.851596911431024
+    },
+    {
+      "fold": "2025-01",
+      "composition": "baseline",
+      "rule": "equal",
+      "mape": 3.816970693002128
+    },
+    {
+      "fold": "2025-01",
+      "composition": "baseline",
+      "rule": "log_average",
+      "mape": 3.8189624055043088
+    },
+    {
+      "fold": "2025-01",
+      "composition": "baseline",
+      "rule": "gated_1_08_all",
+      "mape": 3.799639036971951
+    },
+    {
+      "fold": "2025-01",
+      "composition": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.8421784091256725
+    },
+    {
+      "fold": "2025-01",
+      "composition": "baseline",
+      "rule": "final_meta_logmean",
+      "mape": 3.8119452393663815
+    },
+    {
+      "fold": "2025-01",
+      "composition": "all_wx",
+      "rule": "equal",
+      "mape": 3.760217236491027
+    },
+    {
+      "fold": "2025-01",
+      "composition": "all_wx",
+      "rule": "log_average",
+      "mape": 3.7608480235543147
+    },
+    {
+      "fold": "2025-01",
+      "composition": "all_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.7620428033167626
+    },
+    {
+      "fold": "2025-01",
+      "composition": "all_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.803182662225125
+    },
+    {
+      "fold": "2025-01",
+      "composition": "all_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.7637989537407823
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_xgb_wx",
+      "rule": "equal",
+      "mape": 3.8018520141407746
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_xgb_wx",
+      "rule": "log_average",
+      "mape": 3.8041721227677954
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.786496552376005
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.8248131873065314
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_xgb_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.796332520312133
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_lgbdiff_wx",
+      "rule": "equal",
+      "mape": 3.810555077518391
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_lgbdiff_wx",
+      "rule": "log_average",
+      "mape": 3.8125265175352827
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_all",
+      "mape": 3.7956227007155063
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 3.8421784091256725
+    },
+    {
+      "fold": "2025-01",
+      "composition": "only_lgbdiff_wx",
+      "rule": "final_meta_logmean",
+      "mape": 3.8078092983063527
+    },
+    {
+      "fold": "2025-02",
+      "composition": "baseline",
+      "rule": "equal",
+      "mape": 4.308715380892888
+    },
+    {
+      "fold": "2025-02",
+      "composition": "baseline",
+      "rule": "log_average",
+      "mape": 4.303116133865293
+    },
+    {
+      "fold": "2025-02",
+      "composition": "baseline",
+      "rule": "gated_1_08_all",
+      "mape": 4.302017364397545
+    },
+    {
+      "fold": "2025-02",
+      "composition": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.1843181055824425
+    },
+    {
+      "fold": "2025-02",
+      "composition": "baseline",
+      "rule": "final_meta_logmean",
+      "mape": 4.265304610928485
+    },
+    {
+      "fold": "2025-02",
+      "composition": "all_wx",
+      "rule": "equal",
+      "mape": 4.279349860300859
+    },
+    {
+      "fold": "2025-02",
+      "composition": "all_wx",
+      "rule": "log_average",
+      "mape": 4.272831903329734
+    },
+    {
+      "fold": "2025-02",
+      "composition": "all_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.29128882050808
+    },
+    {
+      "fold": "2025-02",
+      "composition": "all_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.239070828910372
+    },
+    {
+      "fold": "2025-02",
+      "composition": "all_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.263002384813681
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_xgb_wx",
+      "rule": "equal",
+      "mape": 4.337580166874149
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_xgb_wx",
+      "rule": "log_average",
+      "mape": 4.331164895564538
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.3321674269255155
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_xgb_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.2019144849922325
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_xgb_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.291810358888297
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_lgbdiff_wx",
+      "rule": "equal",
+      "mape": 4.228168733251064
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_lgbdiff_wx",
+      "rule": "log_average",
+      "mape": 4.2251534615930035
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_all",
+      "mape": 4.226100912790179
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_lgbdiff_wx",
+      "rule": "gated_1_08_no_weak",
+      "mape": 4.1843181055824425
+    },
+    {
+      "fold": "2025-02",
+      "composition": "only_lgbdiff_wx",
+      "rule": "final_meta_logmean",
+      "mape": 4.209390252758397
+    }
+  ]
+}

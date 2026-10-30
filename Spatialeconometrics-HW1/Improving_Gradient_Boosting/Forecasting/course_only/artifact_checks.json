@@ -1,0 +1,44 @@
+{
+  "status": "passed",
+  "validation_fits": 52,
+  "march_native_models": 4,
+  "csv_files": 16,
+  "original_raw_and_notebook_unchanged": true,
+  "original_counts_preserved": true,
+  "decision": {
+    "status": "complete",
+    "method": "Course SLX explanatory lags WX only",
+    "original_training_counts": {
+      "catboost_log_level": 6500,
+      "lightgbm_log_diff": 7000,
+      "lightgbm_log_level": 8000,
+      "xgboost_log_diff": 3750
+    },
+    "individual_composition": {
+      "catboost_log_level": "baseline",
+      "lightgbm_log_diff": "wx_knn12",
+      "lightgbm_log_level": "baseline",
+      "xgboost_log_diff": "baseline"
+    },
+    "original_ensemble_rule": "final_meta_logmean",
+    "ensemble_confirmed": true,
+    "recommended_composition": "confirmed",
+    "confirmation_metrics": [
+      {
+        "fold": "2025-01",
+        "baseline": 3.8119452393663815,
+        "confirmed": 3.8078092983063527,
+        "experimental": 3.7637989537407823
+      },
+      {
+        "fold": "2025-02",
+        "baseline": 4.265304610928485,
+        "confirmed": 4.209390252758397,
+        "experimental": 4.263002384813681
+      }
+    ],
+    "no_leaderboard_tuning": true,
+    "actual_march_targets_available": false,
+    "retrospective_previously_seen_months": true
+  }
+}

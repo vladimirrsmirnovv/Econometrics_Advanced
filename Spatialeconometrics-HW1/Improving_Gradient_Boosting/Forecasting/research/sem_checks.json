@@ -1,0 +1,216 @@
+{
+  "status": "passed",
+  "runs": 48,
+  "cutoffs": [
+    "2024-03",
+    "2025-01",
+    "2025-02"
+  ],
+  "implementation_sha256": "2abf81631d47981308dfb70def729585345493379a39dbf2f882f9c51a822cec",
+  "estimation": [
+    {
+      "family": "sem",
+      "time": 14,
+      "training_times": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "lambda_grid": [
+        0,
+        0.3,
+        0.6
+      ],
+      "selected_lambda": 0.6,
+      "profile_likelihood": 97372.14958020544,
+      "forecast": "X_t beta; expected future innovation zero",
+      "assumptions": "Pooled independent-month Gaussian innovation profile; short-panel predictive approximation"
+    },
+    {
+      "family": "sdem",
+      "time": 14,
+      "training_times": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13
+      ],
+      "lambda_grid": [
+        0,
+        0.3,
+        0.6
+      ],
+      "selected_lambda": 0.6,
+      "profile_likelihood": 97847.21817980448,
+      "forecast": "X_t beta; expected future innovation zero",
+      "assumptions": "Pooled independent-month Gaussian innovation profile; short-panel predictive approximation"
+    },
+    {
+      "family": "sem",
+      "time": 24,
+      "training_times": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "lambda_grid": [
+        0,
+        0.3,
+        0.6
+      ],
+      "selected_lambda": 0.6,
+      "profile_likelihood": 184486.67395984806,
+      "forecast": "X_t beta; expected future innovation zero",
+      "assumptions": "Pooled independent-month Gaussian innovation profile; short-panel predictive approximation"
+    },
+    {
+      "family": "sdem",
+      "time": 24,
+      "training_times": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23
+      ],
+      "lambda_grid": [
+        0,
+        0.3,
+        0.6
+      ],
+      "selected_lambda": 0.6,
+      "profile_likelihood": 185389.8153406457,
+      "forecast": "X_t beta; expected future innovation zero",
+      "assumptions": "Pooled independent-month Gaussian innovation profile; short-panel predictive approximation"
+    },
+    {
+      "family": "sem",
+      "time": 25,
+      "training_times": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "lambda_grid": [
+        0,
+        0.3,
+        0.6
+      ],
+      "selected_lambda": 0.6,
+      "profile_likelihood": 193466.06075187674,
+      "forecast": "X_t beta; expected future innovation zero",
+      "assumptions": "Pooled independent-month Gaussian innovation profile; short-panel predictive approximation"
+    },
+    {
+      "family": "sdem",
+      "time": 25,
+      "training_times": [
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24
+      ],
+      "lambda_grid": [
+        0,
+        0.3,
+        0.6
+      ],
+      "selected_lambda": 0.6,
+      "profile_likelihood": 194715.89124737552,
+      "forecast": "X_t beta; expected future innovation zero",
+      "assumptions": "Pooled independent-month Gaussian innovation profile; short-panel predictive approximation"
+    }
+  ]
+}

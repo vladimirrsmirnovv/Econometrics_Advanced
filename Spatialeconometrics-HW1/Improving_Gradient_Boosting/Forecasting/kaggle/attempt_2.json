@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "status": "ERROR",
+  "stage": "before fitting; validation feature parity check",
+  "features": "Both train and holdout match exactly",
+  "holdout_target": "matches exactly",
+  "training_target": "float64 fingerprint differs; effective float32 labels will be checked, numerical differences will be exported"
+}

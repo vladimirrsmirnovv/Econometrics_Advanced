@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "month": "2024-10",
+  "selection_months": [
+    "2024-03",
+    "2025-01",
+    "2025-02"
+  ],
+  "selection_unchanged": true,
+  "limitation": "XGBoost extra month was available before the last CPU validations, but did not enter the automatic three-month ranking"
+}

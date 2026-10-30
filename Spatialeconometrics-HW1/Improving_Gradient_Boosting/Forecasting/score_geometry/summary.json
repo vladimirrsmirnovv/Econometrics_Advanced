@@ -1,0 +1,36 @@
+{
+  "csv_files_scanned": 130,
+  "valid_submission_files": 124,
+  "serialized_csv_hashes": 70,
+  "distinct_valid_prediction_file_hashes": 64,
+  "numeric_forecast_groups": 64,
+  "score_events": 78,
+  "events_with_score": 64,
+  "matched_usable_score_events": 49,
+  "mapping_counts": {
+    "historical_provenance": 2,
+    "confirmed_order": 26,
+    "tentative_excluded": 4,
+    "unresolved_excluded": 25,
+    "inferred_order": 13,
+    "batch_members_confirmed_equal_scores": 8
+  },
+  "verdict_counts": {
+    "OK": 64,
+    "CE": 13,
+    "FINAL_VERDICT_NOT_SHOWN": 1
+  },
+  "inputs_unchanged": true,
+  "model_fits_run": 0,
+  "new_probe_count": 3,
+  "new_probes_submitted": true,
+  "numeric_forecasts_with_matched_scores": 45,
+  "duplicate_forecast_scores_consistent": true,
+  "latest_full_test_scope_confirmation": "User: оценка была произведена на всей тестовой выборке",
+  "new_probe_scores": [
+    90.83,
+    90.83,
+    90.83
+  ],
+  "new_probe_displayed_gain": 0.0
+}

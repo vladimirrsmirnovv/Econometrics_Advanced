@@ -1,0 +1,68 @@
+{
+  "mae": 3673820.433973412,
+  "rmse": 6991539.540449874,
+  "mape": 4.217753610012462,
+  "bias_pct": 1.8628450127391036,
+  "model": "catboost_log_level",
+  "best_iteration": 2951,
+  "features": 53,
+  "train_rows": 447768,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "season_exp50",
+  "fold": "2025-01",
+  "backend": "CPU",
+  "seconds": 337.48439200001303,
+  "baseline_mape": 4.3776231727377395,
+  "delta_mape": -0.15986956272527753,
+  "relative_improvement_pct": 3.651971775937399,
+  "shops_improved_pct": 49.62212574368869,
+  "ape_change_quantiles": {
+    "0.05": -4.178589270863083,
+    "0.25": -1.3637526310389685,
+    "0.5": 0.01812814941583607,
+    "0.75": 1.2782737889534532,
+    "0.95": 3.026362567562038
+  },
+  "features_added": [
+    "season_exp50__level_lag12",
+    "season_exp50__year_growth_lag1",
+    "season_exp50__level_mean3",
+    "season_exp50__growth_volatility6",
+    "season_exp50__growth_month_sin",
+    "season_exp50__growth_month_cos"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 6500,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": 500
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

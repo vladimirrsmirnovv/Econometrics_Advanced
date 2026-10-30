@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "archive_sha256": "bc806dae92bedcf27c6c74fc8b5f292dbcb5a1879dc364a8c6834e739dcd43f2",
+  "tag": "xgb",
+  "phase": "development",
+  "checks": {
+    "status": "passed",
+    "tag": "xgb",
+    "model": "xgboost_log_diff",
+    "phase": "development",
+    "selected": null,
+    "baseline_parity": {
+      "max_relative_difference": 0.0,
+      "mape": 3.8343113181066273
+    },
+    "original_training_counts_preserved": true,
+    "private_existing_datasets_only": true,
+    "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+    "weights_manifest_sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42"
+  },
+  "verified_fits": [
+    {
+      "fold": "2024-11",
+      "model": "xgboost_log_diff",
+      "configuration": "baseline",
+      "mape": 3.8343113181066273,
+      "trees": 3750
+    },
+    {
+      "fold": "2024-08",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn6",
+      "mape": 5.150269304277062,
+      "trees": 3750
+    },
+    {
+      "fold": "2024-08",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "mape": 5.302489656144052,
+      "trees": 3750
+    },
+    {
+      "fold": "2024-11",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn6",
+      "mape": 3.853319545497465,
+      "trees": 3750
+    },
+    {
+      "fold": "2024-11",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "mape": 3.8688898463507093,
+      "trees": 3750
+    },
+    {
+      "fold": "2024-12",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn6",
+      "mape": 5.228904262820706,
+      "trees": 3750
+    },
+    {
+      "fold": "2024-12",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "mape": 4.821892503444239,
+      "trees": 3750
+    }
+  ]
+}

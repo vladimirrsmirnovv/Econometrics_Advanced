@@ -1,0 +1,291 @@
+{
+  "expected": {
+    "train": {
+      "columns": [
+        "days_lag_1",
+        "is_quarter_end_month",
+        "store_share_region_change_1_2",
+        "is_year_start_month",
+        "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+        "pto_per_cash_register_hour_lag1",
+        "pto_per_cash_register_lag1",
+        "number_of_households",
+        "pto_lag_1_to_roll_mean_6",
+        "recent_mean_anchor_to_day_scaled_ratio",
+        "log_daily_pto_diff_lag_1_2",
+        "daily_growth_1_2_clipped",
+        "pto_roll_cv_3",
+        "pto_lag_1_to_roll_mean_3",
+        "is_autumn",
+        "holiday_month_type_cb",
+        "season_cb",
+        "population_size",
+        "working_hours_per_day_lag_12_cat_cb",
+        "avg_items_per_receipt_diff_lag_1_12",
+        "log_pto_diff_lag_6_12"
+      ],
+      "dtypes": [
+        "float32",
+        "int64",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32"
+      ],
+      "rows": 466425,
+      "sha256": "c389d6898b954fd8e501ad53ad0dd85285a4697f9acbc0e3e50be834d4561506"
+    },
+    "holdout": {
+      "columns": [
+        "days_lag_1",
+        "is_quarter_end_month",
+        "store_share_region_change_1_2",
+        "is_year_start_month",
+        "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+        "pto_per_cash_register_hour_lag1",
+        "pto_per_cash_register_lag1",
+        "number_of_households",
+        "pto_lag_1_to_roll_mean_6",
+        "recent_mean_anchor_to_day_scaled_ratio",
+        "log_daily_pto_diff_lag_1_2",
+        "daily_growth_1_2_clipped",
+        "pto_roll_cv_3",
+        "pto_lag_1_to_roll_mean_3",
+        "is_autumn",
+        "holiday_month_type_cb",
+        "season_cb",
+        "population_size",
+        "working_hours_per_day_lag_12_cat_cb",
+        "avg_items_per_receipt_diff_lag_1_12",
+        "log_pto_diff_lag_6_12"
+      ],
+      "dtypes": [
+        "float32",
+        "int64",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32"
+      ],
+      "rows": 18657,
+      "sha256": "9278d37b59b95a7992015a9e567ac44cd7b740126b4897e1bea6572bc5407997"
+    },
+    "ytrain": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float64"
+      ],
+      "rows": 466425,
+      "sha256": "facebf83c84e7c2198fb7719184940a59533a4a84b487c41163620b2fff5cd97"
+    },
+    "yholdout": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float64"
+      ],
+      "rows": 18657,
+      "sha256": "15760b34b4d7047532adde46986b522864d98d23c4bda112cfbff26b8fffd940"
+    }
+  },
+  "actual": {
+    "train": {
+      "columns": [
+        "days_lag_1",
+        "is_quarter_end_month",
+        "store_share_region_change_1_2",
+        "is_year_start_month",
+        "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+        "pto_per_cash_register_hour_lag1",
+        "pto_per_cash_register_lag1",
+        "number_of_households",
+        "pto_lag_1_to_roll_mean_6",
+        "recent_mean_anchor_to_day_scaled_ratio",
+        "log_daily_pto_diff_lag_1_2",
+        "daily_growth_1_2_clipped",
+        "pto_roll_cv_3",
+        "pto_lag_1_to_roll_mean_3",
+        "is_autumn",
+        "holiday_month_type_cb",
+        "season_cb",
+        "population_size",
+        "working_hours_per_day_lag_12_cat_cb",
+        "avg_items_per_receipt_diff_lag_1_12",
+        "log_pto_diff_lag_6_12"
+      ],
+      "dtypes": [
+        "float32",
+        "int64",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32"
+      ],
+      "rows": 466425,
+      "sha256": "c389d6898b954fd8e501ad53ad0dd85285a4697f9acbc0e3e50be834d4561506"
+    },
+    "holdout": {
+      "columns": [
+        "days_lag_1",
+        "is_quarter_end_month",
+        "store_share_region_change_1_2",
+        "is_year_start_month",
+        "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+        "pto_per_cash_register_hour_lag1",
+        "pto_per_cash_register_lag1",
+        "number_of_households",
+        "pto_lag_1_to_roll_mean_6",
+        "recent_mean_anchor_to_day_scaled_ratio",
+        "log_daily_pto_diff_lag_1_2",
+        "daily_growth_1_2_clipped",
+        "pto_roll_cv_3",
+        "pto_lag_1_to_roll_mean_3",
+        "is_autumn",
+        "holiday_month_type_cb",
+        "season_cb",
+        "population_size",
+        "working_hours_per_day_lag_12_cat_cb",
+        "avg_items_per_receipt_diff_lag_1_12",
+        "log_pto_diff_lag_6_12"
+      ],
+      "dtypes": [
+        "float32",
+        "int64",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "int64",
+        "float32",
+        "float32",
+        "float32"
+      ],
+      "rows": 18657,
+      "sha256": "9278d37b59b95a7992015a9e567ac44cd7b740126b4897e1bea6572bc5407997"
+    },
+    "ytrain": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float64"
+      ],
+      "rows": 466425,
+      "sha256": "fa377d06a1fad82fb88650a181bb2c9c67cb0744738b0a77e70e814d41f6361e"
+    },
+    "yholdout": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float64"
+      ],
+      "rows": 18657,
+      "sha256": "15760b34b4d7047532adde46986b522864d98d23c4bda112cfbff26b8fffd940"
+    }
+  },
+  "effective_targets_expected": {
+    "ytrain": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float32"
+      ],
+      "rows": 466425,
+      "sha256": "7b442f87c577fd2823f27e450af5331f9925853abdce62521d6370bb9bced0c2"
+    },
+    "yholdout": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float32"
+      ],
+      "rows": 18657,
+      "sha256": "7cae9959bb3577d86cbaa61417d70dc548b5ace56d5b947a1421bf579c4fe253"
+    }
+  },
+  "effective_targets_actual": {
+    "ytrain": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float32"
+      ],
+      "rows": 466425,
+      "sha256": "7b442f87c577fd2823f27e450af5331f9925853abdce62521d6370bb9bced0c2"
+    },
+    "yholdout": {
+      "columns": [
+        "target"
+      ],
+      "dtypes": [
+        "float32"
+      ],
+      "rows": 18657,
+      "sha256": "7cae9959bb3577d86cbaa61417d70dc548b5ace56d5b947a1421bf579c4fe253"
+    }
+  },
+  "passed": true
+}

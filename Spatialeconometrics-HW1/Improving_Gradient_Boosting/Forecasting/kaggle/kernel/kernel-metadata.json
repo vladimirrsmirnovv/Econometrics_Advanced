@@ -1,0 +1,17 @@
+{
+  "id": "vladimirsmirnovve/x5-xgboost-gpu-reproduction-20261009",
+  "title": "X5 XGBoost GPU Reproduction 20261009",
+  "code_file": "xgboost_gpu.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

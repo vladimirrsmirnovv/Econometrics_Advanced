@@ -1,0 +1,71 @@
+{
+  "mae": 3289174.003743368,
+  "rmse": 7793340.972439804,
+  "mape": 3.7277512612724757,
+  "bias_pct": 0.27763062900240537,
+  "model": "lightgbm_log_diff",
+  "best_iteration": 646,
+  "features": 34,
+  "train_rows": 261198,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "key+eigenvectors",
+  "fold": "2024-03",
+  "backend": "CPU",
+  "seconds": 17.223732899990864,
+  "baseline_mape": 3.7219832698520383,
+  "delta_mape": 0.0057679914204373794,
+  "relative_improvement_pct": -0.15497091207147412,
+  "shops_improved_pct": 49.67036501045184,
+  "ape_change_quantiles": {
+    "0.05": -1.104360329219351,
+    "0.25": -0.40581295480683943,
+    "0.5": 0.004493901255963717,
+    "0.75": 0.4200906985241635,
+    "0.95": 1.1584927470722466
+  },
+  "features_added": [
+    "eigenvectors__eigen_1",
+    "eigenvectors__eigen_2",
+    "eigenvectors__eigen_3",
+    "eigenvectors__eigen_4",
+    "eigenvectors__eigen_5",
+    "eigenvectors__eigen_6",
+    "eigenvectors__eigen_7",
+    "eigenvectors__eigen_8"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 7000,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

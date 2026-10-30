@@ -1,0 +1,50 @@
+{
+  "status": "passed",
+  "archive_sha256": "71d1829e9083da4a647c7bc21b55ccddaa504ec4fb8992efda7e92c4fe90fe50",
+  "tag": "ld",
+  "phase": "confirmation",
+  "checks": {
+    "status": "passed",
+    "tag": "ld",
+    "model": "lightgbm_log_diff",
+    "phase": "confirmation",
+    "selected": "wx_knn12",
+    "baseline_parity": null,
+    "original_training_counts_preserved": true,
+    "private_existing_datasets_only": true,
+    "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+    "weights_manifest_sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42"
+  },
+  "verified_fits": [
+    {
+      "fold": "2025-01",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "mape": 4.003262635556535,
+      "trees": 7000
+    },
+    {
+      "fold": "2025-01",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "mape": 4.000353573124236,
+      "trees": 7000
+    },
+    {
+      "fold": "2025-02",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "mape": 5.122284950889625,
+      "trees": 7000
+    },
+    {
+      "fold": "2025-02",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "mape": 4.688725462827938,
+      "trees": 7000
+    }
+  ],
+  "execution_location": "Kaggle",
+  "archive_file": "kaggle_ld/output/confirmation_ld.zip"
+}

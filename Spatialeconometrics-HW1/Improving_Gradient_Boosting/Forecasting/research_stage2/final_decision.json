@@ -1,0 +1,47 @@
+{
+  "status": "passed",
+  "frozen_choice": {
+    "composition": "new",
+    "rule": "gated_1_08_no_weak"
+  },
+  "reserved_months": [
+    "2024-11",
+    "2024-12"
+  ],
+  "monthly": [
+    {
+      "fold": "2024-11",
+      "selected_ape": 3.702399548777068,
+      "rolling_baseline_ape": 3.703102397059509,
+      "original_full_ape": 3.650172966823828,
+      "delta_rolling": -0.0007028482824409199,
+      "delta_full": 0.052226581953240016
+    },
+    {
+      "fold": "2024-12",
+      "selected_ape": 3.7930836493877904,
+      "rolling_baseline_ape": 4.883106597664555,
+      "original_full_ape": 4.159742805681484,
+      "delta_rolling": -1.090022948276764,
+      "delta_full": -0.3666591562936937
+    }
+  ],
+  "mean_delta_rolling": -0.5453628982796025,
+  "mean_delta_original_full": -0.15721628717022684,
+  "criterion": "Both reserved months improve rolling baseline; mean delta <= -0.01 MAPE pp; mean MAPE does not exceed original full baseline",
+  "recommendation": "frozen_new_ensemble",
+  "no_audit_reselection": true,
+  "regional_paired_bootstrap_95_percent": {
+    "versus_rolling": [
+      -0.66494927251059,
+      -0.5500931314863167,
+      -0.4297270634950253
+    ],
+    "versus_original_full": [
+      -0.2533898655694806,
+      -0.1596236253279861,
+      -0.06296664878936896
+    ]
+  },
+  "bootstrap_limit": "Fixed selection; does not account for candidate search or uncertainty across future months"
+}

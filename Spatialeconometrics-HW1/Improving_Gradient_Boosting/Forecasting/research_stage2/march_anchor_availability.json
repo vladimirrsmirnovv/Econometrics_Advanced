@@ -1,0 +1,30 @@
+{
+  "na_fraction": {
+    "2024-03": {
+      "log_lag1_x_region_feb_mar_growth_2024": 1.0,
+      "region_feb_mar_growth_2024": 1.0,
+      "lag1_x_global_feb_mar_growth_2024": 1.0,
+      "settlement_feb_mar_growth_2024": 1.0,
+      "lag1_x_trading_area_feb_mar_growth_2024": 1.0,
+      "blend_day_scaled_and_region_march_growth": 1.0
+    },
+    "2025-02": {
+      "log_lag1_x_region_feb_mar_growth_2024": 0.0,
+      "region_feb_mar_growth_2024": 0.0,
+      "lag1_x_global_feb_mar_growth_2024": 0.0,
+      "settlement_feb_mar_growth_2024": 0.0,
+      "lag1_x_trading_area_feb_mar_growth_2024": 0.0,
+      "blend_day_scaled_and_region_march_growth": 0.0
+    },
+    "final_2025-03": {
+      "log_lag1_x_region_feb_mar_growth_2024": 0.0,
+      "region_feb_mar_growth_2024": 0.0,
+      "lag1_x_global_feb_mar_growth_2024": 0.0,
+      "settlement_feb_mar_growth_2024": 0.0,
+      "lag1_x_trading_area_feb_mar_growth_2024": 0.0,
+      "blend_day_scaled_and_region_march_growth": 0.0
+    }
+  },
+  "reason": "March 2024 was not known before its own forecast; it is known before March 2025",
+  "original_features_unchanged": true
+}

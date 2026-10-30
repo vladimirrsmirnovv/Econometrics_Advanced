@@ -1,0 +1,9 @@
+model,variant,months,correlation_region_removed,description_only
+catboost_log_level,baseline,2025-01 -> 2025-02,-0.13590924530274634,True
+catboost_log_level,previous,2025-01 -> 2025-02,-0.14660991931651737,True
+lightgbm_log_diff,baseline,2025-01 -> 2025-02,-0.31645177795984997,True
+lightgbm_log_diff,previous,2025-01 -> 2025-02,-0.3132180174988571,True
+lightgbm_log_level,baseline,2025-01 -> 2025-02,-0.1360621486640163,True
+lightgbm_log_level,previous,2025-01 -> 2025-02,-0.07627721312640856,True
+xgboost_log_diff,baseline,2025-01 -> 2025-02,-0.1925381035160016,True
+xgboost_log_diff,previous,2025-01 -> 2025-02,-0.20669025594844556,True

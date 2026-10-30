@@ -1,0 +1,25 @@
+{
+  "gpu_mape": 4.4314600477414245,
+  "saved_notebook_mape": 4.4314600477414245,
+  "gpu_best_iteration": 440,
+  "saved_notebook_best_iteration": 440,
+  "delta_from_saved_mape": 0.0,
+  "reproduced_cuda_ensemble_mape": 4.452558454833349,
+  "catboost_history_replacement_mape": 4.356314198404874,
+  "replacement_delta_mape": -0.09624425642847534,
+  "validation_stores": 18657,
+  "forecast_stores": 18657,
+  "original_public_score_verified": false,
+  "feature_parity_passed": true,
+  "max_training_label_difference_float64": 3.552713678800501e-15,
+  "effective_float32_labels_identical": true,
+  "xgboost_version": "3.1.3",
+  "historical_metrics_match": true,
+  "historical_metric_differences": {
+    "mae": 0.0,
+    "rmse": 0.0,
+    "mape": 0.0,
+    "bias_pct": 0.0,
+    "best_iteration": 0.0
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "private": true,
+  "new_dataset_upload": false,
+  "task": "lightgbm_development",
+  "kernel": "vladimirsmirnovve/x5-lightgbm-final-resume-20261010",
+  "backend": "CPU CatBoost 1.2.10",
+  "payload_bytes": 444081,
+  "original_legacy_fingerprint": "1bd187258905ee87754b424c8340fc155393612d49919ab4b24ffd0e92ec3be1",
+  "source_datasets": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+    "vladimirsmirnovve/x5-spatial-research-20261009"
+  ],
+  "source_kernel_outputs": [
+    "vladimirsmirnovve/x5-spatial-final-iteration-20261009",
+    "vladimirsmirnovve/x5-lightgbm-final-iteration-20261010"
+  ],
+  "files": {
+    "features.py": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "geo_control.py": "a40c7fd845f618a475a9cbac60ed928b12396bb513f87efe7daa65f24c81ebbb",
+    "experiment.py": "62c893407258a2d700e42302ec91a83f90546c7a20d0f9821d31282c19ff2eb1",
+    "cpu_driver.py": "3d6ffbad454c87ee92464a7d010cef882ffd0f16d242b80e89a5bfebcb8ac1b2",
+    "selection.py": "f74bf5b3f30ed69f7c2b862b51c7a967b6df5ee01c66f76ed7fdd021aadad2ba",
+    "notebook_api.py": "82a13c64444f4aa85e95acb03e36af3b2d00c9994501bd097c07d4aff8d6c2ec",
+    "run_validation.py": "6adefb1350f1e6e9d7779ba5fbbc17781548ae6d27641ec36219207278dc57a4",
+    "stores.parquet": "dc3892243a3ae869ffacc85bf4768c6feb64a2791cfa0fcf6596f0a71557d28f",
+    "locations.parquet": "5a28fc10efa2ebeefc68d50a7f2df47f6b38e1b6fc60b776e3c6977363a32aae",
+    "old_manifest.json": "54bec5955a1de3276711f7363095f6fdf6ee7007b627ac5987408709070bc8a5",
+    "expected_predictions.json": "f0b23b9185617c6c07e8ea75be07c58bf33ea2382dacca525d27310c6e130525",
+    "legacy_source.py": "6fa9b0b04cb68f9e9e536c4390e9196642bc73a5ef23748551313d474b675321",
+    "expected_legacy.json": "5a079c3462a3d44d74ecaeb6fe11c3d4a082f188b3c4b189fb73ef4a1118ba42"
+  }
+}

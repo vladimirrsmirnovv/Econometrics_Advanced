@@ -1,0 +1,11 @@
+{
+  "status": "passed",
+  "backend": "CPU",
+  "trees": 1178,
+  "local_mape": 5.296075343138283,
+  "kaggle_mape": 5.296075343138284,
+  "absolute_mape_difference": 8.881784197001252e-16,
+  "maximum_relative_prediction_difference": 3.3306690738754696e-16,
+  "exact_float_predictions": false,
+  "seconds": 102.647135599982
+}

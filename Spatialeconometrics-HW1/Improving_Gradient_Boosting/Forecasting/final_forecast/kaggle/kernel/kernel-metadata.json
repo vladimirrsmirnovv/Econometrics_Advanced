@@ -1,0 +1,18 @@
+{
+  "id": "vladimirsmirnovve/x5-march-forecasts-20261009",
+  "title": "X5 March Forecasts 20261009",
+  "code_file": "march_xgboost.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+    "vladimirsmirnovve/x5-spatial-research-20261009"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

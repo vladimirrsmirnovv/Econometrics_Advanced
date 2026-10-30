@@ -1,0 +1,30 @@
+{
+  "mae": 3842898.8057546364,
+  "rmse": 7009081.664947089,
+  "mape": 4.272006521074391,
+  "bias_pct": -0.8643084881389891,
+  "model": "lightgbm_log_level",
+  "best_iteration": 1789,
+  "features": 34,
+  "train_rows": 447768,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "year": 2025,
+  "month": 1,
+  "seconds": 25.964665099978447,
+  "validation_only": true,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "scikit-learn": "1.9.1"
+  },
+  "configuration": "baseline",
+  "reused_existing": true,
+  "backend": "CPU",
+  "source_result": "Forecasting\\results\\2025-01\\lightgbm_log_level.json"
+}

@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "future_time": 26,
+  "historical_time": 25,
+  "historical_byte_parity": true,
+  "future_actuals_used": false,
+  "groups": [
+    "exp50_history",
+    "knn8_history",
+    "hybrid8_history",
+    "eigenvectors"
+  ],
+  "preserved_weight_snapshots_reproduce_future_exactly": true,
+  "snapshots": {
+    "knn8": "c93b42f46a81c6fe063e27176ec311f7a8b80da472aefb8eb0a757ce7cc1336b",
+    "hybrid8": "1fc0e1700ac33c2179be4277d53daaf0b3b212ad8ca38af86a5d9e12b620740a"
+  }
+}

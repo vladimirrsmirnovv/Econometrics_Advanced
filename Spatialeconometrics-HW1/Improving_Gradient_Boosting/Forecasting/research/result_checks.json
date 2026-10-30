@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "prediction_files": 361,
+  "rows_per_file": 18657,
+  "metrics_recomputed": true,
+  "ids_and_targets_matched": true
+}

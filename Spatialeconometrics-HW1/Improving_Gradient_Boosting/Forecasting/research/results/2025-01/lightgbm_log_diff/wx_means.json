@@ -1,0 +1,69 @@
+{
+  "mae": 3455041.9410056947,
+  "rmse": 6238215.66333819,
+  "mape": 3.987518810431828,
+  "bias_pct": -0.3003167598832774,
+  "model": "lightgbm_log_diff",
+  "best_iteration": 1487,
+  "features": 32,
+  "train_rows": 447768,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "wx_means",
+  "fold": "2025-01",
+  "backend": "CPU",
+  "seconds": 44.5910458000144,
+  "baseline_mape": 4.003492094343937,
+  "delta_mape": -0.015973283912108727,
+  "relative_improvement_pct": 0.3989837755562326,
+  "shops_improved_pct": 50.88170659805971,
+  "ape_change_quantiles": {
+    "0.05": -1.183459098120407,
+    "0.25": -0.4675914575702387,
+    "0.5": -0.014268944447040077,
+    "0.75": 0.4262273285667959,
+    "0.95": 1.1441359420881512
+  },
+  "features_added": [
+    "wx_means__population_size",
+    "wx_means__number_of_households",
+    "wx_means__pedestrian_traffic_per_hour",
+    "wx_means__car_traffic_per_hour",
+    "wx_means__grocery_stores_500m",
+    "wx_means__pyaterochka_stores_500m"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 7000,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

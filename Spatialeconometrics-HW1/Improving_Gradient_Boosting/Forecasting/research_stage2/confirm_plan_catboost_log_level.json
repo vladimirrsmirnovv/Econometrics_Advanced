@@ -1,0 +1,57 @@
+{
+  "model": "catboost_log_level",
+  "screen": "2024-08",
+  "confirm_months": [
+    "2024-06",
+    "2024-07"
+  ],
+  "configs": [
+    "baseline",
+    "previous",
+    "exp50_history",
+    "hybrid8_history",
+    "knn8_history",
+    "eigenvectors",
+    "hybrid8_history+seasonal_spatial",
+    "innovations_control",
+    "seasonal_control",
+    "seasonal_spatial"
+  ],
+  "scores": [
+    {
+      "model": "catboost_log_level",
+      "configuration": "seasonal_control",
+      "mape": 4.448286318646957
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "seasonal_spatial",
+      "mape": 4.632925721737906
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "innovations_control",
+      "mape": 4.418895962076719
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "innovations_spatial",
+      "mape": 4.684631725775715
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "dynamic_history",
+      "mape": 5.2146927232213125
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "hybrid8_history+seasonal_spatial",
+      "mape": 4.416228448412336
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "knn8_history+eigenvectors",
+      "mape": 5.175445236366121
+    }
+  ]
+}

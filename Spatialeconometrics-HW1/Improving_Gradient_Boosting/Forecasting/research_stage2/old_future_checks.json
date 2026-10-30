@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "future_time": 26,
+  "historical_time": 25,
+  "historical_byte_parity": true,
+  "future_actuals_used": false,
+  "groups": [
+    "exp50_history",
+    "knn8_history",
+    "hybrid8_history",
+    "eigenvectors"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "status": "passed",
+  "archives": [
+    {
+      "profile": "kaggle_cpu",
+      "archive_sha256": "3590dd2279e66b1f8393e15a24bed0aabe97c0f19050ae74791e2b2f9687f2ca",
+      "checks": {
+        "status": "passed",
+        "backend": "CPU",
+        "threads": 4,
+        "original_legacy_byte_parity": true,
+        "legacy_fingerprint": "1bd187258905ee87754b424c8340fc155393612d49919ab4b24ffd0e92ec3be1",
+        "development_only": true,
+        "task": "development",
+        "reserved_months_not_evaluated": [
+          "2024-11",
+          "2024-12"
+        ]
+      },
+      "duplicate_inner_artifacts": 0
+    },
+    {
+      "profile": "kaggle_final",
+      "archive_sha256": "76c4d4cedd8cf01fdf3e0b56762ecfedb5c14cb93eb6c986953879e2e0ef23ee",
+      "checks": {
+        "status": "passed",
+        "backend": "CPU",
+        "threads": 4,
+        "original_legacy_byte_parity": true,
+        "legacy_fingerprint": "1bd187258905ee87754b424c8340fc155393612d49919ab4b24ffd0e92ec3be1",
+        "development_only": true,
+        "task": "full_august",
+        "reserved_months_not_evaluated": [
+          "2024-11",
+          "2024-12"
+        ]
+      },
+      "duplicate_inner_artifacts": 2
+    }
+  ]
+}

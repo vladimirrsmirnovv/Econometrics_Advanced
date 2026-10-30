@@ -1,0 +1,33 @@
+{
+  "fold": "2025-01",
+  "model": "lightgbm_log_diff",
+  "configuration": "residual_region",
+  "mape": 4.845429822932295,
+  "mae": 4091696.3657437153,
+  "rmse": 6927355.771050175,
+  "bias_pct": 3.2626398586069474,
+  "baseline_mape": 4.003492094343937,
+  "delta_mape": 0.8419377285883582,
+  "relative_improvement_pct": -21.030083455836795,
+  "shops_improved_pct": 41.27137267513534,
+  "ape_change_quantiles": {
+    "0.05": -3.73499152739028,
+    "0.25": -2.2096461179186075,
+    "0.5": 1.5201680667990864,
+    "0.75": 3.5186701016099895,
+    "0.95": 4.97368534371967
+  },
+  "previous_oof_fold": "2024-12",
+  "correction_weight": 0.5,
+  "clipping_log_error": [
+    -0.2,
+    0.2
+  ],
+  "market_shrink_prior_count": 5,
+  "baseline_file_sha256": "49a870074b7dc4f1b67d0bbc2d95919f1344978767fdcef021f6b841a5aee8af",
+  "previous_oof_file_sha256": "1ca1525438d455baa2e65b367f7ef2254eb32579d995775b5dfd24e61a9f33ee",
+  "backend": "OOF postprocessing",
+  "validation_only": true,
+  "leakage_check": "passed",
+  "current_targets_used_for_correction": false
+}

@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "known_training_target_dtype": "float64",
+  "known_training_targets": 466425,
+  "unknown_march_target_is_none": true,
+  "fixed_fit_does_not_evaluate_unknown_target": true,
+  "training_target_mask_unchanged": true,
+  "train_rows": 485082,
+  "forecast_rows": 18657
+}

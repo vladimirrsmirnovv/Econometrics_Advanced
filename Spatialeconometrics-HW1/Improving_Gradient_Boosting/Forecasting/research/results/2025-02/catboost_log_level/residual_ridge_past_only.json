@@ -1,0 +1,20 @@
+{
+  "fold": "2025-02",
+  "model": "catboost_log_level",
+  "configuration": "residual_ridge_past_only",
+  "mape": 4.780170902542425,
+  "mae": 4087657.4262497267,
+  "rmse": 8701994.203131028,
+  "bias_pct": 0.781620792997862,
+  "backend": "OOF learned postprocessing",
+  "validation_only": true,
+  "leakage_check": "passed",
+  "second_stage_training_months": [
+    "2024-03",
+    "2025-01"
+  ],
+  "test_month": "2025-02",
+  "ridge_alpha": 100,
+  "correction_weight": 0.5,
+  "limitation": "Only two separated training OOF months; February-only candidate, excluded from three-month component ranking"
+}

@@ -1,0 +1,120 @@
+{
+  "baseline_references_identical": true,
+  "models": [
+    {
+      "model": "catboost_log_level",
+      "original_full_trees": 6500,
+      "new_full_trees": 856,
+      "february_baseline_mape": 4.730607825406348,
+      "february_new_mape": 4.849058723492393,
+      "march_median_change_to_baseline_percent": 0.04261218312524573,
+      "march_median_growth_from_february_percent": 12.831679771535365,
+      "baseline_march_median_growth_from_february_percent": 12.697383554886809,
+      "unchanged_baseline_reference_bytes": true,
+      "march_submission_sha256": "15e1eb5bd1b14b0bc6124f8b87663ce9e141bd193de3766d14d57c494f5ae06b"
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "original_full_trees": 7000,
+      "new_full_trees": 51,
+      "february_baseline_mape": 4.607029373285925,
+      "february_new_mape": 5.5903503357346525,
+      "march_median_change_to_baseline_percent": -6.14029128324688,
+      "march_median_growth_from_february_percent": 5.961488564982198,
+      "baseline_march_median_growth_from_february_percent": 12.751102781308,
+      "unchanged_baseline_reference_bytes": true,
+      "march_submission_sha256": "936495561b871b10f933c33db3486e6646e13560e2eb3a2f113f3ee16becec68"
+    },
+    {
+      "model": "lightgbm_log_level",
+      "original_full_trees": 8000,
+      "new_full_trees": 134,
+      "february_baseline_mape": 5.150556425344623,
+      "february_new_mape": 5.5403856418845665,
+      "march_median_change_to_baseline_percent": 0.5099163150608765,
+      "march_median_growth_from_february_percent": 14.25218654692626,
+      "baseline_march_median_growth_from_february_percent": 13.58937073612665,
+      "unchanged_baseline_reference_bytes": true,
+      "march_submission_sha256": "483869c8c6b0a91d9a936277ae004f5a212a5d0188e33dc416fb0ac7009e546e"
+    },
+    {
+      "model": "xgboost_log_diff",
+      "original_full_trees": 3750,
+      "new_full_trees": 1,
+      "february_baseline_mape": 4.4314600477414245,
+      "february_new_mape": 6.0614082532043225,
+      "march_median_change_to_baseline_percent": -10.014708261919814,
+      "march_median_growth_from_february_percent": 1.4334686028291133,
+      "baseline_march_median_growth_from_february_percent": 12.722314288912706,
+      "unchanged_baseline_reference_bytes": true,
+      "march_submission_sha256": "9ae2f692647f556947ee04f6b9037522c8bbd4bdcd4052bc1e59789406d2aa69"
+    }
+  ],
+  "february_blends": [
+    {
+      "variant": "baseline",
+      "rule": "equal",
+      "february_mape": 4.462015177063707
+    },
+    {
+      "variant": "baseline",
+      "rule": "log_average",
+      "february_mape": 4.46231507927795
+    },
+    {
+      "variant": "baseline",
+      "rule": "gated_1_08_all",
+      "february_mape": 4.439693330353223
+    },
+    {
+      "variant": "baseline",
+      "rule": "gated_1_08_no_weak",
+      "february_mape": 4.478141427103373
+    },
+    {
+      "variant": "baseline",
+      "rule": "final_meta_logmean",
+      "february_mape": 4.452558454833349
+    },
+    {
+      "variant": "new",
+      "rule": "equal",
+      "february_mape": 5.29628356356649
+    },
+    {
+      "variant": "new",
+      "rule": "log_average",
+      "february_mape": 5.29223474730212
+    },
+    {
+      "variant": "new",
+      "rule": "gated_1_08_all",
+      "february_mape": 5.2979599468675005
+    },
+    {
+      "variant": "new",
+      "rule": "gated_1_08_no_weak",
+      "february_mape": 5.275792651507525
+    },
+    {
+      "variant": "new",
+      "rule": "final_meta_logmean",
+      "february_mape": 5.285115378424615
+    }
+  ],
+  "new_xgboost_native_tree_count": 1,
+  "new_xgboost_base_score": "[7.223281E-3]",
+  "new_xgboost_total_tree_nodes": 103,
+  "march_new_ensemble_median_gate_share": 0.986171410194565,
+  "march_new_ensemble_xgboost_smallest_share": 0.9936216969502064,
+  "february_is_stopping_data_not_independent_validation": true,
+  "source_of_submitted_score_mapping": "User screenshots; approximate order, not confirmed exact file mapping",
+  "screenshot_scores_observed": [
+    76.99,
+    89.68,
+    83.24,
+    89.92
+  ],
+  "model_score_mapping_confirmed": false,
+  "no_submitted_csvs_modified": true
+}

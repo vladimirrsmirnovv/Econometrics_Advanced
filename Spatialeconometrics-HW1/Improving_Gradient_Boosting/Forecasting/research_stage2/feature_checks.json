@@ -1,0 +1,28 @@
+{
+  "status": "passed",
+  "tests": [
+    {
+      "cutoff": 17,
+      "current_and_future_targets_changed": true,
+      "passed": true
+    },
+    {
+      "cutoff": 19,
+      "current_and_future_targets_changed": true,
+      "passed": true
+    },
+    {
+      "cutoff": 22,
+      "current_and_future_targets_changed": true,
+      "passed": true
+    },
+    {
+      "cutoff": 26,
+      "current_and_future_targets_changed": true,
+      "passed": true
+    }
+  ],
+  "row_order": true,
+  "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+  "features": 18
+}

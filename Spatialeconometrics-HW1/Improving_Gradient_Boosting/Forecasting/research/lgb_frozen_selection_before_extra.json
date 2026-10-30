@@ -1,0 +1,4 @@
+{
+  "lightgbm_log_diff": "eigenvectors",
+  "lightgbm_log_level": "density_weight"
+}

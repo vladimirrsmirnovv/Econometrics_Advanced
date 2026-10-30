@@ -1,0 +1,155 @@
+{
+  "status": "passed",
+  "forecast_month": "2025-03",
+  "files": [
+    {
+      "file": "baseline/test_catboost_log_level.csv",
+      "sha256": "8267a989ac8ba2a750961ef77c59a5f0c70973b6c9fbee9a8c2ef093b9368899",
+      "rows": 18657,
+      "bytes": 461970,
+      "same_content_as": null
+    },
+    {
+      "file": "baseline/test_lightgbm_log_diff.csv",
+      "sha256": "f0e5b6d81c41d8abff720b84fb349b81d007606ff17f87abce0b8d9923d738cb",
+      "rows": 18657,
+      "bytes": 462157,
+      "same_content_as": null
+    },
+    {
+      "file": "baseline/test_lightgbm_log_level.csv",
+      "sha256": "675b06c91b6103c9dd0b8b9e85c264e351f792ec995b5c537d48bc9ff13c582d",
+      "rows": 18657,
+      "bytes": 462134,
+      "same_content_as": null
+    },
+    {
+      "file": "baseline/test_xgboost_log_diff.csv",
+      "sha256": "eaa200f244eb23e4143da05a0f8f7ec88d058f389bff698df8d847fabeb7dc4c",
+      "rows": 18657,
+      "bytes": 443547,
+      "same_content_as": null
+    },
+    {
+      "file": "confirmed/test_catboost_log_level.csv",
+      "sha256": "8267a989ac8ba2a750961ef77c59a5f0c70973b6c9fbee9a8c2ef093b9368899",
+      "rows": 18657,
+      "bytes": 461970,
+      "same_content_as": "baseline/test_catboost_log_level.csv"
+    },
+    {
+      "file": "confirmed/test_lightgbm_log_diff.csv",
+      "sha256": "ca42247b9685b20678d2fa470c0c41e49c0bf609e7578c96f9ea7124142d6133",
+      "rows": 18657,
+      "bytes": 443398,
+      "same_content_as": null
+    },
+    {
+      "file": "confirmed/test_lightgbm_log_level.csv",
+      "sha256": "675b06c91b6103c9dd0b8b9e85c264e351f792ec995b5c537d48bc9ff13c582d",
+      "rows": 18657,
+      "bytes": 462134,
+      "same_content_as": "baseline/test_lightgbm_log_level.csv"
+    },
+    {
+      "file": "confirmed/test_xgboost_log_diff.csv",
+      "sha256": "eaa200f244eb23e4143da05a0f8f7ec88d058f389bff698df8d847fabeb7dc4c",
+      "rows": 18657,
+      "bytes": 443547,
+      "same_content_as": "baseline/test_xgboost_log_diff.csv"
+    },
+    {
+      "file": "ensemble/test_baseline_final_meta_logmean.csv",
+      "sha256": "f7528c8d2e39cb6cdb969e6ecc5a72000110c9880e725aa67b4d23753241bcb4",
+      "rows": 18657,
+      "bytes": 461960,
+      "same_content_as": null
+    },
+    {
+      "file": "ensemble/test_confirmed_final_meta_logmean.csv",
+      "sha256": "961c94c65f2063bf48171cad2f82bed4f2ca49a3fb4bd8200a2ae6150b252ce6",
+      "rows": 18657,
+      "bytes": 462159,
+      "same_content_as": null
+    },
+    {
+      "file": "ensemble/test_experimental_final_meta_logmean.csv",
+      "sha256": "62690264f63d2a9f2eea830ebf0ba937ec7ef5ae599b652e243d8e3991a54fba",
+      "rows": 18657,
+      "bytes": 462070,
+      "same_content_as": null
+    },
+    {
+      "file": "experimental/test_catboost_log_level.csv",
+      "sha256": "bc6905c78ddde42d27b267712c68ff8e728577ba03ef637bd9b56ebccd93a8a0",
+      "rows": 18657,
+      "bytes": 462103,
+      "same_content_as": null
+    },
+    {
+      "file": "experimental/test_lightgbm_log_diff.csv",
+      "sha256": "ca42247b9685b20678d2fa470c0c41e49c0bf609e7578c96f9ea7124142d6133",
+      "rows": 18657,
+      "bytes": 443398,
+      "same_content_as": "confirmed/test_lightgbm_log_diff.csv"
+    },
+    {
+      "file": "experimental/test_lightgbm_log_level.csv",
+      "sha256": "07c997dd9e97339cead995d2952772f46885839365c111dfe9b4d491b5b21902",
+      "rows": 18657,
+      "bytes": 443485,
+      "same_content_as": null
+    },
+    {
+      "file": "experimental/test_xgboost_log_diff.csv",
+      "sha256": "86f60d27a82974b8585bee40cc79cb31d35f72820e66c027c98fb82878b5b382",
+      "rows": 18657,
+      "bytes": 443389,
+      "same_content_as": null
+    },
+    {
+      "file": "test.csv",
+      "sha256": "961c94c65f2063bf48171cad2f82bed4f2ca49a3fb4bd8200a2ae6150b252ce6",
+      "rows": 18657,
+      "bytes": 462159,
+      "same_content_as": "ensemble/test_confirmed_final_meta_logmean.csv"
+    }
+  ],
+  "byte_distinct_csv_contents": 11,
+  "decision": {
+    "status": "complete",
+    "method": "Course SLX explanatory lags WX only",
+    "original_training_counts": {
+      "catboost_log_level": 6500,
+      "lightgbm_log_diff": 7000,
+      "lightgbm_log_level": 8000,
+      "xgboost_log_diff": 3750
+    },
+    "individual_composition": {
+      "catboost_log_level": "baseline",
+      "lightgbm_log_diff": "wx_knn12",
+      "lightgbm_log_level": "baseline",
+      "xgboost_log_diff": "baseline"
+    },
+    "original_ensemble_rule": "final_meta_logmean",
+    "ensemble_confirmed": true,
+    "recommended_composition": "confirmed",
+    "confirmation_metrics": [
+      {
+        "fold": "2025-01",
+        "baseline": 3.8119452393663815,
+        "confirmed": 3.8078092983063527,
+        "experimental": 3.7637989537407823
+      },
+      {
+        "fold": "2025-02",
+        "baseline": 4.265304610928485,
+        "confirmed": 4.209390252758397,
+        "experimental": 4.263002384813681
+      }
+    ],
+    "no_leaderboard_tuning": true,
+    "actual_march_targets_available": false,
+    "retrospective_previously_seen_months": true
+  }
+}

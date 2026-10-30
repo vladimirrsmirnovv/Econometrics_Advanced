@@ -1,0 +1,79 @@
+{
+  "status": "passed",
+  "report_date": "2026-10-11",
+  "forecast_month": "2025-03",
+  "new_forecast_fits": 0,
+  "total_final_score_records": 36,
+  "historical_public_score_reported_by_author": 90.64,
+  "baseline_final_score": 90.78,
+  "best_final_score": 90.83,
+  "final_evaluation_scope": "Entire March test: public plus private, explicitly confirmed by user",
+  "public_private_split_fraction_provided": false,
+  "source_files": [
+    {
+      "file": "Forecasting\\course_only\\leaderboard_results_2026-10-11.json",
+      "sha256": "7a9f38b9243c1a70e3b91eabb29dd0996b2c4c2b4d6cbf3c799e6c0c957f4cd9"
+    },
+    {
+      "file": "Forecasting\\submissions\\2025-03-course-ensemble-alternatives\\public_results.json",
+      "sha256": "fb75c846b534b8a01659d64e3284d1e64e10a6774033d2bbee5e80acbe2c1c54"
+    },
+    {
+      "file": "Forecasting\\submissions\\2025-03-course-ensemble-followups\\public_results.json",
+      "sha256": "557a26096b29137e804a70c8970cca7e218e27bd18de95488d40b076f5814834"
+    },
+    {
+      "file": "Forecasting\\submissions\\2025-03-course-final-ten\\contest_results.json",
+      "sha256": "f0b9ab5214527672e1cb58736bcaaf5cf293163cb0465fee90c8dee8a6d04b33"
+    },
+    {
+      "file": "Forecasting\\submissions\\2025-03-course-final-five\\contest_results.json",
+      "sha256": "dd3a63d65ecd9ca85526a8d9185d75bb75e8897ef8857081aee1c9a723ad2675"
+    },
+    {
+      "file": "Forecasting\\course_only\\confirmation_model_comparison.csv",
+      "sha256": "62f45e9221f59366a69b79997556dc839c5a662bb25e31f091bc4cd95b540d1c"
+    },
+    {
+      "file": "Forecasting\\course_only\\development_model_comparison.csv",
+      "sha256": "f6556f9f9876ecc10977edd31888718ce4ea693c5489c71a677739607036dc3a"
+    },
+    {
+      "file": "Forecasting\\course_only\\moran_diagnostics.csv",
+      "sha256": "6649edad32091b4316f8f156bd005941edd6694b17437541a309e87e183795be"
+    },
+    {
+      "file": "Forecasting\\course_only\\cache\\weights_manifest.json",
+      "sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42"
+    },
+    {
+      "file": "Forecasting\\course_only\\runner.py",
+      "sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d"
+    },
+    {
+      "file": "Forecasting\\run_validation.py",
+      "sha256": "6adefb1350f1e6e9d7779ba5fbbc17781548ae6d27641ec36219207278dc57a4"
+    },
+    {
+      "file": "Forecasting\\baseline\\original_solution.ipynb",
+      "sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5"
+    }
+  ],
+  "source_documents": [
+    {
+      "file": "sources/competition_description.md",
+      "sha256": "13c6ab7f73289d5ddac9182ea59146fc6466516d4db8a09700a7be246c0bf819"
+    },
+    {
+      "file": "sources/competition_condition.txt",
+      "sha256": "af890dca11ebd7ed1ceed45b17138d436cb7655bcb56130bbe2648860fcff10b"
+    }
+  ],
+  "original_econometric_files_unchanged": {
+    "Paper\\main.tex": "9e8f773eff57b8b4faeff675d9d17332e6a6b07b6264a1f4eeeccd46db216b45",
+    "Paper\\Пространственная_эконометрика_ДЗ1.pdf": "4d336832723f0ff21fd6abfad77d2994e9a0173021b2fef99c221a345393a452",
+    "Analysis\\analysis.R": "6cdf34c541d6b023347b1466e5ef79f7afc2d1d03078899129cb44b86bcbe25d",
+    "Forecasting\\course_only\\FINAL_DECISION.json": "6792e692f5f43c3f66f940539312da709bb938480846618ee3835468b8cebced",
+    "Forecasting\\run_validation.py": "6adefb1350f1e6e9d7779ba5fbbc17781548ae6d27641ec36219207278dc57a4"
+  }
+}

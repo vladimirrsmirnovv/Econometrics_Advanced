@@ -1,0 +1,14 @@
+{
+  "max_absolute_difference": {
+    "wy_log_daily_lag1": 0.0,
+    "wy_daily_growth_lag1": 0.0,
+    "wy_daily_growth_1_3": 0.0,
+    "wy_log_daily_gap_lag1": 4.76837158203125e-07
+  },
+  "comparison_tolerance": 1e-06,
+  "byte_identical": false,
+  "reason": "New own-peer gap subtracts the cached float32 peer level; original gap was calculated before float32 conversion.",
+  "previous_fits_preserved": true,
+  "previous_fit_provenance": "Forecasting/results; source spatial_exp50.parquet",
+  "new_fit_provenance": "research_v1; research/cache/features.parquet"
+}

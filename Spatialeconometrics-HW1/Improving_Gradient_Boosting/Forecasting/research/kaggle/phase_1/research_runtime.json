@@ -1,0 +1,272 @@
+{
+  "python": "3.13.15",
+  "xgboost": "3.1.3",
+  "hardware": "Fri Oct  9 13:28:35 2026       \n+-----------------------------------------------------------------------------------------+\n| NVIDIA-SMI 580.178.04             Driver Version: 580.178.04     CUDA Version: 13.0     |\n+-----------------------------------------+------------------------+----------------------+\n| GPU  Name                 Persistence-M | Bus-Id          Disp.A | Volatile Uncorr. ECC |\n| Fan  Temp   Perf          Pwr:Usage/Cap |           Memory-Usage | GPU-Util  Compute M. |\n|                                         |                        |               MIG M. |\n|=========================================+========================+======================|\n|   0  Tesla T4                       Off |   00000000:00:04.0 Off |                    0 |\n| N/A   42C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n|   1  Tesla T4                       Off |   00000000:00:05.0 Off |                    0 |\n| N/A   43C    P8              9W /   70W |       0MiB /  15360MiB |      0%      Default |\n|                                         |                        |                  N/A |\n+-----------------------------------------+------------------------+----------------------+\n\n+-----------------------------------------------------------------------------------------+\n| Processes:                                                                              |\n|  GPU   GI   CI              PID   Type   Process name                        GPU Memory |\n|        ID   ID                                                               Usage      |\n|=========================================================================================|\n|  No running processes found                                                             |\n+-----------------------------------------------------------------------------------------+\n",
+  "manifest": {
+    "folds": [
+      "2025-02",
+      "2025-01",
+      "2024-03"
+    ],
+    "configs": [
+      "exp50_history",
+      "wx_means",
+      "knn8_history",
+      "exp15_history",
+      "inverse75_history",
+      "binary75_history",
+      "economic8_history",
+      "hybrid8_history",
+      "growth_exp50",
+      "season_exp50",
+      "multihop",
+      "wx_relative",
+      "regimes",
+      "lisa",
+      "eigenvectors",
+      "hybrid_slx",
+      "hybrid_gwr",
+      "within_market",
+      "density_weight",
+      "random_history",
+      "geo_sensitivity"
+    ],
+    "groups": {
+      "exp50_history": [
+        "exp50_history__level_lag1",
+        "exp50_history__daily_growth_lag1",
+        "exp50_history__growth_1_3",
+        "exp50_history__own_peer_gap_lag1"
+      ],
+      "knn8_history": [
+        "knn8_history__level_lag1",
+        "knn8_history__daily_growth_lag1",
+        "knn8_history__growth_1_3",
+        "knn8_history__own_peer_gap_lag1"
+      ],
+      "exp15_history": [
+        "exp15_history__level_lag1",
+        "exp15_history__daily_growth_lag1",
+        "exp15_history__growth_1_3",
+        "exp15_history__own_peer_gap_lag1"
+      ],
+      "inverse75_history": [
+        "inverse75_history__level_lag1",
+        "inverse75_history__daily_growth_lag1",
+        "inverse75_history__growth_1_3",
+        "inverse75_history__own_peer_gap_lag1"
+      ],
+      "binary75_history": [
+        "binary75_history__level_lag1",
+        "binary75_history__daily_growth_lag1",
+        "binary75_history__growth_1_3",
+        "binary75_history__own_peer_gap_lag1"
+      ],
+      "economic8_history": [
+        "economic8_history__level_lag1",
+        "economic8_history__daily_growth_lag1",
+        "economic8_history__growth_1_3",
+        "economic8_history__own_peer_gap_lag1"
+      ],
+      "hybrid8_history": [
+        "hybrid8_history__level_lag1",
+        "hybrid8_history__daily_growth_lag1",
+        "hybrid8_history__growth_1_3",
+        "hybrid8_history__own_peer_gap_lag1"
+      ],
+      "random_history": [
+        "random_history__level_lag1",
+        "random_history__daily_growth_lag1",
+        "random_history__growth_1_3",
+        "random_history__own_peer_gap_lag1"
+      ],
+      "growth_exp50": [
+        "growth_exp50__monthly_growth_lag1",
+        "growth_exp50__monthly_growth_lag2",
+        "growth_exp50__monthly_growth_lag3",
+        "growth_exp50__acceleration",
+        "growth_exp50__growth_mean3",
+        "growth_exp50__own_peer_growth_gap"
+      ],
+      "season_exp50": [
+        "season_exp50__level_lag12",
+        "season_exp50__year_growth_lag1",
+        "season_exp50__level_mean3",
+        "season_exp50__growth_volatility6",
+        "season_exp50__growth_month_sin",
+        "season_exp50__growth_month_cos"
+      ],
+      "multihop": [
+        "multihop__second_level_lag1",
+        "multihop__second_growth_lag1",
+        "multihop__near_far_level_lag1",
+        "multihop__near_far_growth_lag1"
+      ],
+      "wx_means": [
+        "wx_means__population_size",
+        "wx_means__number_of_households",
+        "wx_means__pedestrian_traffic_per_hour",
+        "wx_means__car_traffic_per_hour",
+        "wx_means__grocery_stores_500m",
+        "wx_means__pyaterochka_stores_500m"
+      ],
+      "wx_relative": [
+        "wx_relative__gap_population_size",
+        "wx_relative__sd_population_size",
+        "wx_relative__gap_number_of_households",
+        "wx_relative__sd_number_of_households",
+        "wx_relative__gap_pedestrian_traffic_per_hour",
+        "wx_relative__sd_pedestrian_traffic_per_hour",
+        "wx_relative__gap_car_traffic_per_hour",
+        "wx_relative__sd_car_traffic_per_hour",
+        "wx_relative__gap_grocery_stores_500m",
+        "wx_relative__sd_grocery_stores_500m",
+        "wx_relative__gap_pyaterochka_stores_500m",
+        "wx_relative__sd_pyaterochka_stores_500m"
+      ],
+      "regimes": [
+        "regimes__growth_pop",
+        "regimes__growth_density",
+        "regimes__level_pop",
+        "regimes__log_nearest_km",
+        "regimes__log_neighbour_count",
+        "exp50_history__level_lag1",
+        "exp50_history__daily_growth_lag1",
+        "exp50_history__growth_1_3",
+        "exp50_history__own_peer_gap_lag1"
+      ],
+      "lisa": [
+        "lisa__level_moran_lag1",
+        "lisa__level_quadrant_lag1",
+        "lisa__growth_moran_lag1",
+        "lisa__growth_quadrant_lag1"
+      ],
+      "eigenvectors": [
+        "eigenvectors__eigen_1",
+        "eigenvectors__eigen_2",
+        "eigenvectors__eigen_3",
+        "eigenvectors__eigen_4",
+        "eigenvectors__eigen_5",
+        "eigenvectors__eigen_6",
+        "eigenvectors__eigen_7",
+        "eigenvectors__eigen_8"
+      ],
+      "hybrid_slx": [
+        "hybrid_slx__market_growth_forecast",
+        "hybrid_slx__forecast_vs_recent_growth"
+      ],
+      "hybrid_sdm": [
+        "hybrid_sdm__market_growth_forecast",
+        "hybrid_sdm__forecast_vs_recent_growth"
+      ],
+      "hybrid_gwr": [
+        "hybrid_gwr__market_growth_forecast",
+        "hybrid_gwr__forecast_vs_recent_growth"
+      ],
+      "geo_sensitivity": [
+        "geo_sensitivity__level_lag1",
+        "geo_sensitivity__growth_lag1",
+        "geo_sensitivity__growth_1_3",
+        "geo_sensitivity__own_peer_gap_lag1"
+      ],
+      "within_market": [
+        "within_market__level_lag1",
+        "within_market__growth_lag1",
+        "within_market__own_peer_gap"
+      ]
+    },
+    "base_columns": [
+      "days_lag_1",
+      "is_quarter_end_month",
+      "store_share_region_change_1_2",
+      "is_year_start_month",
+      "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+      "pto_per_cash_register_hour_lag1",
+      "pto_per_cash_register_lag1",
+      "number_of_households",
+      "pto_lag_1_to_roll_mean_6",
+      "recent_mean_anchor_to_day_scaled_ratio",
+      "log_daily_pto_diff_lag_1_2",
+      "daily_growth_1_2_clipped",
+      "pto_roll_cv_3",
+      "pto_lag_1_to_roll_mean_3",
+      "is_autumn",
+      "holiday_month_type_cb",
+      "season_cb",
+      "population_size",
+      "working_hours_per_day_lag_12_cat_cb",
+      "avg_items_per_receipt_diff_lag_1_12",
+      "log_pto_diff_lag_6_12"
+    ],
+    "parameters": {
+      "booster": "gbtree",
+      "objective": "reg:absoluteerror",
+      "eval_metric": "mae",
+      "n_estimators": 3750,
+      "learning_rate": 0.05724447518091817,
+      "max_depth": 6,
+      "min_child_weight": 65.3911328521089,
+      "subsample": 0.5747874537857779,
+      "colsample_bytree": 0.9625598201907856,
+      "colsample_bylevel": 0.856900419225567,
+      "colsample_bynode": 0.9822224958770875,
+      "reg_lambda": 160.0,
+      "reg_alpha": 0.00044247306115915205,
+      "gamma": 0.35689223407647563,
+      "max_bin": 256,
+      "grow_policy": "depthwise",
+      "tree_method": "hist",
+      "device": "cuda",
+      "random_state": 42,
+      "n_jobs": -1,
+      "verbosity": 0,
+      "early_stopping_rounds": 100
+    },
+    "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+    "hashes": {
+      "2024-03_holdout.parquet": "5fc9f42af0e693a1920e533823cb40fb41554b6eee5fa9885d5c3c6a0c945a98",
+      "2024-03_train.parquet": "82d6c1848d8644108aea40146146872bfb5bd51289c688954603a9d0d9942250",
+      "2025-01_holdout.parquet": "445e106524f547fc10def5fa736c2e75d44c2bc1690bb849bb908c794dc09460",
+      "2025-01_train.parquet": "23d172e777469b366dc61e985629eb0a31c52723f497b75118bc10501a4bc325",
+      "2025-02_holdout.parquet": "5e741a6b4bc1fd3515a102b9647a81280ab30c113659777ed714e6f20b89fa48",
+      "2025-02_train.parquet": "f37a0d05f0f4c641006e619ba65e31147fb4591af7ce4b558d4aec8fd6677ec0"
+    },
+    "feature_checks": {
+      "status": "passed",
+      "time_tests": [
+        {
+          "fold": "2024-03",
+          "target_and_all_future_replaced": true,
+          "train_and_holdout_feature_rows_checked": 279855,
+          "features": 96,
+          "passed": true
+        },
+        {
+          "fold": "2025-01",
+          "target_and_all_future_replaced": true,
+          "train_and_holdout_feature_rows_checked": 466425,
+          "features": 96,
+          "passed": true
+        },
+        {
+          "fold": "2025-02",
+          "target_and_all_future_replaced": true,
+          "train_and_holdout_feature_rows_checked": 485082,
+          "features": 96,
+          "passed": true
+        }
+      ],
+      "row_permutation_passed": true,
+      "feature_version": "research_v1",
+      "implementation_hashes": {
+        "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+        "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+      },
+      "native_float_tolerance": 1e-06,
+      "training_cutoff": "strictly earlier realised outcomes"
+    },
+    "feature_version": "research_v1",
+    "validation_only": true
+  },
+  "validation_only": true
+}

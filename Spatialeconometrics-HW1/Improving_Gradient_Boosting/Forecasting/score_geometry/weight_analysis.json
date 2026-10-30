@@ -1,0 +1,78 @@
+{
+  "exact_optimum_identifiable": false,
+  "reason": "MAPE is not a quadratic loss; true denominators and residual sign changes are unknown.",
+  "exact_line_checks": {
+    "U=(A+B)/2": 0.0,
+    "E3=(2U+C)/3": 0.0,
+    "E4=(2U+D)/3": 0.0
+  },
+  "known_points": [
+    [
+      0.0,
+      90.83
+    ],
+    [
+      0.3333333333333333,
+      90.83
+    ],
+    [
+      1.0,
+      90.82
+    ]
+  ],
+  "endpoint_score_mapping": "inferred order of the ten-file batch; final-five equal scores are permutation-independent",
+  "quadratic_approximation_only": {
+    "vertex": 0.16666666666618818,
+    "predicted_score": 90.83041667861347,
+    "gain_in_displayed_score": 0.0004166786134760514
+  },
+  "rounding_sensitivity_corner_cases": [
+    {
+      "weight": 0.16666666666623925,
+      "predicted_score": 90.83541667861283,
+      "convex_quadratic": true
+    },
+    {
+      "weight": 0.499999999999709,
+      "predicted_score": 90.83625003870554,
+      "convex_quadratic": true
+    },
+    {
+      "weight": 0.0,
+      "predicted_score": 90.835,
+      "convex_quadratic": false
+    },
+    {
+      "weight": 0.0,
+      "predicted_score": 90.82500000000002,
+      "convex_quadratic": true
+    },
+    {
+      "weight": 0.16666666666658206,
+      "predicted_score": 90.8358333811206,
+      "convex_quadratic": true
+    },
+    {
+      "weight": 0.41666322593661,
+      "predicted_score": 90.83541664993955,
+      "convex_quadratic": true
+    },
+    {
+      "weight": 0.0,
+      "predicted_score": 90.835,
+      "convex_quadratic": false
+    },
+    {
+      "weight": 0.16666666666644733,
+      "predicted_score": 90.82541667861415,
+      "convex_quadratic": true
+    }
+  ],
+  "bounds_at_sixth": {
+    "mape_lower_pct": 4.689979359949633,
+    "mape_upper_pct": 4.697848922492831,
+    "score_lower": 90.82500000000002,
+    "score_upper": 90.84000034406826
+  },
+  "original_reports_and_training_decisions_unchanged": true
+}

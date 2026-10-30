@@ -1,0 +1,5 @@
+,meta,gated_all,gated_no_ld,equal,log
+XGB WX,90.8,90.79,90.81,90.78,90.78
+XGB+LGB diff WX,90.82,90.82,90.81,90.8,90.79
+XGB+LGB level WX,90.81,90.8,90.82,,90.79
+XGB+both LGB WX,90.83,90.83,90.82,90.81,90.81

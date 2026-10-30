@@ -1,0 +1,103 @@
+{
+  "status": "user_reported_scores_order_inferred",
+  "mapping_basis": "Five screenshot rows in chronological order mapped to the recommended folder order 01 through 05; order not explicitly reconfirmed. All five scores are identical, so score conclusions are independent of this mapping.",
+  "mapping_order_explicitly_confirmed": false,
+  "screenshot_file": "C:/Users/smirn/AppData/Local/Temp/codex-clipboard-3ae81129-6b1f-43fa-9791-9c17413c8d7b.png",
+  "scores_rounded_to_two_decimals": true,
+  "all_five_scores_equal": true,
+  "submissions": [
+    {
+      "order": 1,
+      "file": "01_leaders_equal/test.csv",
+      "sha256": "37e2c7a2d7f07768e9b5b4b66b2df1f9ac985bfd0e099eb39d5f690272760876",
+      "previous_batch_orders": [
+        4,
+        5
+      ],
+      "averaging_rule": "equal",
+      "submission_id": 167923467,
+      "submitted_at": "2026-10-11 14:31:19",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    },
+    {
+      "order": 2,
+      "file": "02_leaders_log_average/test.csv",
+      "sha256": "2235e7000983eabb5c52cd2ca336ce7baf8aa9f7372e9f744f12fda30f54b87c",
+      "previous_batch_orders": [
+        4,
+        5
+      ],
+      "averaging_rule": "log_average",
+      "submission_id": 167923470,
+      "submitted_at": "2026-10-11 14:31:25",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    },
+    {
+      "order": 3,
+      "file": "03_leaders_plus_01_equal/test.csv",
+      "sha256": "98edeebbf42790980b179cd27272505a376ace8ae8bce6034761bb46dc611b4f",
+      "previous_batch_orders": [
+        4,
+        5,
+        1
+      ],
+      "averaging_rule": "equal",
+      "submission_id": 167923476,
+      "submitted_at": "2026-10-11 14:31:31",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    },
+    {
+      "order": 4,
+      "file": "04_leaders_plus_08_equal/test.csv",
+      "sha256": "302b0d47a95ee1d68142fb08b3024794a3a5cf42777fb6a2e825b5ae80295eb4",
+      "previous_batch_orders": [
+        4,
+        5,
+        8
+      ],
+      "averaging_rule": "equal",
+      "submission_id": 167923489,
+      "submitted_at": "2026-10-11 14:31:37",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    },
+    {
+      "order": 5,
+      "file": "05_leaders_plus_08_log_average/test.csv",
+      "sha256": "99378800f6cf2df5cd43c9fabb0f5c5ce0bff5671e381a8c56a430687aa0f3fb",
+      "previous_batch_orders": [
+        4,
+        5,
+        8
+      ],
+      "averaging_rule": "log_average",
+      "submission_id": 167923499,
+      "submitted_at": "2026-10-11 14:31:44",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    }
+  ],
+  "evaluation_context": {
+    "phase": "post_competition",
+    "score_scope": "final_private_march_2025_ranking_set",
+    "reported_by_user": true,
+    "clarified_on": "2026-10-11",
+    "public_subset_only": false,
+    "exact_store_coverage_confirmed": false,
+    "private_ranking_set_confirmed_by_user": true,
+    "coverage_note": "User subsequently explicitly confirmed these are final private-dataset scores used to rank competition participants. The exact number and identities of scored stores are not available.",
+    "actual_march_targets_available": false,
+    "score_interpretation": "Observed performance on the contest's post-competition ranking test; do not describe it as the small public subset from the original live-competition rules.",
+    "selection_policy": "Prioritize observed final contest scores for choosing the contest mixture; retain validation as diagnostics and record that mixtures are selected after final-test feedback.",
+    "legacy_metadata_note": "Some historical filenames and keys retain 'public' for compatibility. Their score values refer to the final ranking set specified here."
+  },
+  "public_subset_only": false
+}

@@ -1,0 +1,90 @@
+{
+  "model": "lightgbm_log_diff",
+  "fold": "2024-07",
+  "configuration": "dynamic_history",
+  "underlying_configuration": "dynamic_history",
+  "protocol": "rolling",
+  "trees": 953,
+  "inner_selected_trees": 953,
+  "inner_fold": "2024-06",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "03dfac0223467d5649727b871eb84e03da9cfae0c0dbce50b1074bfdb257422b",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 953,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [
+    "dynamic_history__level_lag1",
+    "dynamic_history__daily_growth_lag1",
+    "dynamic_history__growth_1_3",
+    "dynamic_history__own_peer_gap_lag1"
+  ],
+  "correction": null,
+  "seconds": 34.93846510001458,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-07/lightgbm_log_diff/models/dynamic_history.txt",
+  "model_sha256": "66a62d5edbbe0c193070f272b8d1ee460c8799bedf3c52cafe2f1276aee9d676",
+  "prediction_sha256": "a27e52d47f5766c3f85fb379c4903aae33f7f4271bf9e576006d66b6cbf7de24",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 4308703.071182389,
+  "rmse": 8000473.941564525,
+  "mape": 4.353266798466177,
+  "bias_pct": -0.7205851130086426,
+  "originally_reported_implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

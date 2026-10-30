@@ -1,0 +1,20 @@
+# Local environments, caches and temporary verification/build files.
+.venv/
+cache/
+tmp/
+__pycache__/
+
+# Fitted models and duplicate training exports; metrics and CSV remain in Git.
+**/models/
+*.cbm
+*.ubj
+**/output/*.zip
+**/sources/**/*.zip
+**/live_log.txt
+**/stream_log.txt
+
+# Credentials are provided through the environment.
+kaggle.json
+.env
+*.pem
+*.key

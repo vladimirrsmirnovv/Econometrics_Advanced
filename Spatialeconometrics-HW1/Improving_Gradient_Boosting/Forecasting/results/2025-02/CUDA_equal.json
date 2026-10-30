@@ -1,0 +1,10 @@
+{
+  "mae": 3627917.7249227157,
+  "rmse": 7344204.036891707,
+  "mape": 4.462015177063707,
+  "bias_pct": 1.7411472100992156,
+  "model": "CUDA_equal",
+  "year": 2025,
+  "month": 2,
+  "validation_only": true
+}

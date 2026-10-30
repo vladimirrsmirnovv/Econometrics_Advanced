@@ -1,0 +1,130 @@
+PAGE 1
+1ДемидоваОльга Анатольевнаhttps://www.hse.ru/staff/demidova_olgaE-mail:demidova@hse.ru04.06.2024Demidova Olga, HSE, Moscow, 2024www.hse.ru
+Лекция по эконометрике 94 модульДинамические модели панельных данных
+
+PAGE 2
+2
+Динамические модели панельных данных
+photo
+
+PAGE 3
+3
+Инструменты
+photo
+
+PAGE 4
+4
+Моментные условия
+photo:-одна из возможных оценок инструментальных переменных.
+
+PAGE 5
+5
+Инструменты
+photo
+
+PAGE 6
+6
+Моментные условия
+photo-другая оценка  инструментальных переменных.
+
+PAGE 7
+7
+Подход Arellano, Bond
+photo.
+
+PAGE 8
+8
+Подход Arellano, Bond
+photo-инструмент-инструменты-инструменты
+
+PAGE 9
+9
+Инструменты в подходе Arellano, Bond
+photoGMM подход
+Т.е. в качестве инструментов используются лаги зависимой переменной .Моментные тождества Arellano-Bond: E{l 2
+
+PAGE 10
+10
+Инструменты в подходе Arellano, Bond
+photot−1
+
+PAGE 11
+11
+GMM
+photoМинимизируемая  квадратичная форма:Решение:
+
+PAGE 12
+12
+GMM
+photo
+
+PAGE 13
+13
+GMM
+photo
+
+PAGE 14
+14
+Динамические модели с экзогенными переменными
+photo௜௧௜௧ᇱ௜௧ିଵ௜௜௧௜௧ఌଶ௜௧௜௧ିଵ௜௧ିଵ௜௧ିଶ௜௧ᇱ௜௧ିଵᇱ௜௧௜௧ିଵВ этом случае  появляются еще инструменты и дополнительные моментные тождества௜௧ᇱ(т.е. не коррелированы с каждым ୧ୱ), тогда௜௦௜௧} = 0, s =  1, …., TКроме того, ௜௧могут выступать инструментами для самих себя:௜௧௜௧} = 0 t௜௧ᇱ(т.е.௜௧௜௦} = 0 для всех ), тогда௜௧ି௝௜௧
+
+PAGE 15
+15
+Динамические модели с экзогенными переменными
+photoВ число могут быть включены и объясняющие переменные (см. предыдущий слайд)
+
+PAGE 16
+16
+Динамические модели с экзогенными переменными 
+photo
+
+PAGE 17
+17
+Динамические модели с экзогенными переменными 
+photoE{l 2SystemE{l 2
+
+PAGE 18
+18
+Количество инструментов
+photoЕсли T велико, то инструментов может быть слишком много.Roodman, David, A Note on the Theme of Too Many Instruments (May 2008). Center for Global Development Working Paper No. 125, Available at SSRN: https://ssrn.com/abstract=1101731 or http://dx.doi.org/10.2139/ssrn.1101731Основное предостережение-рекомендация: число инструментов не должно превышать число наблюдений N.
+
+PAGE 19
+19
+Количество инструментов
+photoМногие инструменты могут оказаться слабыми, поэтому, если T велико, то число лагов зависимой и объясняющих переменных часто ограничивают.Максимальный лаг используемый в качестве инструмента, может не превышать .Некоторые переменные, выбранные в качестве инструментов, в действительности могут коррелировать с ошибками, поэтому обязательно надо проверять валидность инструментов.
+
+PAGE 20
+20
+Тестирование валидности инструментов
+photo  где S – состоятельная оценка ковариационной матрицы ε]ε] = , то это тест Саргана.ε, то это тест Хансена
+
+PAGE 21
+21
+Тестирование некоррелированности ошибок (AB test)
+photo
+
+PAGE 22
+22
+Пример 1
+photoThe data are taken from the National Longitudinal Survey (NLS Youth Sample) and contain observations on 545 males for the years 1980-1987.Variables:NR        Observations numberYEAR      Year of observationSchool    Years of schooling                Exper Age-6-School                       Exper2    Experience Squared                LogExper Log(1+Experience)                  Union     Wage set by collective bargaining   Mar       Married                             Black     BlackHisp Hispanic                            Health    Has health disability               Rural     Lives in rural area                 NE        Lives in North East                 NC        Lives in Northern Central           S         Lives in south                      Wage      Log of hourly wage
+
+PAGE 23
+23
+Пример 1
+photoIndustry Dummies:AG        Agricultural                        MIN       Mining                              CON       Construction                       TRAD      Trade                                    TRA       Transportation                      FIN       Finance                             BUS       Business & Repair Service                 PER       Personal Service                        ENT       Entertainment                         MAN       Manufacturing                            PRO       Professional & Related Service          PUB       Public Administration  Occupational Dummies:OCC1      Professional, Technical and kindred       OCC2      Managers, Officials and Proprietors      OCC3      Sales Workers                           OCC4      Clerical and kindred                       OCC5      Craftsmen, Foremen and kindred           OCC6      Operatives and kindred                    OCC7      Laborers and farmers                      OCC8      Farm Laborers and ForemanOCC9      Service Workers
+
+PAGE 24
+24
+Пример 1
+photo                                           legend: * p<.1; ** p<.05; *** p<.01                                                                                     _cons    .02318254       1.2123546***   -.04414526                                            L1.                                                    .13891231***          WAGE                         PUB    .00767313       .04107969       .03607416       .05828411             HISP    .01265787       (omitted)       .01559304               0            BLACK   -.14238416***    (omitted)      -.14085141***            0              MAR    .11261991***    .06075347***    .07543385***    .04209691            UNION    .18327671***    .08274536***    .10884132***    .02715298            EXPER    .05012745***    .05960088***    .05772795***    .04562704***        SCHOOL    .10363006***    (omitted)       .10792405***            0                                                                                       Variable     regpooled         regfe           regre           regab                                                                                    
+Влияние exper в модели AB:SR: 0.0456;   LR: 0.0456/(1-0.139) = 0.0529
+
+PAGE 25
+25
+Пример 2
+photo
+
+
+PAGE 26
+26
+Спасибо за внимание!photo

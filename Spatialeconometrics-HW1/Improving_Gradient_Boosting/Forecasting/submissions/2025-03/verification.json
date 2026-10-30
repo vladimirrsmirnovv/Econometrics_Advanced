@@ -1,0 +1,19 @@
+{
+  "status": "passed",
+  "forecast_month": "2025-03",
+  "primary_csv_files": 11,
+  "all_csv_files_checked": 19,
+  "rows_per_csv": 18657,
+  "columns": [
+    "new_id",
+    "rto"
+  ],
+  "ids_identical_in_all_files": true,
+  "no_missing_or_infinite_predictions": true,
+  "all_predictions_nonnegative": true,
+  "native_models_reloaded_and_tree_counts_checked": 8,
+  "original_cuda_march_predictions_max_relative_difference": 0.0,
+  "archive_crc_and_file_hashes_passed": true,
+  "original_econometric_files_modified": false,
+  "competition_submission_sent": false
+}

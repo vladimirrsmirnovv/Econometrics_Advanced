@@ -1,0 +1,11 @@
+variant,rule,february_mape
+baseline,equal,4.462015177063707
+baseline,log_average,4.46231507927795
+baseline,gated_1_08_all,4.439693330353223
+baseline,gated_1_08_no_weak,4.478141427103373
+baseline,final_meta_logmean,4.452558454833349
+new,equal,5.29628356356649
+new,log_average,5.29223474730212
+new,gated_1_08_all,5.2979599468675005
+new,gated_1_08_no_weak,5.275792651507525
+new,final_meta_logmean,5.285115378424615

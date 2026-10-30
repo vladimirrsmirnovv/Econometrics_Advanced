@@ -1,0 +1,31 @@
+{
+  "locations": 3360,
+  "coordinate_locations": 3360,
+  "coordinate_stores": 18657,
+  "stores": 18657,
+  "ambiguous_coordinate_keys_rejected": 0,
+  "geometry": "settlement centroids; full competition store set",
+  "linkage": "normalized region + settlement name + settlement type; never old new_id",
+  "research_coordinate_overrides": 933,
+  "nearest_distance_km_quantiles": {
+    "0": 0.0,
+    "0.01": 0.0,
+    "0.1": 3.172648307012562,
+    "0.5": 11.95699892985344,
+    "0.9": 33.95041630191692,
+    "0.99": 76.32541628244536,
+    "1": 240.50115031310597
+  },
+  "coordinate_alias_markets": 80,
+  "uncovered_markets": 0,
+  "polygon_consistency_outliers": 10,
+  "limitations": [
+    "Simplified 83-region map is a consistency diagnostic, not independent geocoding.",
+    "Dominant polygons inferred by region label; not an official Russian-English name crosswalk.",
+    "Border points and territories absent from the map are not automatically coordinate errors.",
+    "Same-centroid aliases may represent genuine co-located markets; sensitivity only.",
+    "Shop-level distances are unavailable; all geometry is settlement-level."
+  ],
+  "source_coordinates_changed": false,
+  "geometry_source": "Data/Maps/russia_regions_simplified.geojson"
+}

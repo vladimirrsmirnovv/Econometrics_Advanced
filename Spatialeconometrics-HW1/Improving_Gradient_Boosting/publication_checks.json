@@ -1,0 +1,33 @@
+{
+  "status": "passed",
+  "original_notebook_unchanged": true,
+  "final_report_source_and_pdf_unchanged": true,
+  "shared_inputs_resolved": [
+    "Data/Shops/train_2.csv",
+    "Data/settlement_panel.parquet",
+    "Parsing/geonames_settlement_coordinates/result/settlement_coordinates.csv",
+    "Source/Seminars/Seminar4/municipalities_models.R",
+    "Paper/main.tex"
+  ],
+  "python_files_parsed": 111,
+  "final_forecast_csvs_checked": 15,
+  "rows_per_forecast": 18657,
+  "new_models_trained": 0,
+  "checked_forecasts": [
+    "Forecasting/submissions/2025-03-course-final-ten/01_winner_gated_all/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/02_winner_log_average/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/03_winner_equal/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/04_three_wx_original_mix/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/05_three_wx_gated_all/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/06_three_wx_log_average/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/07_three_wx_equal/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/08_xgb_ll_wx_gated_no_ld/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/09_xgb_ll_wx_gated_all/test.csv",
+    "Forecasting/submissions/2025-03-course-final-ten/10_xgb_ll_wx_log_average/test.csv",
+    "Forecasting/submissions/2025-03-course-final-five/01_leaders_equal/test.csv",
+    "Forecasting/submissions/2025-03-course-final-five/02_leaders_log_average/test.csv",
+    "Forecasting/submissions/2025-03-course-final-five/03_leaders_plus_01_equal/test.csv",
+    "Forecasting/submissions/2025-03-course-final-five/04_leaders_plus_08_equal/test.csv",
+    "Forecasting/submissions/2025-03-course-final-five/05_leaders_plus_08_log_average/test.csv"
+  ]
+}

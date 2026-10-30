@@ -1,0 +1,2 @@
+mae,rmse,mape,bias_pct,model,best_iteration,features,train_rows,holdout_rows,device_changes,threads,year,month,seconds,validation_only,notebook_sha256,environment
+3867174.644960765,6748860.360199794,4.391654418276093,-0.1256725007700326,catboost_log_level,6237,47,373140,18657,{},4,2024,9,474.1455973999109,True,15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5,"{'pandas': '2.2.3', 'numpy': '2.3.5', 'catboost': '1.2.10', 'lightgbm': '4.7.0', 'xgboost': '3.4.1', 'scikit-learn': '1.9.1'}"

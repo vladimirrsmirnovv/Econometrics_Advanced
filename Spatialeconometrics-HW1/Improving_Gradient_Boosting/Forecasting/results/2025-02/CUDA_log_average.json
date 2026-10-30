@@ -1,0 +1,10 @@
+{
+  "mae": 3637160.8131642737,
+  "rmse": 7386406.407262136,
+  "mape": 4.46231507927795,
+  "bias_pct": 1.7163485983941364,
+  "model": "CUDA_log_average",
+  "year": 2025,
+  "month": 2,
+  "validation_only": true
+}

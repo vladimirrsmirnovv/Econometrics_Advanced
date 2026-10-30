@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "csv_count": 5,
+  "unique_forecasts": 5,
+  "all_headers_ids_values_and_sizes_valid": true,
+  "float_round_trip_exact": true,
+  "prior_files_compared": 36,
+  "no_forecast_duplicates": true,
+  "source_forecasts_unchanged": true,
+  "original_blend_code_unchanged": true,
+  "frozen_decision_unchanged": true,
+  "zip_crc_and_sha_passed": true,
+  "archive_sha256": "475a201fbd6f550ae0f215cb1e1056657715e815796b21606f8345a5bdd87369",
+  "archive_bytes": 1085518,
+  "contest_results_recorded": true,
+  "csv_bytes_unchanged_after_results": true
+}

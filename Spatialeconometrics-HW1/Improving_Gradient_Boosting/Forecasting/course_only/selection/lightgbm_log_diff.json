@@ -1,0 +1,59 @@
+{
+  "model": "lightgbm_log_diff",
+  "selected_wx": "wx_knn12",
+  "development_winner": "wx_knn12",
+  "development_gain": 1.2553409904170882,
+  "development_eligible": true,
+  "rule": "Lower development mean than baseline AND lower MAPE on each January and February confirmation; else baseline",
+  "frozen_at_utc": "2026-10-10T19:57:46.103038+00:00",
+  "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+  "plan_sha256": "714d4d6471c001a5be53c6fd0b702ef28cd92c6bd4f836209ca152d78fcdb36a",
+  "confirmation_metrics_used_for_selection": false,
+  "candidates": [
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "mean_mape": 5.335165408950874,
+      "months": {
+        "2024-08": 4.468499113558167,
+        "2024-11": 3.9791231872253765,
+        "2024-12": 7.557873926069078
+      },
+      "sources": {
+        "2024-08": "4515ec09156adffb7be606bec2a53508162d36238995ce9204ba3737a5f2bc7e",
+        "2024-11": "9f8032ea08b4860da9f8e5e9bd197c2baee60d14a6563085a0b1bd0dc6d4c59b",
+        "2024-12": "a3d419630eca67fa9ade4c519f37b0644df3c42af575158a34ea6c125f9cef67"
+      }
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn6",
+      "mean_mape": 4.178893056160571,
+      "months": {
+        "2024-08": 4.264571250664444,
+        "2024-11": 3.612575554882676,
+        "2024-12": 4.65953236293459
+      },
+      "sources": {
+        "2024-08": "ad87304d9bbc5aaffaf6133d61fd4771450cbb94aa4f5add5602327b3f96830c",
+        "2024-11": "5ac44dd5e8ce72d7bf90b40341f5159b77f945f7cc3f0d38a138dab0c099c3ee",
+        "2024-12": "16e52dd20e4820a65915b84f46c105212cbe4049e23914f92ef6f46322f6458e"
+      }
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "mean_mape": 4.079824418533786,
+      "months": {
+        "2024-08": 4.152185801187565,
+        "2024-11": 3.584387298132899,
+        "2024-12": 4.502900156280892
+      },
+      "sources": {
+        "2024-08": "c3e3f5a153d616c44a68622847c47057421a49f3e19d7bf9bab62cf9881815fb",
+        "2024-11": "57320e836d24dc02d47caf6d22531bd914ad398e241390e3729753d53147b912",
+        "2024-12": "a065894755d4ab3171cc9fd4c42a9552a1bddbdd464dcebb164c43596c6fdfb9"
+      }
+    }
+  ]
+}

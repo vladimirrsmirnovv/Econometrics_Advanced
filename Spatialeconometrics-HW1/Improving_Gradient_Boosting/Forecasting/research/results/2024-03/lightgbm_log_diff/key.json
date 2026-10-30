@@ -1,0 +1,62 @@
+{
+  "mae": 3271642.523433082,
+  "rmse": 7698489.62973574,
+  "mape": 3.7128830552624765,
+  "bias_pct": 0.032607839362752356,
+  "model": "lightgbm_log_diff",
+  "best_iteration": 693,
+  "features": 26,
+  "train_rows": 261198,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "key",
+  "fold": "2024-03",
+  "backend": "CPU",
+  "seconds": 14.583813300007023,
+  "baseline_mape": 3.7219832698520383,
+  "delta_mape": -0.009100214589561784,
+  "relative_improvement_pct": 0.2444990729344022,
+  "shops_improved_pct": 48.44294366725626,
+  "ape_change_quantiles": {
+    "0.05": -0.8701652286069361,
+    "0.25": -0.3783759020994209,
+    "0.5": 0.02272539973142096,
+    "0.75": 0.39355181460874444,
+    "0.95": 0.8029729247289317
+  },
+  "features_added": [],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 7000,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

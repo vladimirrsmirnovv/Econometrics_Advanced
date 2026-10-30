@@ -1,0 +1,61 @@
+{
+  "mae": 4122797.7148282058,
+  "rmse": 8826291.849284755,
+  "mape": 4.725334704984414,
+  "bias_pct": 0.2347925722247009,
+  "model": "catboost_log_level",
+  "best_iteration": 672,
+  "features": 47,
+  "train_rows": 466425,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "key",
+  "fold": "2025-02",
+  "backend": "CPU",
+  "seconds": 91.30410269997083,
+  "baseline_mape": 4.730607825406348,
+  "delta_mape": -0.005273120421933619,
+  "relative_improvement_pct": 0.11146813721512987,
+  "shops_improved_pct": 51.8572117703811,
+  "ape_change_quantiles": {
+    "0.05": -0.38339415609922334,
+    "0.25": -0.13557258067448785,
+    "0.5": -0.008269921186236928,
+    "0.75": 0.12036287508019616,
+    "0.95": 0.389241850962371
+  },
+  "features_added": [],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 6500,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": 500
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

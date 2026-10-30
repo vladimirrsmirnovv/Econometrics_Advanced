@@ -1,0 +1,75 @@
+{
+  "status": "passed",
+  "archive_sha256": "afb58c5a9d882ec46fb82b2701780a363bfd5d92826413b85714f2d73c596eef",
+  "tag": "cat",
+  "phase": "development",
+  "checks": {
+    "status": "passed",
+    "tag": "cat",
+    "phase": "development",
+    "model": "catboost_log_level",
+    "selected": null,
+    "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+    "weights_manifest_sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42",
+    "baseline_parity": {
+      "max_relative_difference": 4.440892098500626e-16,
+      "mape": 4.047595683129603
+    },
+    "original_training_counts_preserved": true,
+    "private_existing_datasets_only": true,
+    "execution_location": "Windows CPU fallback; no remote upload"
+  },
+  "verified_fits": [
+    {
+      "fold": "2024-11",
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "mape": 4.047595683129603,
+      "trees": 6500
+    },
+    {
+      "fold": "2024-08",
+      "model": "catboost_log_level",
+      "configuration": "wx_knn6",
+      "mape": 4.365131650124986,
+      "trees": 6500
+    },
+    {
+      "fold": "2024-08",
+      "model": "catboost_log_level",
+      "configuration": "wx_knn12",
+      "mape": 4.354466141054339,
+      "trees": 6500
+    },
+    {
+      "fold": "2024-11",
+      "model": "catboost_log_level",
+      "configuration": "wx_knn6",
+      "mape": 4.076612369519425,
+      "trees": 6500
+    },
+    {
+      "fold": "2024-11",
+      "model": "catboost_log_level",
+      "configuration": "wx_knn12",
+      "mape": 4.051579966122936,
+      "trees": 6500
+    },
+    {
+      "fold": "2024-12",
+      "model": "catboost_log_level",
+      "configuration": "wx_knn6",
+      "mape": 4.2711541720382895,
+      "trees": 6500
+    },
+    {
+      "fold": "2024-12",
+      "model": "catboost_log_level",
+      "configuration": "wx_knn12",
+      "mape": 4.2451199266794175,
+      "trees": 6500
+    }
+  ],
+  "execution_location": "Windows CPU fallback; no remote upload",
+  "archive_file": "local_cat/output/development_cat.zip"
+}

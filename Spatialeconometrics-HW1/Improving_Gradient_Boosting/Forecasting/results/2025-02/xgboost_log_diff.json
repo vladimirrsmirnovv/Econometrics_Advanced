@@ -1,0 +1,31 @@
+{
+  "mae": 3893961.874465859,
+  "rmse": 7542278.719167176,
+  "mape": 4.936438075648175,
+  "bias_pct": 3.20702013070154,
+  "model": "xgboost_log_diff",
+  "best_iteration": 796,
+  "features": 21,
+  "train_rows": 466425,
+  "holdout_rows": 18657,
+  "device_changes": {
+    "device": {
+      "original": "cuda",
+      "local": "cpu"
+    }
+  },
+  "threads": 4,
+  "year": 2025,
+  "month": 2,
+  "seconds": 29.863645200035535,
+  "validation_only": true,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1",
+    "scikit-learn": "1.9.1"
+  }
+}

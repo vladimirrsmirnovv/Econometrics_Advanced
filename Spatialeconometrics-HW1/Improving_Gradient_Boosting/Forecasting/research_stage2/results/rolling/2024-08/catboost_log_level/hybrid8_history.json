@@ -1,0 +1,62 @@
+{
+  "model": "catboost_log_level",
+  "fold": "2024-08",
+  "configuration": "hybrid8_history",
+  "underlying_configuration": "hybrid8_history",
+  "protocol": "rolling",
+  "trees": 1227,
+  "inner_selected_trees": 1227,
+  "inner_fold": "2024-07",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "9e6f0b07d3087824f3dfacc222d3de55ba1b8458365745c4fa18956b721b1054",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 1227,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": false,
+    "thread_count": 4,
+    "allow_writing_files": false
+  },
+  "features_added": [
+    "hybrid8_history__level_lag1",
+    "hybrid8_history__daily_growth_lag1",
+    "hybrid8_history__growth_1_3",
+    "hybrid8_history__own_peer_gap_lag1"
+  ],
+  "correction": null,
+  "seconds": 222.37035136600002,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "22d88c77229ed8d672d6eeebcd98c97746997963320c3f90a2212993e51caa00",
+  "feature_checks": {
+    "status": "passed",
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "private_phase1_feature_byte_parity": true,
+    "outer_targets_never_used_for_stopping": true
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-08/catboost_log_level/models/hybrid8_history.cbm",
+  "model_sha256": "1f6150a435277420764627139fb5c557a3a3753dc600ccb068037519f8945eb6",
+  "prediction_sha256": "df19fdea22ec17c4e84b654cb690c3bc000a32284c8a236f9c3c93c83d5e4876",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.1.3"
+  },
+  "mae": 4694580.590609741,
+  "rmse": 8042480.763757494,
+  "mape": 5.0917954222264745,
+  "bias_pct": 2.921261812391368
+}

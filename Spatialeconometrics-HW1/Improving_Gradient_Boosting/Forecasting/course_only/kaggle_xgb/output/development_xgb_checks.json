@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "tag": "xgb",
+  "model": "xgboost_log_diff",
+  "phase": "development",
+  "selected": null,
+  "baseline_parity": {
+    "max_relative_difference": 0.0,
+    "mape": 3.8343113181066273
+  },
+  "original_training_counts_preserved": true,
+  "private_existing_datasets_only": true,
+  "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+  "weights_manifest_sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42"
+}

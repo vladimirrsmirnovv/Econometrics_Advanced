@@ -1,0 +1,122 @@
+[
+  {
+    "fold": "2024-09",
+    "model": "catboost_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-09",
+    "model": "lightgbm_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-09",
+    "model": "lightgbm_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-09",
+    "model": "xgboost_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-10",
+    "model": "catboost_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-10",
+    "model": "lightgbm_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-10",
+    "model": "lightgbm_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-10",
+    "model": "xgboost_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-12",
+    "model": "catboost_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-12",
+    "model": "lightgbm_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-12",
+    "model": "lightgbm_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2024-12",
+    "model": "xgboost_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-01",
+    "model": "catboost_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-01",
+    "model": "lightgbm_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-01",
+    "model": "lightgbm_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-01",
+    "model": "xgboost_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-02",
+    "model": "catboost_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-02",
+    "model": "lightgbm_log_diff",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-02",
+    "model": "lightgbm_log_level",
+    "byte_equal": true,
+    "reason": null
+  },
+  {
+    "fold": "2025-02",
+    "model": "xgboost_log_diff",
+    "byte_equal": true,
+    "reason": null
+  }
+]

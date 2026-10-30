@@ -1,0 +1,586 @@
+{
+  "status": "passed",
+  "exploratory_after_public_feedback": false,
+  "all_validation_months_previously_seen": true,
+  "no_models_retrained": true,
+  "no_new_spatial_methods": true,
+  "spatial_method": "Existing course WX only",
+  "no_weights_fitted": true,
+  "no_new_thresholds": true,
+  "original_gate_threshold": 1.08,
+  "only_original_notebook_blend_rules": true,
+  "blend_source_file": "Forecasting/run_validation.py:48",
+  "blend_source_sha256": "6adefb1350f1e6e9d7779ba5fbbc17781548ae6d27641ec36219207278dc57a4",
+  "original_decision_unchanged": true,
+  "original_decision_sha256": "6792e692f5f43c3f66f940539312da709bb938480846618ee3835468b8cebced",
+  "current_public_reference": {
+    "file": "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\submissions\\2025-03-course-ensemble-followups\\02_xgb_ld_wx_meta\\test.csv",
+    "sha256": "b98581e84ae2cfc2f163cf736f3d14b1d05183a6009706d8140e3ef8d604e1e5",
+    "submission_id": 167918221,
+    "public_score": 90.82,
+    "validation": {
+      "2024-08": 4.222946965342398,
+      "2024-11": 3.5517120309370145,
+      "2024-12": 3.805669274697082,
+      "2025-01": 3.7896564526411334,
+      "2025-02": 4.240780375696528,
+      "development_mean": 3.8601094236588316,
+      "confirmation_mean": 4.015218414168831
+    },
+    "contest_score": 90.82,
+    "evaluation_set": "main_final_march_2025_ranking_set"
+  },
+  "source_public_results_sha256": "557a26096b29137e804a70c8970cca7e218e27bd18de95488d40b076f5814834",
+  "original_ensemble_validation": {
+    "2024-08": 4.204886854771312,
+    "2024-11": 3.650172966823828,
+    "2024-12": 4.159742805681484,
+    "2025-01": 3.8119452393663815,
+    "2025-02": 4.265304610928485,
+    "development_mean": 4.004934209092208,
+    "confirmation_mean": 4.038624925147433
+  },
+  "validation_sources": [
+    {
+      "fold": "2024-08",
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "trees": 6500,
+      "prediction_sha256": "badf0fc40cec86b81cffd51675d31b9389b86cb87bc88f10598f5c41db466b2e"
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "trees": 7000,
+      "prediction_sha256": "4515ec09156adffb7be606bec2a53508162d36238995ce9204ba3737a5f2bc7e"
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 7000,
+      "prediction_sha256": "c3e3f5a153d616c44a68622847c47057421a49f3e19d7bf9bab62cf9881815fb"
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_level",
+      "configuration": "baseline",
+      "trees": 8000,
+      "prediction_sha256": "0ba68f0933fac2a0cbb0bdd334a4a57e25294ec5ca6b91abd8644f9fa561d3fc"
+    },
+    {
+      "fold": "2024-08",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "trees": 8000,
+      "prediction_sha256": "f5e632839beb38521dbff263d5156d09fcf6954e3559cf4eb9e19fb7bd4d6b0a"
+    },
+    {
+      "fold": "2024-08",
+      "model": "xgboost_log_diff",
+      "configuration": "baseline",
+      "trees": 3750,
+      "prediction_sha256": "07a01b650855d99af51dc58100e41c7fce02e19509cb29e4b3ba676f36b80df9"
+    },
+    {
+      "fold": "2024-08",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 3750,
+      "prediction_sha256": "bf231213697dd9f481f65f2ae10d12937f1f741fd159c627f52b9caddbf062f5"
+    },
+    {
+      "fold": "2024-11",
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "trees": 6500,
+      "prediction_sha256": "bce534645c17c80e04f3e58331f180e6f1863b0916285e9f0fa7ea1306370863"
+    },
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "trees": 7000,
+      "prediction_sha256": "9f8032ea08b4860da9f8e5e9bd197c2baee60d14a6563085a0b1bd0dc6d4c59b"
+    },
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 7000,
+      "prediction_sha256": "57320e836d24dc02d47caf6d22531bd914ad398e241390e3729753d53147b912"
+    },
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_level",
+      "configuration": "baseline",
+      "trees": 8000,
+      "prediction_sha256": "02cd17ea493191c2158d267ee5a6414082f881b2addf42641dcaf6c7193db081"
+    },
+    {
+      "fold": "2024-11",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "trees": 8000,
+      "prediction_sha256": "6827ae582eaf446b256467341c94fb0dfa6a91339e4d4488203037681c5741d2"
+    },
+    {
+      "fold": "2024-11",
+      "model": "xgboost_log_diff",
+      "configuration": "baseline",
+      "trees": 3750,
+      "prediction_sha256": "0a7c4e34a97cc091b33461f4e6c93d6d35055d1edc1e220a188822d2e9788119"
+    },
+    {
+      "fold": "2024-11",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 3750,
+      "prediction_sha256": "fdb08edc90eb91f57da18afe082b366a56f0bf668b97901622324822a8c8f52f"
+    },
+    {
+      "fold": "2024-12",
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "trees": 6500,
+      "prediction_sha256": "ff389d56d1132268e0e7b12e273d8ebde3a89a438c0615266f431bb455e05a9c"
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "trees": 7000,
+      "prediction_sha256": "a3d419630eca67fa9ade4c519f37b0644df3c42af575158a34ea6c125f9cef67"
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 7000,
+      "prediction_sha256": "a065894755d4ab3171cc9fd4c42a9552a1bddbdd464dcebb164c43596c6fdfb9"
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_level",
+      "configuration": "baseline",
+      "trees": 8000,
+      "prediction_sha256": "43a0addfd63b9aaa27c195d46cc371a35ba83ee0b0c42d8541c3aa1159f789a2"
+    },
+    {
+      "fold": "2024-12",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "trees": 8000,
+      "prediction_sha256": "c37aa0ec839b19293164d4ed6cd065e077ab36f48878db4246f0afdd54430ae3"
+    },
+    {
+      "fold": "2024-12",
+      "model": "xgboost_log_diff",
+      "configuration": "baseline",
+      "trees": 3750,
+      "prediction_sha256": "9cbcf4a3a00e0002d22e291331f1f7e4c1c28c5d66ed544e9a1cb6acd596b818"
+    },
+    {
+      "fold": "2024-12",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 3750,
+      "prediction_sha256": "018ca78872e6c81a7d213d34f02a2b7c004b6a611b5a5a68185daea3a3f92fab"
+    },
+    {
+      "fold": "2025-01",
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "trees": 6500,
+      "prediction_sha256": "0fabaf23a48768f65741a8c1dc20dae48d85aa5f7a22867aa767d68b343b6bd7"
+    },
+    {
+      "fold": "2025-01",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "trees": 7000,
+      "prediction_sha256": "4d4a679a9b219d0d0e0e5b7b93f38846c0bf272dd85f514b6da33ace4c8bfd44"
+    },
+    {
+      "fold": "2025-01",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 7000,
+      "prediction_sha256": "69b7d3b4c865425a3eded380ffbbfa8ba6ec9d1984916c39be8f6dd1e6c2f250"
+    },
+    {
+      "fold": "2025-01",
+      "model": "lightgbm_log_level",
+      "configuration": "baseline",
+      "trees": 8000,
+      "prediction_sha256": "39d58fd082ce8dd062ef5894c45d2d9f84104805b9d3161bc1c0765796094692"
+    },
+    {
+      "fold": "2025-01",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "trees": 8000,
+      "prediction_sha256": "1d961f126063974a8ac61621c26830d84c0286a13facb7ff5b2d8ca8a0d5cf91"
+    },
+    {
+      "fold": "2025-01",
+      "model": "xgboost_log_diff",
+      "configuration": "baseline",
+      "trees": 3750,
+      "prediction_sha256": "1f6a0cf22f4ba1708ece21598edba84331a212c4334231d9e102db4028af18b2"
+    },
+    {
+      "fold": "2025-01",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 3750,
+      "prediction_sha256": "98bd11e42b0118c008affcdb8c55179ecf26b455910762b72fd343028bb15006"
+    },
+    {
+      "fold": "2025-02",
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "trees": 6500,
+      "prediction_sha256": "1138936e96c28b3257a9e0ae4a51a144590f22c667edc32d031cf034865f6028"
+    },
+    {
+      "fold": "2025-02",
+      "model": "lightgbm_log_diff",
+      "configuration": "baseline",
+      "trees": 7000,
+      "prediction_sha256": "887fe9a992985f67075ede31e4fe5322a241e3eb17518d97fd6c15f46d21ae75"
+    },
+    {
+      "fold": "2025-02",
+      "model": "lightgbm_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 7000,
+      "prediction_sha256": "8c6c7661cf4837b8ca371dfde85d609ca5965d2a18fa8e0b320c3b2540efed3a"
+    },
+    {
+      "fold": "2025-02",
+      "model": "lightgbm_log_level",
+      "configuration": "baseline",
+      "trees": 8000,
+      "prediction_sha256": "1392ba13b994685f5f5091ebde765188294fe8bb4b3090a208851efd45cb51db"
+    },
+    {
+      "fold": "2025-02",
+      "model": "lightgbm_log_level",
+      "configuration": "wx_knn6",
+      "trees": 8000,
+      "prediction_sha256": "9870177fbfd5e0037c805b30768637bfe2e04588a39dc95ad89bb77c4830cd15"
+    },
+    {
+      "fold": "2025-02",
+      "model": "xgboost_log_diff",
+      "configuration": "baseline",
+      "trees": 3750,
+      "prediction_sha256": "523bf0cd3a89ed18d5448d6cc36baf36a7fc898fb9fa8fc392d29851ebc46bfc"
+    },
+    {
+      "fold": "2025-02",
+      "model": "xgboost_log_diff",
+      "configuration": "wx_knn12",
+      "trees": 3750,
+      "prediction_sha256": "981991f67de2f5fe0ea6e54ced6c1dfdb8c27c285aaeddb5a8ad1ace1ee2f5a7"
+    }
+  ],
+  "march_sources": [
+    {
+      "file": "baseline/test_catboost_log_level.csv",
+      "sha256": "8267a989ac8ba2a750961ef77c59a5f0c70973b6c9fbee9a8c2ef093b9368899"
+    },
+    {
+      "file": "baseline/test_lightgbm_log_diff.csv",
+      "sha256": "f0e5b6d81c41d8abff720b84fb349b81d007606ff17f87abce0b8d9923d738cb"
+    },
+    {
+      "file": "experimental/test_lightgbm_log_diff.csv",
+      "sha256": "ca42247b9685b20678d2fa470c0c41e49c0bf609e7578c96f9ea7124142d6133"
+    },
+    {
+      "file": "baseline/test_lightgbm_log_level.csv",
+      "sha256": "675b06c91b6103c9dd0b8b9e85c264e351f792ec995b5c537d48bc9ff13c582d"
+    },
+    {
+      "file": "experimental/test_lightgbm_log_level.csv",
+      "sha256": "07c997dd9e97339cead995d2952772f46885839365c111dfe9b4d491b5b21902"
+    },
+    {
+      "file": "baseline/test_xgboost_log_diff.csv",
+      "sha256": "eaa200f244eb23e4143da05a0f8f7ec88d058f389bff698df8d847fabeb7dc4c"
+    },
+    {
+      "file": "experimental/test_xgboost_log_diff.csv",
+      "sha256": "86f60d27a82974b8585bee40cc79cb31d35f72820e66c027c98fb82878b5b382"
+    }
+  ],
+  "files": [
+    {
+      "order": 1,
+      "file": "01_winner_gated_all/test.csv",
+      "composition": "xgb_ld",
+      "composition_label": "WX: XGBoost и LightGBM приростов",
+      "rule": "gated_1_08_all",
+      "rule_label": "Порог 1,08, четыре модели",
+      "validation": {
+        "2024-08": 4.164873031082189,
+        "2024-11": 3.5344307729861106,
+        "2024-12": 3.8033477483197764,
+        "2025-01": 3.779500140096132,
+        "2025-02": 4.262854658036922,
+        "development_mean": 3.834217184129359,
+        "confirmation_mean": 4.021177399066527
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443336,
+      "sha256": "b16f8bfa20aa78dd6a59852185b1cd84206272ce6636614c9fb5964e9626bdd5"
+    },
+    {
+      "order": 2,
+      "file": "02_winner_log_average/test.csv",
+      "composition": "xgb_ld",
+      "composition_label": "WX: XGBoost и LightGBM приростов",
+      "rule": "log_average",
+      "rule_label": "Логарифмическое среднее",
+      "validation": {
+        "2024-08": 4.20167847903078,
+        "2024-11": 3.539082096299536,
+        "2024-12": 3.851884155481802,
+        "2025-01": 3.7945464622943756,
+        "2025-02": 4.258870464931714,
+        "development_mean": 3.864214910270706,
+        "confirmation_mean": 4.026708463613045
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443437,
+      "sha256": "46613e5cc87c69873fca38dbbc10550d1af2dd2ab6759860a118a5ba498d1b48"
+    },
+    {
+      "order": 3,
+      "file": "03_winner_equal/test.csv",
+      "composition": "xgb_ld",
+      "composition_label": "WX: XGBoost и LightGBM приростов",
+      "rule": "equal",
+      "rule_label": "Обычное среднее",
+      "validation": {
+        "2024-08": 4.212580778054687,
+        "2024-11": 3.5425087691732924,
+        "2024-12": 3.841618839233654,
+        "2025-01": 3.791903794754562,
+        "2025-02": 4.262894215901862,
+        "development_mean": 3.865569462153878,
+        "confirmation_mean": 4.027399005328212
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443349,
+      "sha256": "3c835f8b26f50e1116e1e8b66575f68f19dee9e180bdba87e3674177a0a9d5a5"
+    },
+    {
+      "order": 4,
+      "file": "04_three_wx_original_mix/test.csv",
+      "composition": "xgb_ld_ll",
+      "composition_label": "WX: XGBoost и оба LightGBM",
+      "rule": "final_meta_logmean",
+      "rule_label": "Исходная meta-смесь",
+      "validation": {
+        "2024-08": 4.167767307178103,
+        "2024-11": 3.5589027622679006,
+        "2024-12": 3.812338143281451,
+        "2025-01": 3.799520321550752,
+        "2025-02": 4.349020135995333,
+        "development_mean": 3.8463360709091514,
+        "confirmation_mean": 4.074270228773043
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443460,
+      "sha256": "de6c97968ad3794ff3d6384c2a45c53435618e7bcbf394a8b528066f33e3dacc"
+    },
+    {
+      "order": 5,
+      "file": "05_three_wx_gated_all/test.csv",
+      "composition": "xgb_ld_ll",
+      "composition_label": "WX: XGBoost и оба LightGBM",
+      "rule": "gated_1_08_all",
+      "rule_label": "Порог 1,08, четыре модели",
+      "validation": {
+        "2024-08": 4.111123868626846,
+        "2024-11": 3.541172960557882,
+        "2024-12": 3.8130534714987006,
+        "2025-01": 3.790885424526644,
+        "2025-02": 4.364379540729848,
+        "development_mean": 3.821783433561143,
+        "confirmation_mean": 4.077632482628246
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443311,
+      "sha256": "5d4f6cd48374c10ec27923cf2e265cbe3a335cca5aff627190635610d1bb068f"
+    },
+    {
+      "order": 6,
+      "file": "06_three_wx_log_average/test.csv",
+      "composition": "xgb_ld_ll",
+      "composition_label": "WX: XGBoost и оба LightGBM",
+      "rule": "log_average",
+      "rule_label": "Логарифмическое среднее",
+      "validation": {
+        "2024-08": 4.147109438598816,
+        "2024-11": 3.5456742915574186,
+        "2024-12": 3.858107885783816,
+        "2025-01": 3.8015819381743974,
+        "2025-02": 4.360526795457029,
+        "development_mean": 3.85029720531335,
+        "confirmation_mean": 4.081054366815714
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443318,
+      "sha256": "45ac44cc055747de92f2b05b8738b2652941c012e68f3532c828a303665d23c4"
+    },
+    {
+      "order": 7,
+      "file": "07_three_wx_equal/test.csv",
+      "composition": "xgb_ld_ll",
+      "composition_label": "WX: XGBoost и оба LightGBM",
+      "rule": "equal",
+      "rule_label": "Обычное среднее",
+      "validation": {
+        "2024-08": 4.158553282921141,
+        "2024-11": 3.549460167937388,
+        "2024-12": 3.8476432331160555,
+        "2025-01": 3.799046373967533,
+        "2025-02": 4.366524597742155,
+        "development_mean": 3.8518855613248615,
+        "confirmation_mean": 4.082785485854844
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443300,
+      "sha256": "f5ac542594b15d3ad888afe5d1f547daaa3fac50421d03f304b6d375a924e850"
+    },
+    {
+      "order": 8,
+      "file": "08_xgb_ll_wx_gated_no_ld/test.csv",
+      "composition": "xgb_ll",
+      "composition_label": "WX: XGBoost и LightGBM уровней",
+      "rule": "gated_1_08_no_weak",
+      "rule_label": "Порог 1,08, три модели без LightGBM приростов",
+      "validation": {
+        "2024-08": 4.286316363454937,
+        "2024-11": 3.6296680994135078,
+        "2024-12": 3.8066974375231393,
+        "2025-01": 3.8444087058668885,
+        "2025-02": 4.324792996939748,
+        "development_mean": 3.907560633463861,
+        "confirmation_mean": 4.0846008514033185
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [
+        "lightgbm_log_diff"
+      ],
+      "rows": 18657,
+      "bytes": 443394,
+      "sha256": "b87e69c965c4648fa7f89c19afd388e0bf36ee951a52afc33db6712330c893ca"
+    },
+    {
+      "order": 9,
+      "file": "09_xgb_ll_wx_gated_all/test.csv",
+      "composition": "xgb_ll",
+      "composition_label": "WX: XGBoost и LightGBM уровней",
+      "rule": "gated_1_08_all",
+      "rule_label": "Порог 1,08, четыре модели",
+      "validation": {
+        "2024-08": 4.125539697856546,
+        "2024-11": 3.6280912346709613,
+        "2024-12": 4.085552241389643,
+        "2025-01": 3.795929745968559,
+        "2025-02": 4.439986710752619,
+        "development_mean": 3.9463943913057165,
+        "confirmation_mean": 4.117958228360589
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443290,
+      "sha256": "1e1db10530c54d0c5a8260d7b4a0f079c93cf985786c294e7072b12f91dcbe9e"
+    },
+    {
+      "order": 10,
+      "file": "10_xgb_ll_wx_log_average/test.csv",
+      "composition": "xgb_ll",
+      "composition_label": "WX: XGBoost и LightGBM уровней",
+      "rule": "log_average",
+      "rule_label": "Логарифмическое среднее",
+      "validation": {
+        "2024-08": 4.173195950215381,
+        "2024-11": 3.6420302943374194,
+        "2024-12": 4.276993560497773,
+        "2025-01": 3.8097688004969585,
+        "2025-02": 4.435656605861641,
+        "development_mean": 4.030739935016857,
+        "confirmation_mean": 4.1227127031793
+      },
+      "wins_both_months_vs_current_public_reference": false,
+      "excluded_models": [],
+      "rows": 18657,
+      "bytes": 443362,
+      "sha256": "68447f8f5694036a9b4697c326575ea25e7838238a4076d50cd2eb99bb064f34"
+    }
+  ],
+  "excluded_duplicate_candidates": [
+    {
+      "composition": "xgb_ld",
+      "rule": "gated_1_08_no_weak",
+      "matches": [
+        "C:\\Users\\smirn\\OneDrive\\Рабочий стол\\Spatialeconometrics-HW1\\Forecasting\\submissions\\2025-03-course-ensemble-followups\\03_xgb_wx_gated_no_ld\\test.csv"
+      ],
+      "excluded_from_batch": true
+    }
+  ],
+  "duplicate_check": {
+    "known_files": 26,
+    "absolute_tolerance": 1e-06,
+    "relative_tolerance": 1e-12,
+    "no_duplicates": true
+  },
+  "automatic_submissions": false,
+  "public_scores_available": true,
+  "evaluation_context": {
+    "phase": "post_competition",
+    "score_scope": "main_final_march_2025_ranking_set",
+    "reported_by_user": true,
+    "clarified_on": "2026-10-11",
+    "public_subset_only": false,
+    "exact_store_coverage_confirmed": false,
+    "coverage_note": "User reports the competition is long finished and scores come from the main final March test/private ranking set; exact distinction between all final stores and a private partition is uncertain.",
+    "actual_march_targets_available": false,
+    "score_interpretation": "Observed performance on the contest's post-competition ranking test; do not describe it as the small public subset from the original live-competition rules.",
+    "selection_policy": "Prioritize observed final contest scores for choosing the contest mixture; retain validation as diagnostics and record that mixtures are selected after final-test feedback.",
+    "legacy_metadata_note": "Some historical filenames and keys retain 'public' for compatibility. Their score values refer to the final ranking set specified here."
+  },
+  "public_subset_only": false,
+  "exploratory_after_contest_feedback": true,
+  "contest_scores_available": true,
+  "contest_results_file": "contest_results.json",
+  "contest_results_sha256": "f0b9ab5214527672e1cb58736bcaaf5cf293163cb0465fee90c8dee8a6d04b33",
+  "contest_mapping_order_explicitly_confirmed": false,
+  "best_observed_score": 90.83,
+  "best_observed_orders": [
+    4,
+    5
+  ]
+}

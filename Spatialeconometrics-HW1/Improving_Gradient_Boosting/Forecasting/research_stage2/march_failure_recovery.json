@@ -1,0 +1,9 @@
+{
+  "original_error": "XGBoost fixed March fit applied isfinite to y_val=None",
+  "fix": "Check known validation targets only for early stopping; fixed March fit does not inspect y_val",
+  "old_implementation_sha256": "62c893407258a2d700e42302ec91a83f90546c7a20d0f9821d31282c19ff2eb1",
+  "new_implementation_sha256": "f3baf891dd37df0b53961e47e29ef2d107be436ddd6c5280827cfb89e619cf6f",
+  "frozen_selection_sha256": "4573488327d7678dc982b4bff3b30ec9c2930cfb306ff1ce76e5373108240a99",
+  "historical_parameters_and_data_unchanged": true,
+  "failed_partial_predictions_imported": false
+}

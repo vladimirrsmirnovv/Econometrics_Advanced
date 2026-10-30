@@ -1,0 +1,36 @@
+{
+  "status": "saved notebook output, not rerun",
+  "validation": "2025-02",
+  "models": {
+    "catboost_log_level": {
+      "mae": 4122463.70445923,
+      "rmse": 8811007.452453142,
+      "mape": 4.730607825406348,
+      "bias_pct": 0.19055639776061567,
+      "best_iteration": 671.0
+    },
+    "lightgbm_log_diff": {
+      "mae": 3671629.026165935,
+      "rmse": 7552506.40450315,
+      "mape": 4.607029373285924,
+      "bias_pct": 2.003131865119886,
+      "best_iteration": 685.0
+    },
+    "lightgbm_log_level": {
+      "mae": 4326508.5068759555,
+      "rmse": 8009508.209600486,
+      "mape": 5.150556425344623,
+      "bias_pct": 2.3665971581316643,
+      "best_iteration": 369.0
+    },
+    "xgboost_log_diff": {
+      "mae": 3473680.084063112,
+      "rmse": 7005270.650963966,
+      "mape": 4.4314600477414245,
+      "bias_pct": 2.4043034193846933,
+      "best_iteration": 440.0
+    }
+  },
+  "public_score_annotation": 90.64,
+  "public_score_independently_verified": false
+}

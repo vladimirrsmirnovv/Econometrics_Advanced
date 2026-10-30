@@ -1,0 +1,92 @@
+{
+  "mae": 3293255.1432923814,
+  "rmse": 6852119.661841808,
+  "mape": 4.152369396680093,
+  "bias_pct": 1.6737355156742226,
+  "model": "xgboost_log_diff",
+  "configuration": "hybrid_slx",
+  "fold": "2025-02",
+  "backend": "CUDA",
+  "device": "cuda:0",
+  "xgboost_version": "3.1.3",
+  "parameters": {
+    "booster": "gbtree",
+    "objective": "reg:absoluteerror",
+    "eval_metric": "mae",
+    "n_estimators": 3750,
+    "learning_rate": 0.05724447518091817,
+    "max_depth": 6,
+    "min_child_weight": 65.3911328521089,
+    "subsample": 0.5747874537857779,
+    "colsample_bytree": 0.9625598201907856,
+    "colsample_bylevel": 0.856900419225567,
+    "colsample_bynode": 0.9822224958770875,
+    "reg_lambda": 160.0,
+    "reg_alpha": 0.00044247306115915205,
+    "gamma": 0.35689223407647563,
+    "max_bin": 256,
+    "grow_policy": "depthwise",
+    "tree_method": "hist",
+    "device": "cuda",
+    "random_state": 42,
+    "n_jobs": -1,
+    "verbosity": 0,
+    "early_stopping_rounds": 100
+  },
+  "features_added": [
+    "hybrid_slx__market_growth_forecast",
+    "hybrid_slx__forecast_vs_recent_growth"
+  ],
+  "features": 23,
+  "best_iteration": 1204,
+  "seconds": 18.43320771499998,
+  "baseline_mape": 4.4314600477414245,
+  "delta_mape": -0.27909065106133113,
+  "relative_improvement_pct": 6.29793901004647,
+  "shops_improved_pct": 60.417001661574744,
+  "ape_change_quantiles": {
+    "0.05": -1.8348915183369463,
+    "0.25": -0.9812804929191214,
+    "0.5": -0.2879484831096697,
+    "0.75": 0.4345348654261212,
+    "0.95": 1.3609021027355996
+  },
+  "validation_only": true,
+  "leakage_check": "passed",
+  "feature_version": "research_v1",
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "source_feature_checks": {
+    "status": "passed",
+    "time_tests": [
+      {
+        "fold": "2024-03",
+        "target_and_all_future_replaced": true,
+        "train_and_holdout_feature_rows_checked": 279855,
+        "features": 96,
+        "passed": true
+      },
+      {
+        "fold": "2025-01",
+        "target_and_all_future_replaced": true,
+        "train_and_holdout_feature_rows_checked": 466425,
+        "features": 96,
+        "passed": true
+      },
+      {
+        "fold": "2025-02",
+        "target_and_all_future_replaced": true,
+        "train_and_holdout_feature_rows_checked": 485082,
+        "features": 96,
+        "passed": true
+      }
+    ],
+    "row_permutation_passed": true,
+    "feature_version": "research_v1",
+    "implementation_hashes": {
+      "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+      "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+    },
+    "native_float_tolerance": 1e-06,
+    "training_cutoff": "strictly earlier realised outcomes"
+  }
+}

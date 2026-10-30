@@ -1,0 +1,58 @@
+{
+  "mae": 3785045.512208312,
+  "rmse": 7480696.340054227,
+  "mape": 4.800417510834235,
+  "bias_pct": 2.955029568115692,
+  "model": "xgboost_log_diff",
+  "best_iteration": 600,
+  "features": 27,
+  "train_rows": 466425,
+  "holdout_rows": 18657,
+  "device_changes": {
+    "device": {
+      "original": "cuda",
+      "local": "cpu"
+    }
+  },
+  "threads": 4,
+  "experiment": "xgboost_log_diff_exp50_static",
+  "year": 2025,
+  "month": 2,
+  "seconds": 26.3809326000046,
+  "baseline_mape": 4.936438075648175,
+  "delta_mape": -0.13602056481393987,
+  "extra_features": [
+    "wx_log_population_size",
+    "wx_log_number_of_households",
+    "wx_log_pedestrian_traffic_per_hour",
+    "wx_log_car_traffic_per_hour",
+    "wx_log_grocery_stores_500m",
+    "wx_log_pyaterochka_stores_500m"
+  ],
+  "spatial_metadata": {
+    "locations": 3360,
+    "coordinate_locations": 3360,
+    "coordinate_stores": 18657,
+    "stores": 18657,
+    "ambiguous_coordinate_keys_rejected": 0,
+    "geometry": "settlement centroids; full competition store set",
+    "linkage": "normalized region + settlement name + settlement type; never old new_id",
+    "research_coordinate_overrides": 933,
+    "weights": "exp50",
+    "nnz": 1052688,
+    "features": [
+      "wx_log_population_size",
+      "wx_log_number_of_households",
+      "wx_log_pedestrian_traffic_per_hour",
+      "wx_log_car_traffic_per_hour",
+      "wx_log_grocery_stores_500m",
+      "wx_log_pyaterochka_stores_500m",
+      "wy_log_daily_lag1",
+      "wy_daily_growth_lag1",
+      "wy_daily_growth_1_3",
+      "wy_log_daily_gap_lag1"
+    ],
+    "missing_coordinate_policy": "NaN spatial features; retain every store",
+    "revenue_cutoff": "all revenue features at t use only times <= t-1"
+  }
+}

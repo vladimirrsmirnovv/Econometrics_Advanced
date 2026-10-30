@@ -1,0 +1,31 @@
+{
+  "source": "User screenshots and explicit before/after ordering, 2026-10-09",
+  "individual_ids_before": [
+    167812607,
+    167812856,
+    167812879,
+    167812903
+  ],
+  "individual_ids_after": [
+    167812841,
+    167812869,
+    167812891,
+    167812913
+  ],
+  "ensemble_scores": {
+    "original": 90.78,
+    "previous_equal": 90.78,
+    "previous_gated_1_08_all": 90.79
+  },
+  "actual_march_outcomes_available": false,
+  "used_for_new_selection": false,
+  "score_to_mape_conversion": true,
+  "metric_source": "Full competition conditions provided directly by user, 2026-10-09",
+  "metric": "Unweighted store MAPE in percent",
+  "score_formula": "100 * ((100 - min(MAPE, 100)) / 100) ** 2",
+  "inverse_for_positive_score": "100 * (1 - sqrt(score / 100))",
+  "scores_rounded_decimals": 2,
+  "current_leaderboard_subset_unknown": true,
+  "competition_note": "During competition scores cover a subset; final score covers all stores. Current displayed subset status is unknown.",
+  "example_typo": "The provided example 80% MAPE -> 20 points conflicts with the formula; the formula gives 4 points."
+}

@@ -1,0 +1,9 @@
+model,fold,configuration,trees,mape
+catboost_log_level,2024-08,baseline,6500,4.406958810157034
+lightgbm_log_diff,2024-08,baseline,7000,4.468499113558167
+lightgbm_log_level,2024-08,baseline,8000,3.9611818547886
+xgboost_log_diff,2024-08,baseline,3750,5.230685351848456
+catboost_log_level,2024-12,baseline,6500,4.545839904703933
+lightgbm_log_diff,2024-12,baseline,7000,7.557873926069078
+lightgbm_log_level,2024-12,baseline,8000,3.824304997182538
+xgboost_log_diff,2024-12,baseline,3750,5.52553024512955

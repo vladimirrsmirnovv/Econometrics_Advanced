@@ -1,0 +1,71 @@
+{
+  "model": "catboost_log_level",
+  "fold": "2024-12",
+  "configuration": "previous",
+  "underlying_configuration": "exp50_history",
+  "protocol": "rolling",
+  "trees": 1321,
+  "inner_selected_trees": 1321,
+  "inner_fold": "2024-11",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "8aa68f4b2eeb51c5fcada35e27a8753c62b35e11a7064f5b09526bdeed46e056",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 1321,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": false,
+    "thread_count": 4,
+    "allow_writing_files": false
+  },
+  "features_added": [
+    "wy_log_daily_lag1",
+    "wy_daily_growth_lag1",
+    "wy_daily_growth_1_3",
+    "wy_log_daily_gap_lag1"
+  ],
+  "correction": {
+    "prior_fold": "2024-11",
+    "coefficient": 0.5,
+    "clipped_mean_log_error": 0.013373886147912954,
+    "factor": 1.0067093505958904,
+    "prior_prediction_sha256": "58a9faef0a25e24577339d344a41888ae9fe6e532b03e8b299ee56ef38685fb4",
+    "spatial": false
+  },
+  "seconds": 263.3159843560006,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "62c893407258a2d700e42302ec91a83f90546c7a20d0f9821d31282c19ff2eb1",
+  "feature_checks": {
+    "status": "passed",
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "canonical_feature_exact": true
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-12/catboost_log_level/models/previous.cbm",
+  "model_sha256": "871b1a1846e2f58f7f04062272850b94f89f22c90fab638aa48c38e7a61a16d9",
+  "prediction_sha256": "1abca0a0a71002c500e0979e0bbc0dc29205ac2f43536dfcb391abf058e6d33f",
+  "feature_cache_sha256": "0dac17446f216a9a069606357caafe7924a26fd21c478101a97129393f3d83f4",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.1.3",
+    "scipy": "1.16.3",
+    "scikit-learn": "1.6.1"
+  },
+  "mae": 4817945.539285236,
+  "rmse": 8502987.324524889,
+  "mape": 4.315466647210385,
+  "bias_pct": -0.02201845174595262
+}

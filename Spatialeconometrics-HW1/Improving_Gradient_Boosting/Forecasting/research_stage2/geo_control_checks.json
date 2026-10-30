@@ -1,0 +1,7 @@
+{
+  "status": "passed",
+  "future_current_replacement": true,
+  "row_shuffle": true,
+  "early_period_exact_adaptive_parity": true,
+  "implementation_sha256": "a40c7fd845f618a475a9cbac60ed928b12396bb513f87efe7daa65f24c81ebbb"
+}

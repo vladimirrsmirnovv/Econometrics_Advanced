@@ -1,0 +1,65 @@
+{
+  "mae": 3767168.135565119,
+  "rmse": 6916806.703993049,
+  "mape": 4.2080912555032475,
+  "bias_pct": -0.3878894318441905,
+  "model": "lightgbm_log_level",
+  "best_iteration": 2016,
+  "features": 40,
+  "train_rows": 447768,
+  "holdout_rows": 18657,
+  "device_changes": {},
+  "threads": 4,
+  "configuration": "growth_exp50",
+  "fold": "2025-01",
+  "backend": "CPU",
+  "seconds": 41.25045890000183,
+  "baseline_mape": 4.272006521074391,
+  "delta_mape": -0.06391526557114346,
+  "relative_improvement_pct": 1.496141573189103,
+  "shops_improved_pct": 51.58921584391917,
+  "ape_change_quantiles": {
+    "0.05": -2.648091685548163,
+    "0.25": -1.0323165944936958,
+    "0.5": -0.05591732872105837,
+    "0.75": 0.8948129457346079,
+    "0.95": 2.528971605817024
+  },
+  "features_added": [
+    "growth_exp50__monthly_growth_lag1",
+    "growth_exp50__monthly_growth_lag2",
+    "growth_exp50__monthly_growth_lag3",
+    "growth_exp50__acceleration",
+    "growth_exp50__growth_mean3",
+    "growth_exp50__own_peer_growth_gap"
+  ],
+  "feature_version": "research_v1",
+  "implementation_hashes": {
+    "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+    "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+  },
+  "leakage_check": "passed",
+  "parameters": {
+    "max_depth": 4,
+    "num_leaves": 15,
+    "n_estimators": 8000,
+    "learning_rate": 0.04531627412595812,
+    "min_child_samples": 130,
+    "min_child_weight": 0.040163626155384095,
+    "min_split_gain": 0.02347677898370515,
+    "subsample": 0.8463795928214712,
+    "colsample_bytree": 0.652567919146617,
+    "reg_alpha": 0.02058508138335955,
+    "reg_lambda": 68.63746198978158,
+    "max_bin": 255
+  },
+  "environment": {
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "validation_only": true
+}

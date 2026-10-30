@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "folds": [
+    "2024-03",
+    "2025-01",
+    "2025-02"
+  ],
+  "source_sha256": "d4f9930a4795e43bb18c3e0ef05851a2e3ac88ffae7e3518d7b4dc37e5b7761d",
+  "sample_stores": 160
+}

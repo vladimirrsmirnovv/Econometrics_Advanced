@@ -1,0 +1,107 @@
+{
+  "status": "user_reported_order_confirmed",
+  "mapping_basis": "User explicitly states submitted first through seventh; screenshot chronological order",
+  "screenshot_file": "C:\\Users\\smirn\\AppData\\Local\\Temp\\codex-clipboard-be46c6fa-30e9-40a7-932f-f8d619c168b4.png",
+  "public_subset_only": false,
+  "scores_rounded_to_two_decimals": true,
+  "original_frozen_validation_decision_changed": false,
+  "submissions": [
+    {
+      "order": 1,
+      "file": "01_xgb_cat_wx_meta/test.csv",
+      "sha256": "ff63474ec88ccbc26e8232105de87ba7dacdbdad6b2e652dccb0034d8d686bab",
+      "label": "WX у XGBoost и CatBoost; оба LightGBM исходные",
+      "submitted_at": "2026-10-11 13:22:10",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918215,
+      "verdict": "OK",
+      "public_score": 90.76,
+      "contest_score": 90.76
+    },
+    {
+      "order": 2,
+      "file": "02_xgb_ld_wx_meta/test.csv",
+      "sha256": "b98581e84ae2cfc2f163cf736f3d14b1d05183a6009706d8140e3ef8d604e1e5",
+      "label": "WX у XGBoost и LightGBM приростов; остальные исходные",
+      "submitted_at": "2026-10-11 13:22:18",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918221,
+      "verdict": "OK",
+      "public_score": 90.82,
+      "contest_score": 90.82
+    },
+    {
+      "order": 3,
+      "file": "03_xgb_wx_gated_no_ld/test.csv",
+      "sha256": "c1a2652f48463205698c6fdf072b7b870454bb0bb01f0a14c0b4937d8d45c7ec",
+      "label": "XGBoost WX + исходные CatBoost и LightGBM уровней; смесь трёх с порогом 1,08",
+      "submitted_at": "2026-10-11 13:22:24",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918232,
+      "verdict": "OK",
+      "public_score": 90.81,
+      "contest_score": 90.81
+    },
+    {
+      "order": 4,
+      "file": "04_xgb_wx_gated_all/test.csv",
+      "sha256": "8100721862ece58e662937e8b55f43c6106285c17da08bf82ab1c17f99ac8fd8",
+      "label": "Только XGBoost WX; смесь четырёх с порогом 1,08",
+      "submitted_at": "2026-10-11 13:22:31",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918237,
+      "verdict": "OK",
+      "public_score": 90.79,
+      "contest_score": 90.79
+    },
+    {
+      "order": 5,
+      "file": "05_xgb_wx_equal/test.csv",
+      "sha256": "b68752001ef555020ebd12e8f0e2c3e4b3b00a4af57d0c60f0f93d4f797f705c",
+      "label": "Только XGBoost WX; обычное среднее четырёх",
+      "submitted_at": "2026-10-11 13:22:37",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918244,
+      "verdict": "OK",
+      "public_score": 90.78,
+      "contest_score": 90.78
+    },
+    {
+      "order": 6,
+      "file": "06_xgb_wx_log_average/test.csv",
+      "sha256": "bdd0d7b3f6d50bb0549e620dc48ad98490702a3e9af0045ca55f8358a0171a65",
+      "label": "Только XGBoost WX; логарифмическое среднее четырёх",
+      "submitted_at": "2026-10-11 13:22:44",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918251,
+      "verdict": "OK",
+      "public_score": 90.78,
+      "contest_score": 90.78
+    },
+    {
+      "order": 7,
+      "file": "07_xgb_ll_wx_meta/test.csv",
+      "sha256": "bc469b339a276f050456e42060ed302bdb209caba31701f2f61769aa87082fb2",
+      "label": "WX у XGBoost и LightGBM уровней; остальные исходные",
+      "submitted_at": "2026-10-11 13:22:50",
+      "timezone": "Europe/Moscow",
+      "submission_id": 167918261,
+      "verdict": "OK",
+      "public_score": 90.81,
+      "contest_score": 90.81
+    }
+  ],
+  "evaluation_context": {
+    "phase": "post_competition",
+    "score_scope": "main_final_march_2025_ranking_set",
+    "reported_by_user": true,
+    "clarified_on": "2026-10-11",
+    "public_subset_only": false,
+    "exact_store_coverage_confirmed": false,
+    "coverage_note": "User reports the competition is long finished and scores come from the main final March test/private ranking set; exact distinction between all final stores and a private partition is uncertain.",
+    "actual_march_targets_available": false,
+    "score_interpretation": "Observed performance on the contest's post-competition ranking test; do not describe it as the small public subset from the original live-competition rules.",
+    "selection_policy": "Prioritize observed final contest scores for choosing the contest mixture; retain validation as diagnostics and record that mixtures are selected after final-test feedback.",
+    "legacy_metadata_note": "Some historical filenames and keys retain 'public' for compatibility. Their score values refer to the final ranking set specified here."
+  }
+}

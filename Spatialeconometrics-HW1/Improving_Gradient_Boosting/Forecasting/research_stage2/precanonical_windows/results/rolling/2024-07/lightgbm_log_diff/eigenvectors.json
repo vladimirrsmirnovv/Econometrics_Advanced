@@ -1,0 +1,94 @@
+{
+  "model": "lightgbm_log_diff",
+  "fold": "2024-07",
+  "configuration": "eigenvectors",
+  "underlying_configuration": "eigenvectors",
+  "protocol": "rolling",
+  "trees": 717,
+  "inner_selected_trees": 717,
+  "inner_fold": "2024-06",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "cf107fbeb816962f16090ffe7bce2c2e3cf066df650339272dcb3b9bb200abc8",
+  "parameters": {
+    "max_depth": 7,
+    "num_leaves": 127,
+    "n_estimators": 717,
+    "learning_rate": 0.013487679469219714,
+    "min_child_samples": 60,
+    "min_child_weight": 0.02412331238411164,
+    "subsample": 0.6069273190624236,
+    "subsample_freq": 3,
+    "colsample_bytree": 0.8940657969599699,
+    "feature_fraction_bynode": 0.9678479119119833,
+    "reg_lambda": 30.0,
+    "reg_alpha": 2.594629103454418e-06,
+    "min_split_gain": 0.03813044360465506,
+    "max_bin": 255,
+    "extra_trees": true,
+    "path_smooth": 0.2513953335264824,
+    "objective": "regression_l1",
+    "metric": "mae",
+    "random_state": 42,
+    "n_jobs": 4,
+    "verbosity": -1
+  },
+  "features_added": [
+    "eigenvectors__eigen_1",
+    "eigenvectors__eigen_2",
+    "eigenvectors__eigen_3",
+    "eigenvectors__eigen_4",
+    "eigenvectors__eigen_5",
+    "eigenvectors__eigen_6",
+    "eigenvectors__eigen_7",
+    "eigenvectors__eigen_8"
+  ],
+  "correction": null,
+  "seconds": 14.528690500068478,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "feature_checks": {
+    "status": "passed",
+    "tests": [
+      {
+        "cutoff": 17,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 19,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 22,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      },
+      {
+        "cutoff": 26,
+        "current_and_future_targets_changed": true,
+        "passed": true
+      }
+    ],
+    "row_order": true,
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "features": 18
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-07/lightgbm_log_diff/models/eigenvectors.txt",
+  "model_sha256": "759db8d7dd812682fdb2e09894537991f2edb2a3dbd2ec7097a746f6216ef40d",
+  "prediction_sha256": "f5ee20262589824e1f56a9c1d8d745b9553512ba92e885277af7bd344f5bd0e5",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.4.1"
+  },
+  "mae": 4475789.021544639,
+  "rmse": 8361945.614408454,
+  "mape": 4.470803020542777,
+  "bias_pct": -1.0089335078536423,
+  "originally_reported_implementation_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "provenance_correction": "Original local process loaded the archived phase1 source; the source file changed while it ran. Predictions and native artifacts are untouched."
+}

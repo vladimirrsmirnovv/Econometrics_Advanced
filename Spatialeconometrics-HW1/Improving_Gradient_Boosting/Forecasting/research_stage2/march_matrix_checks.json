@@ -1,0 +1,20 @@
+{
+  "status": "passed",
+  "checks": [
+    {
+      "model": "lightgbm_log_diff",
+      "original_final_matrices_exact": true,
+      "march_targets_all_nan": true
+    },
+    {
+      "model": "lightgbm_log_level",
+      "original_final_matrices_exact": true,
+      "march_targets_all_nan": true
+    },
+    {
+      "model": "xgboost_log_diff",
+      "original_final_matrices_exact": true,
+      "march_targets_all_nan": true
+    }
+  ]
+}

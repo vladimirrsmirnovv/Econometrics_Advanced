@@ -1,0 +1,19 @@
+{
+  "tag": "ll",
+  "phase": "confirmation",
+  "selected": "wx_knn6",
+  "model": "lightgbm_log_level",
+  "private": true,
+  "new_dataset": false,
+  "inputs": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+    "vladimirsmirnovve/x5-spatial-research-20261009"
+  ],
+  "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+  "worker_sha256": "b1cbcbac614c5ec9a756eb8717ff0f9afbbf210309cfa539106a7a5226d179d2",
+  "plan_sha256": "714d4d6471c001a5be53c6fd0b702ef28cd92c6bd4f836209ca152d78fcdb36a",
+  "payload_sha256": "391036c547676ca51b6421a6964427c7a60f89c72f2ca8e542d97db17cf2a9e9",
+  "notebook_sha256": "9e2542960a4a9006c95019150ddce403bb947cec05af163e4e2185ff4d2e03a4",
+  "original_recipe_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "backend": "CPU"
+}

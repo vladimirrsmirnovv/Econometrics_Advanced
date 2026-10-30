@@ -1,0 +1,7 @@
+{
+  "version": 1,
+  "status": "ERROR",
+  "stage": "before training",
+  "reason": "NumPy extension module mismatch after installing pinned packages in an already running notebook kernel",
+  "fix": "run GPU code in a fresh child Python process"
+}

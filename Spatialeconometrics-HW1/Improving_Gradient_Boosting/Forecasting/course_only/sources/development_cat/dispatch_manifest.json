@@ -1,0 +1,19 @@
+{
+  "tag": "cat",
+  "phase": "development",
+  "selected": null,
+  "model": "catboost_log_level",
+  "private": true,
+  "new_dataset": false,
+  "inputs": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+    "vladimirsmirnovve/x5-spatial-research-20261009"
+  ],
+  "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+  "worker_sha256": "b1cbcbac614c5ec9a756eb8717ff0f9afbbf210309cfa539106a7a5226d179d2",
+  "plan_sha256": "66722cb7152f7feb95ba17469d55a9a3f2e9bcba6765ebc120f3782b4bfa472a",
+  "payload_sha256": "52e4319a8a918af9df7711cd9f98d277ef8d653bfc58532a988cce8ef3012d2a",
+  "notebook_sha256": "69ab01f664296802c833470ab2da0f4d20a4dfbc8e7883c968fd26943cf367cf",
+  "original_recipe_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "backend": "CPU"
+}

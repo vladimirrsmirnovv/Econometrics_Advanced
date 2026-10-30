@@ -1,0 +1,69 @@
+{
+  "model": "catboost_log_level",
+  "fold": "2024-06",
+  "configuration": "previous",
+  "underlying_configuration": "exp50_history",
+  "protocol": "rolling",
+  "trees": 2270,
+  "inner_selected_trees": 2270,
+  "inner_fold": "2024-05",
+  "outer_target_used_for_stopping": false,
+  "source_inner_sha256": "77b6fa4683e3edd6dcccd66c1c9592417fb2a3b82959960a9b25439cb7222a6a",
+  "parameters": {
+    "loss_function": "MAE",
+    "bootstrap_type": "Bayesian",
+    "iterations": 2270,
+    "learning_rate": 0.017054252342948984,
+    "depth": 5,
+    "l2_leaf_reg": 3,
+    "random_strength": 21.38148662552484,
+    "one_hot_max_size": 29,
+    "max_ctr_complexity": 1,
+    "border_count": 192,
+    "has_time": true,
+    "leaf_estimation_iterations": 1,
+    "eval_metric": "MAE",
+    "bagging_temperature": 0.15112160137554814,
+    "verbose": false,
+    "thread_count": 4,
+    "allow_writing_files": false
+  },
+  "features_added": [
+    "wy_log_daily_lag1",
+    "wy_daily_growth_lag1",
+    "wy_daily_growth_1_3",
+    "wy_log_daily_gap_lag1"
+  ],
+  "correction": {
+    "prior_fold": "2024-05",
+    "coefficient": 0.5,
+    "clipped_mean_log_error": 0.011947340827696346,
+    "factor": 1.0059915483642208,
+    "prior_prediction_sha256": "ac9b861cfba9d76f5d1d63e18ef3fecf2a4977ecccb4a030a7307b062ebcb413",
+    "spatial": false
+  },
+  "seconds": 336.220644002,
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "implementation_sha256": "22d88c77229ed8d672d6eeebcd98c97746997963320c3f90a2212993e51caa00",
+  "feature_checks": {
+    "status": "passed",
+    "implementation_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+    "private_phase1_feature_byte_parity": true,
+    "outer_targets_never_used_for_stopping": true
+  },
+  "validation_only": true,
+  "model_file": "results/rolling/2024-06/catboost_log_level/models/previous.cbm",
+  "model_sha256": "d7fce384084a70de2f82f4c964183cb46376e630d909184cad22d88953f57e08",
+  "prediction_sha256": "ae7b067a82fca8e3bf61b673125488614ac8d23a4c322e3c5ba767cec379b510",
+  "environment": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "catboost": "1.2.10",
+    "lightgbm": "4.7.0",
+    "xgboost": "3.1.3"
+  },
+  "mae": 4321042.43044678,
+  "rmse": 8879068.482553516,
+  "mape": 4.508888636969672,
+  "bias_pct": 0.2554587291104828
+}

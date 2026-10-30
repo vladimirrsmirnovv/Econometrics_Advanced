@@ -1,0 +1,22 @@
+{
+  "status": "COMPLETE",
+  "verified_at_utc": "2026-10-09T12:46:30.046406+00:00",
+  "version": 4,
+  "xgboost_version_requested": "3.1.3",
+  "kernel_id": 137870461,
+  "url": "https://www.kaggle.com/code/vladimirsmirnovve/x5-xgboost-gpu-reproduction-20261009",
+  "is_private_requested": true,
+  "gpu_requested": "NvidiaTeslaT4",
+  "dataset_status": "ready",
+  "previous_successful_version": 3,
+  "previous_successful_xgboost": "3.4.1",
+  "actual_xgboost": "3.1.3",
+  "actual_device": "cuda:0",
+  "outputs_downloaded": true,
+  "historical_metrics_match": true,
+  "validation_mape": 4.4314600477414245,
+  "validation_stores": 18657,
+  "forecast_stores": 18657,
+  "ensemble_mape": 4.452558454833349,
+  "spatial_catboost_ensemble_mape": 4.356314198404874
+}

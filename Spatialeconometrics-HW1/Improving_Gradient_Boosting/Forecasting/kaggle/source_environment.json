@@ -1,0 +1,32 @@
+{
+  "source": "Forecasting\\baseline\\original_solution.ipynb",
+  "kaggle_metadata": {
+    "accelerator": "gpu",
+    "dataSources": [
+      {
+        "databundleVersionId": 17527382,
+        "datasetId": 10583187,
+        "mountSlug": "datasets/randallaament/train-2",
+        "sourceId": 16523403,
+        "sourceType": "datasetVersion"
+      }
+    ],
+    "dockerImageVersionId": 31401,
+    "isGpuEnabled": true,
+    "isInternetEnabled": true,
+    "language": "python",
+    "sourceType": "notebook"
+  },
+  "python_version": "3.12.13",
+  "installation_cell": "!pip install -q \\\nutilsforecast \\\nstatsforecast \\\nholidays \\\nhyperopt \\\ncategory_encoders \\\nsktime \\\nshap \\\nlightgbm \\\ncatboost \\\nxgboost \\\nstatsmodels \\\nsktime \\\nplotly \\\ntqdm",
+  "saved_xgboost_version_present": false,
+  "image_history_source": "https://github.com/Kaggle/docker-python/releases?page=2",
+  "candidate_versions": [
+    "3.1.3",
+    "3.2.0"
+  ],
+  "candidate_status": "Inferred from historical Kaggle image packages; source XGBoost version not recorded.",
+  "validated_reproduction_version": "3.1.3",
+  "historical_metrics_match": true,
+  "historical_xgboost_version_still_not_explicitly_recorded": true
+}

@@ -1,0 +1,17 @@
+{
+  "score_events": 78,
+  "all_three_scores": 90.83,
+  "all_three_verdicts": "OK",
+  "displayed_score_gain": 0.0,
+  "forecast_bytes_unchanged": true,
+  "id_to_file_order_inferred": true,
+  "batch_score_conclusion_independent_of_order": true,
+  "prior_protected_snapshot_mismatches": [
+    {
+      "file": "Forecasting/report/x5_spatial_forecast_report_10pages.tex",
+      "reference_sha256": "a018aa7627560d2a2899954dbbbf1e122c32b1fb33fd91d6381b3d7d9b8d8fec",
+      "current_sha256": "8a0f92350289a05c6db9a8779ec5251a7e00ba33dd9b09ee40e11abde071ed4a"
+    }
+  ],
+  "note": "The source-report mismatch is retained rather than resetting or overwriting unrelated edits. Result recording changed only score metadata, the registry, and their documentation."
+}

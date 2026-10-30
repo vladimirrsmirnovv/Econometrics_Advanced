@@ -1,0 +1,20 @@
+{
+  "fold": "2025-02",
+  "model": "xgboost_log_diff",
+  "configuration": "residual_ridge_past_only",
+  "mape": 4.465959846677274,
+  "mae": 3493735.4707383253,
+  "rmse": 7016983.440041116,
+  "bias_pct": 2.510584934086868,
+  "backend": "OOF learned postprocessing",
+  "validation_only": true,
+  "leakage_check": "passed",
+  "second_stage_training_months": [
+    "2024-03",
+    "2025-01"
+  ],
+  "test_month": "2025-02",
+  "ridge_alpha": 100,
+  "correction_weight": 0.5,
+  "limitation": "Only two separated training OOF months; February-only candidate, excluded from three-month component ranking"
+}

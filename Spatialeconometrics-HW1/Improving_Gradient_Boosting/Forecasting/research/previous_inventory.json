@@ -1,0 +1,372 @@
+[
+  {
+    "path": "Forecasting\\results\\2024-03\\catboost_log_level.json",
+    "fold": "2024-03",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level",
+    "mape": 5.497081757842346,
+    "seconds": 34.307321100030094,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\catboost_log_level_exp50_history.json",
+    "fold": "2024-03",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_exp50_history",
+    "mape": 5.293958289025795,
+    "seconds": 52.31000259995926,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\catboost_log_level_exp50_static.json",
+    "fold": "2024-03",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_exp50_static",
+    "mape": 5.863225170802293,
+    "seconds": 25.074311700067483,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\lightgbm_log_diff.json",
+    "fold": "2024-03",
+    "model": "lightgbm_log_diff",
+    "experiment": "lightgbm_log_diff",
+    "mape": 3.7219832698520383,
+    "seconds": 9.793364300043322,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\lightgbm_log_level.json",
+    "fold": "2024-03",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level",
+    "mape": 3.7554901177756803,
+    "seconds": 14.708824999979697,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\lightgbm_log_level_exp50_history.json",
+    "fold": "2024-03",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_exp50_history",
+    "mape": 4.105462042790964,
+    "seconds": 5.7674281999934465,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\lightgbm_log_level_exp50_static.json",
+    "fold": "2024-03",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_exp50_static",
+    "mape": 3.7489012740861813,
+    "seconds": 8.925417799968272,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2024-03\\xgboost_log_diff.json",
+    "fold": "2024-03",
+    "model": "xgboost_log_diff",
+    "experiment": "xgboost_log_diff",
+    "mape": 3.8220908269506797,
+    "seconds": 6.516560700023547,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\catboost_log_level.json",
+    "fold": "2025-01",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level",
+    "mape": 4.3776231727377395,
+    "seconds": 215.37811779999174,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\catboost_log_level_exp50_history.json",
+    "fold": "2025-01",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_exp50_history",
+    "mape": 4.074345811861164,
+    "seconds": 307.78710429999046,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\catboost_log_level_exp50_static.json",
+    "fold": "2025-01",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_exp50_static",
+    "mape": 3.9844753511338338,
+    "seconds": 373.08071419992484,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\lightgbm_log_diff.json",
+    "fold": "2025-01",
+    "model": "lightgbm_log_diff",
+    "experiment": "lightgbm_log_diff",
+    "mape": 4.003492094343937,
+    "seconds": 27.553752799984068,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\lightgbm_log_level.json",
+    "fold": "2025-01",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level",
+    "mape": 4.272006521074391,
+    "seconds": 25.964665099978447,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\lightgbm_log_level_exp50_history.json",
+    "fold": "2025-01",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_exp50_history",
+    "mape": 4.4155523922639155,
+    "seconds": 16.438342800014652,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\lightgbm_log_level_exp50_static.json",
+    "fold": "2025-01",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_exp50_static",
+    "mape": 4.279162987307881,
+    "seconds": 31.869525699992664,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-01\\xgboost_log_diff.json",
+    "fold": "2025-01",
+    "model": "xgboost_log_diff",
+    "experiment": "xgboost_log_diff",
+    "mape": 4.18268016304971,
+    "seconds": 16.99184100003913,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\catboost_log_level.json",
+    "fold": "2025-02",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level",
+    "mape": 4.730607825406348,
+    "seconds": 56.34622819989454,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\catboost_log_level_exp50_history.json",
+    "fold": "2025-02",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_exp50_history",
+    "mape": 4.28143613511523,
+    "seconds": 267.1441774000414,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\catboost_log_level_exp50_static.json",
+    "fold": "2025-02",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_exp50_static",
+    "mape": 4.367770332398169,
+    "seconds": 176.4992546000285,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\catboost_log_level_region_history.json",
+    "fold": "2025-02",
+    "model": "catboost_log_level",
+    "experiment": "catboost_log_level_region_history",
+    "mape": 4.660577634904196,
+    "seconds": 58.99794100003783,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\CUDA_equal.json",
+    "fold": "2025-02",
+    "model": "CUDA_equal",
+    "experiment": "CUDA_equal",
+    "mape": 4.462015177063707,
+    "seconds": null,
+    "version": null,
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\CUDA_final_meta_logmean.json",
+    "fold": "2025-02",
+    "model": "CUDA_final_meta_logmean",
+    "experiment": "CUDA_final_meta_logmean",
+    "mape": 4.452558454833349,
+    "seconds": null,
+    "version": null,
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\CUDA_final_meta_replace_catboost_history.json",
+    "fold": "2025-02",
+    "model": "CUDA_final_meta_replace_catboost_history",
+    "experiment": "CUDA_final_meta_replace_catboost_history",
+    "mape": 4.356314198404874,
+    "seconds": null,
+    "version": null,
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\CUDA_gated_1_08_all.json",
+    "fold": "2025-02",
+    "model": "CUDA_gated_1_08_all",
+    "experiment": "CUDA_gated_1_08_all",
+    "mape": 4.439693330353223,
+    "seconds": null,
+    "version": null,
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\CUDA_gated_1_08_no_weak.json",
+    "fold": "2025-02",
+    "model": "CUDA_gated_1_08_no_weak",
+    "experiment": "CUDA_gated_1_08_no_weak",
+    "mape": 4.478141427103373,
+    "seconds": null,
+    "version": null,
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\CUDA_log_average.json",
+    "fold": "2025-02",
+    "model": "CUDA_log_average",
+    "experiment": "CUDA_log_average",
+    "mape": 4.46231507927795,
+    "seconds": null,
+    "version": null,
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_diff.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_diff",
+    "experiment": "lightgbm_log_diff",
+    "mape": 4.607029373285924,
+    "seconds": 15.735556100029498,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_diff_exp50_history.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_diff",
+    "experiment": "lightgbm_log_diff_exp50_history",
+    "mape": 5.078688790665234,
+    "seconds": 8.43032729998231,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_diff_exp50_static.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_diff",
+    "experiment": "lightgbm_log_diff_exp50_static",
+    "mape": 4.6476443610889975,
+    "seconds": 13.70184190000873,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_level.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level",
+    "mape": 5.150556425344623,
+    "seconds": 6.435586699983105,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_level_exp50_history.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_exp50_history",
+    "mape": 4.985780580244943,
+    "seconds": 8.185298099997453,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_level_exp50_static.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_exp50_static",
+    "mape": 5.008993165180282,
+    "seconds": 26.21106419991702,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\lightgbm_log_level_region_history.json",
+    "fold": "2025-02",
+    "model": "lightgbm_log_level",
+    "experiment": "lightgbm_log_level_region_history",
+    "mape": 5.0590971496360435,
+    "seconds": 8.869000300066546,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\xgboost_log_diff.json",
+    "fold": "2025-02",
+    "model": "xgboost_log_diff",
+    "experiment": "xgboost_log_diff",
+    "mape": 4.936438075648175,
+    "seconds": 29.863645200035535,
+    "version": "3.4.1",
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\xgboost_log_diff_cuda.json",
+    "fold": "2025-02",
+    "model": "xgboost_log_diff_cuda",
+    "experiment": "xgboost_log_diff_cuda",
+    "mape": 4.4314600477414245,
+    "seconds": null,
+    "version": "3.1.3",
+    "type": "CUDA"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\xgboost_log_diff_exp50_history.json",
+    "fold": "2025-02",
+    "model": "xgboost_log_diff",
+    "experiment": "xgboost_log_diff_exp50_history",
+    "mape": 4.966139209682286,
+    "seconds": 22.367528000031598,
+    "version": null,
+    "type": "local"
+  },
+  {
+    "path": "Forecasting\\results\\2025-02\\xgboost_log_diff_exp50_static.json",
+    "fold": "2025-02",
+    "model": "xgboost_log_diff",
+    "experiment": "xgboost_log_diff_exp50_static",
+    "mape": 4.800417510834235,
+    "seconds": 26.3809326000046,
+    "version": null,
+    "type": "local"
+  }
+]

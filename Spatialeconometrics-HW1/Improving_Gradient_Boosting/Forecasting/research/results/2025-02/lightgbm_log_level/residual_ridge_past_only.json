@@ -1,0 +1,20 @@
+{
+  "fold": "2025-02",
+  "model": "lightgbm_log_level",
+  "configuration": "residual_ridge_past_only",
+  "mape": 5.246905431824063,
+  "mae": 4399608.043637285,
+  "rmse": 8065497.6048832135,
+  "bias_pct": 2.483642533385425,
+  "backend": "OOF learned postprocessing",
+  "validation_only": true,
+  "leakage_check": "passed",
+  "second_stage_training_months": [
+    "2024-03",
+    "2025-01"
+  ],
+  "test_month": "2025-02",
+  "ridge_alpha": 100,
+  "correction_weight": 0.5,
+  "limitation": "Only two separated training OOF months; February-only candidate, excluded from three-month component ranking"
+}

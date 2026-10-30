@@ -1,0 +1,179 @@
+{
+  "recommendation": "ensemble/test_frozen_new_ensemble.csv",
+  "decision": "passed",
+  "forecast_month": "2025-03",
+  "development_models": [
+    {
+      "model": "catboost_log_level",
+      "baseline": 4.80805884771664,
+      "previous": 4.635691666561416,
+      "selected": 4.373038703110989,
+      "configuration": "hybrid8_history+seasonal_spatial",
+      "delta": -0.4350201446056504,
+      "months_won": 3
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "baseline": 4.937831068188888,
+      "previous": 5.050377962216574,
+      "selected": 4.6471704162235214,
+      "configuration": "innovations_spatial",
+      "delta": -0.290660651965366,
+      "months_won": 3
+    },
+    {
+      "model": "lightgbm_log_level",
+      "baseline": 4.399371272651003,
+      "previous": 4.419791252575338,
+      "selected": 4.1332825570163125,
+      "configuration": "seasonal_spatial",
+      "delta": -0.2660887156346899,
+      "months_won": 3
+    },
+    {
+      "model": "xgboost_log_diff",
+      "baseline": 5.698649218101983,
+      "previous": 5.217762501488228,
+      "selected": 4.298606247917719,
+      "configuration": "seasonal_spatial",
+      "delta": -1.4000429701842638,
+      "months_won": 3
+    }
+  ],
+  "reserved_models": [
+    {
+      "model": "catboost_log_level",
+      "original_full": 4.296717793916768,
+      "baseline_rolling": 4.448037347079348,
+      "previous_rolling": 4.256181011583513,
+      "selected_rolling": 4.082946674970236,
+      "selected_minus_rolling": -0.36509067210911184,
+      "selected_minus_full": -0.2137711189465321
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "original_full": 5.768498556647227,
+      "baseline_rolling": 8.10982706899692,
+      "previous_rolling": 8.183061941227683,
+      "selected_rolling": 4.536528451787524,
+      "selected_minus_rolling": -3.573298617209395,
+      "selected_minus_full": -1.2319701048597027
+    },
+    {
+      "model": "lightgbm_log_level",
+      "original_full": 3.6682978197750593,
+      "baseline_rolling": 3.756907050382125,
+      "previous_rolling": 3.86411498932701,
+      "selected_rolling": 4.394978326482676,
+      "selected_minus_rolling": 0.6380712761005505,
+      "selected_minus_full": 0.7266805067076163
+    },
+    {
+      "model": "xgboost_log_diff",
+      "original_full": 4.6799207816180886,
+      "baseline_rolling": 4.777010913073177,
+      "previous_rolling": 4.999052276309316,
+      "selected_rolling": 4.069866853545295,
+      "selected_minus_rolling": -0.7071440595278817,
+      "selected_minus_full": -0.6100539280727935
+    }
+  ],
+  "reserved_ensemble_decision": {
+    "status": "passed",
+    "frozen_choice": {
+      "composition": "new",
+      "rule": "gated_1_08_no_weak"
+    },
+    "reserved_months": [
+      "2024-11",
+      "2024-12"
+    ],
+    "monthly": [
+      {
+        "fold": "2024-11",
+        "selected_ape": 3.702399548777068,
+        "rolling_baseline_ape": 3.703102397059509,
+        "original_full_ape": 3.650172966823828,
+        "delta_rolling": -0.0007028482824409199,
+        "delta_full": 0.052226581953240016
+      },
+      {
+        "fold": "2024-12",
+        "selected_ape": 3.7930836493877904,
+        "rolling_baseline_ape": 4.883106597664555,
+        "original_full_ape": 4.159742805681484,
+        "delta_rolling": -1.090022948276764,
+        "delta_full": -0.3666591562936937
+      }
+    ],
+    "mean_delta_rolling": -0.5453628982796025,
+    "mean_delta_original_full": -0.15721628717022684,
+    "criterion": "Both reserved months improve rolling baseline; mean delta <= -0.01 MAPE pp; mean MAPE does not exceed original full baseline",
+    "recommendation": "frozen_new_ensemble",
+    "no_audit_reselection": true,
+    "regional_paired_bootstrap_95_percent": {
+      "versus_rolling": [
+        -0.66494927251059,
+        -0.5500931314863167,
+        -0.4297270634950253
+      ],
+      "versus_original_full": [
+        -0.2533898655694806,
+        -0.1596236253279861,
+        -0.06296664878936896
+      ]
+    },
+    "bootstrap_limit": "Fixed selection; does not account for candidate search or uncertainty across future months"
+  },
+  "march_training": [
+    {
+      "model": "catboost_log_level",
+      "configuration": "hybrid8_history+seasonal_spatial",
+      "march_trees": 856,
+      "inner_february_mape": 4.849058723492393,
+      "native_reload_max_relative_difference": 0.0
+    },
+    {
+      "model": "lightgbm_log_diff",
+      "configuration": "innovations_spatial",
+      "march_trees": 51,
+      "inner_february_mape": 5.5903503357346525,
+      "native_reload_max_relative_difference": 0.0
+    },
+    {
+      "model": "lightgbm_log_level",
+      "configuration": "seasonal_spatial",
+      "march_trees": 134,
+      "inner_february_mape": 5.5403856418845665,
+      "native_reload_max_relative_difference": 0.0
+    },
+    {
+      "model": "xgboost_log_diff",
+      "configuration": "seasonal_spatial",
+      "march_trees": 1,
+      "inner_february_mape": 6.0614082532043225,
+      "native_reload_max_relative_difference": 0.0
+    }
+  ],
+  "frozen_individual": {
+    "catboost_log_level": "hybrid8_history+seasonal_spatial",
+    "lightgbm_log_diff": "innovations_spatial",
+    "lightgbm_log_level": "seasonal_spatial",
+    "xgboost_log_diff": "seasonal_spatial"
+  },
+  "frozen_ensemble": {
+    "composition": "new",
+    "rule": "gated_1_08_no_weak"
+  },
+  "external_prediction_sets": 175,
+  "competition_submissions_sent": false,
+  "report": "REPORT.md",
+  "submissions": "../submissions/2025-03-stage2",
+  "original_research_and_notebook_preserved": true,
+  "original_submission_directory_modified_by_stage2": false,
+  "previous_submission_reference_recovery": [
+    "spatial/test_xgboost_log_diff.csv"
+  ],
+  "current_status": "historical_experiment_superseded_by_course_only_scope",
+  "post_submission_review": "POST_SUBMISSION_REVIEW.md"
+}

@@ -1,0 +1,10 @@
+{
+  "rule": "gated_1_08_all",
+  "primary_mean_mape": 3.90466213320118,
+  "selection_months": [
+    "2024-03",
+    "2025-01",
+    "2025-02"
+  ],
+  "limitation": "Component October results partly already available; October ensemble metrics never enter rule selection"
+}

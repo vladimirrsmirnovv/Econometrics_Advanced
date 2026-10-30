@@ -1,0 +1,209 @@
+{
+  "status": "passed",
+  "forecast_month": "2025-03",
+  "requested_final_batch_size": 5,
+  "required_upload_filename": "test.csv",
+  "source_package": "2025-03-course-final-ten",
+  "source_components": {
+    "A": {
+      "previous_batch_order": 4,
+      "file": "04_three_wx_original_mix/test.csv",
+      "sha256": "de6c97968ad3794ff3d6384c2a45c53435618e7bcbf394a8b528066f33e3dacc",
+      "observed_private_score": 90.83,
+      "submission_id": 167921168,
+      "composition": "WX: XGBoost и оба LightGBM",
+      "rule": "Исходная meta-смесь"
+    },
+    "B": {
+      "previous_batch_order": 5,
+      "file": "05_three_wx_gated_all/test.csv",
+      "sha256": "5d4f6cd48374c10ec27923cf2e265cbe3a335cca5aff627190635610d1bb068f",
+      "observed_private_score": 90.83,
+      "submission_id": 167921175,
+      "composition": "WX: XGBoost и оба LightGBM",
+      "rule": "Порог 1,08, четыре модели"
+    },
+    "C": {
+      "previous_batch_order": 1,
+      "file": "01_winner_gated_all/test.csv",
+      "sha256": "b16f8bfa20aa78dd6a59852185b1cd84206272ce6636614c9fb5964e9626bdd5",
+      "observed_private_score": 90.82,
+      "submission_id": 167921138,
+      "composition": "WX: XGBoost и LightGBM приростов",
+      "rule": "Порог 1,08, четыре модели"
+    },
+    "D": {
+      "previous_batch_order": 8,
+      "file": "08_xgb_ll_wx_gated_no_ld/test.csv",
+      "sha256": "b87e69c965c4648fa7f89c19afd388e0bf36ee951a52afc33db6712330c893ca",
+      "observed_private_score": 90.82,
+      "submission_id": 167921206,
+      "composition": "WX: XGBoost и LightGBM уровней",
+      "rule": "Порог 1,08, три модели без LightGBM приростов"
+    }
+  },
+  "source_manifest_sha256": "109dac0c2132847deab3963982677214f0f64e3843706909907fb5e963436fba",
+  "source_contest_results_sha256": "f0b9ab5214527672e1cb58736bcaaf5cf293163cb0465fee90c8dee8a6d04b33",
+  "source_score_mapping_order_explicitly_confirmed": false,
+  "averages_existing_ensemble_predictions": true,
+  "original_averaging_operations_reused": true,
+  "no_models_retrained": true,
+  "no_new_spatial_methods": true,
+  "no_weights_fitted": true,
+  "no_new_thresholds": true,
+  "uniform_component_weights": true,
+  "exploratory_after_contest_feedback": true,
+  "original_rule_source_sha256": "6adefb1350f1e6e9d7779ba5fbbc17781548ae6d27641ec36219207278dc57a4",
+  "original_decision_sha256": "6792e692f5f43c3f66f940539312da709bb938480846618ee3835468b8cebced",
+  "private_scores_available": true,
+  "server_acceptance_verified": true,
+  "automatic_submissions": false,
+  "files": [
+    {
+      "order": 1,
+      "file": "01_leaders_equal/test.csv",
+      "components": [
+        "A",
+        "B"
+      ],
+      "previous_batch_orders": [
+        4,
+        5
+      ],
+      "averaging_rule": "equal",
+      "rule_label": "Обычное среднее",
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "private_score": 90.83,
+      "rows": 18657,
+      "bytes": 443475,
+      "sha256": "37e2c7a2d7f07768e9b5b4b66b2df1f9ac985bfd0e099eb39d5f690272760876"
+    },
+    {
+      "order": 2,
+      "file": "02_leaders_log_average/test.csv",
+      "components": [
+        "A",
+        "B"
+      ],
+      "previous_batch_orders": [
+        4,
+        5
+      ],
+      "averaging_rule": "log_average",
+      "rule_label": "Логарифмическое среднее",
+      "weights": [
+        0.5,
+        0.5
+      ],
+      "private_score": 90.83,
+      "rows": 18657,
+      "bytes": 443413,
+      "sha256": "2235e7000983eabb5c52cd2ca336ce7baf8aa9f7372e9f744f12fda30f54b87c"
+    },
+    {
+      "order": 3,
+      "file": "03_leaders_plus_01_equal/test.csv",
+      "components": [
+        "A",
+        "B",
+        "C"
+      ],
+      "previous_batch_orders": [
+        4,
+        5,
+        1
+      ],
+      "averaging_rule": "equal",
+      "rule_label": "Обычное среднее",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "private_score": 90.83,
+      "rows": 18657,
+      "bytes": 443417,
+      "sha256": "98edeebbf42790980b179cd27272505a376ace8ae8bce6034761bb46dc611b4f"
+    },
+    {
+      "order": 4,
+      "file": "04_leaders_plus_08_equal/test.csv",
+      "components": [
+        "A",
+        "B",
+        "D"
+      ],
+      "previous_batch_orders": [
+        4,
+        5,
+        8
+      ],
+      "averaging_rule": "equal",
+      "rule_label": "Обычное среднее",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "private_score": 90.83,
+      "rows": 18657,
+      "bytes": 443390,
+      "sha256": "302b0d47a95ee1d68142fb08b3024794a3a5cf42777fb6a2e825b5ae80295eb4"
+    },
+    {
+      "order": 5,
+      "file": "05_leaders_plus_08_log_average/test.csv",
+      "components": [
+        "A",
+        "B",
+        "D"
+      ],
+      "previous_batch_orders": [
+        4,
+        5,
+        8
+      ],
+      "averaging_rule": "log_average",
+      "rule_label": "Логарифмическое среднее",
+      "weights": [
+        0.3333333333333333,
+        0.3333333333333333,
+        0.3333333333333333
+      ],
+      "private_score": 90.83,
+      "rows": 18657,
+      "bytes": 443483,
+      "sha256": "99378800f6cf2df5cd43c9fabb0f5c5ce0bff5671e381a8c56a430687aa0f3fb"
+    }
+  ],
+  "duplicate_check": {
+    "prior_files_compared": 36,
+    "new_files": 5,
+    "relative_tolerance": 1e-12,
+    "absolute_tolerance": 1e-06,
+    "no_duplicates": true
+  },
+  "evaluation_context": {
+    "phase": "post_competition",
+    "score_scope": "final_private_march_2025_ranking_set",
+    "reported_by_user": true,
+    "clarified_on": "2026-10-11",
+    "public_subset_only": false,
+    "exact_store_coverage_confirmed": false,
+    "private_ranking_set_confirmed_by_user": true,
+    "coverage_note": "User subsequently explicitly confirmed these are final private-dataset scores used to rank competition participants. The exact number and identities of scored stores are not available.",
+    "actual_march_targets_available": false,
+    "score_interpretation": "Observed performance on the contest's post-competition ranking test; do not describe it as the small public subset from the original live-competition rules.",
+    "selection_policy": "Prioritize observed final contest scores for choosing the contest mixture; retain validation as diagnostics and record that mixtures are selected after final-test feedback.",
+    "legacy_metadata_note": "Some historical filenames and keys retain 'public' for compatibility. Their score values refer to the final ranking set specified here."
+  },
+  "public_subset_only": false,
+  "server_verdict_source": "User-provided screenshot; all five rows OK",
+  "contest_results_file": "contest_results.json",
+  "contest_results_sha256": "dd3a63d65ecd9ca85526a8d9185d75bb75e8897ef8857081aee1c9a723ad2675",
+  "best_observed_private_score": 90.83,
+  "additional_displayed_score_gain_vs_components": 0.0
+}

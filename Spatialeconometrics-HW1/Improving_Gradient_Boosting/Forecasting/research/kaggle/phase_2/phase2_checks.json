@@ -1,0 +1,43 @@
+{
+  "status": "passed",
+  "key_cutoffs": [
+    "2025-02",
+    "2025-01",
+    "2024-03"
+  ],
+  "extra_features": {
+    "status": "passed",
+    "time_tests": [
+      {
+        "fold": "2024-03",
+        "target_and_all_future_replaced": true,
+        "train_and_holdout_feature_rows_checked": 279855,
+        "features": 96,
+        "passed": true
+      },
+      {
+        "fold": "2025-01",
+        "target_and_all_future_replaced": true,
+        "train_and_holdout_feature_rows_checked": 466425,
+        "features": 96,
+        "passed": true
+      },
+      {
+        "fold": "2025-02",
+        "target_and_all_future_replaced": true,
+        "train_and_holdout_feature_rows_checked": 485082,
+        "features": 96,
+        "passed": true
+      }
+    ],
+    "row_permutation_passed": true,
+    "feature_version": "research_v1",
+    "implementation_hashes": {
+      "build_features.py": "fec85a0e2f545a12f8e2014f5db3de97a5ac76cdd76abb3f1fc92e8d3658e746",
+      "economic_forecasts.py": "10820497e516085ecbb4b64da6f7630a581b154194a01ff38fa192706160b9b5"
+    },
+    "native_float_tolerance": 1e-06,
+    "training_cutoff": "strictly earlier realised outcomes"
+  },
+  "raw_hash": "f1422045d80c673b28d3abcef91feb78308499eb511d4f5090a81adbebd44338"
+}

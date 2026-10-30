@@ -1,0 +1,12 @@
+feature,rows,stores,maximum_difference
+seasonal_spatial__peer_same_month,434,31,0.044384974986314774
+seasonal_spatial__peer_same_month_innovation,434,31,0.017608335241675377
+seasonal_spatial__own_peer_season_gap,434,31,0.044384974986314774
+innovations_spatial__peer_innovation_lag1,775,31,0.017608335241675377
+innovations_spatial__peer_innovation_mean3,775,31,0.017608335241675377
+innovations_spatial__peer_innovation_sd3,775,31,0.03558292239904404
+innovations_spatial__own_peer_innovation_gap,775,31,0.017608337104320526
+dynamic_history__level_lag1,268,114,0.11346626281738281
+dynamic_history__daily_growth_lag1,237,114,0.0496361069381237
+dynamic_history__growth_1_3,206,114,0.021276719868183136
+dynamic_history__own_peer_gap_lag1,268,114,0.11346656829118729

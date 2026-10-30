@@ -1,0 +1,17 @@
+[
+  {
+    "fold": "2024-03",
+    "max_prediction_difference": 0.0,
+    "metadata_settlement_changed": true
+  },
+  {
+    "fold": "2025-01",
+    "max_prediction_difference": 0.0,
+    "metadata_settlement_changed": true
+  },
+  {
+    "fold": "2025-02",
+    "max_prediction_difference": 0.0,
+    "metadata_settlement_changed": true
+  }
+]

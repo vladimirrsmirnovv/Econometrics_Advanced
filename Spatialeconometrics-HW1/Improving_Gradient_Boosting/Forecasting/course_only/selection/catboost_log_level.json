@@ -1,0 +1,59 @@
+{
+  "model": "catboost_log_level",
+  "selected_wx": "wx_knn12",
+  "development_winner": "wx_knn12",
+  "development_gain": 0.11640945471129172,
+  "development_eligible": true,
+  "rule": "Lower development mean than baseline AND lower MAPE on each January and February confirmation; else baseline",
+  "frozen_at_utc": "2026-10-10T20:36:50.959141+00:00",
+  "runner_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+  "plan_sha256": "714d4d6471c001a5be53c6fd0b702ef28cd92c6bd4f836209ca152d78fcdb36a",
+  "confirmation_metrics_used_for_selection": false,
+  "candidates": [
+    {
+      "model": "catboost_log_level",
+      "configuration": "baseline",
+      "mean_mape": 4.33346479933019,
+      "months": {
+        "2024-08": 4.406958810157034,
+        "2024-11": 4.047595683129603,
+        "2024-12": 4.545839904703933
+      },
+      "sources": {
+        "2024-08": "badf0fc40cec86b81cffd51675d31b9389b86cb87bc88f10598f5c41db466b2e",
+        "2024-11": "bce534645c17c80e04f3e58331f180e6f1863b0916285e9f0fa7ea1306370863",
+        "2024-12": "ff389d56d1132268e0e7b12e273d8ebde3a89a438c0615266f431bb455e05a9c"
+      }
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "wx_knn6",
+      "mean_mape": 4.2376327305609,
+      "months": {
+        "2024-08": 4.365131650124986,
+        "2024-11": 4.076612369519425,
+        "2024-12": 4.2711541720382895
+      },
+      "sources": {
+        "2024-08": "09cf132ed24536647c1e69ea78ebea33d834f9587ea9fd7896d851a33d6aceb6",
+        "2024-11": "58efc4d23f5a2effde6a812d9d506cc066def158d2e5810388e5cb5f99d675db",
+        "2024-12": "2baa6bbab5b10fb90fe920617ee42d22e1accd98f0c30fb4ba61f82d2e9b1f15"
+      }
+    },
+    {
+      "model": "catboost_log_level",
+      "configuration": "wx_knn12",
+      "mean_mape": 4.217055344618898,
+      "months": {
+        "2024-08": 4.354466141054339,
+        "2024-11": 4.051579966122936,
+        "2024-12": 4.2451199266794175
+      },
+      "sources": {
+        "2024-08": "eb230184e8377a4b336232869523fb6c7235da66020b243b966ccad13d2242b7",
+        "2024-11": "e8ca37daf74145fd9efa56bb24f5cf23f3d08c5824ded8bafe53b233f33d1775",
+        "2024-12": "bfbc84fa46d0bed274a18398e7b9de0c91c0d685d62a10e8463b64364f6f153e"
+      }
+    }
+  ]
+}

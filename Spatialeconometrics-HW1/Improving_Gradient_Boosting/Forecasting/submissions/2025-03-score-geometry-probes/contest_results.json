@@ -1,0 +1,37 @@
+{
+  "status": "user_screenshot",
+  "mapping_order_explicitly_confirmed": false,
+  "mapping_basis": "Chronological screenshot order assumed to match prepared files 01–03. All three scores equal, so batch score conclusions do not depend on ID order.",
+  "screenshot_file": "C:\\Users\\smirn\\AppData\\Local\\Temp\\codex-clipboard-837546f3-8c5b-4fa0-ba97-b965007dea43.png",
+  "evaluation_set": "full_march_2025_test_user_confirmed",
+  "all_three_scores_equal": true,
+  "submissions": [
+    {
+      "file": "01_half_U_half_E3/test.csv",
+      "sha256": "aecaa1ac4fe74f6a56454af8bb8da66615688fce42fb42b24d96f8519922c1a7",
+      "submission_id": 167933029,
+      "submitted_at": "2026-10-11 16:40:29",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    },
+    {
+      "file": "02_half_U_half_E4/test.csv",
+      "sha256": "fa538298e3b165433ac6e81be4f962757d5e42ccd373905011c5a94807723da8",
+      "submission_id": 167933039,
+      "submitted_at": "2026-10-11 16:40:37",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    },
+    {
+      "file": "03_half_U_quarter_E3_E4/test.csv",
+      "sha256": "96f42ad0e9503988e77ddd59230ece58f75ccb4455d146065f497974e72ad646",
+      "submission_id": 167933042,
+      "submitted_at": "2026-10-11 16:40:43",
+      "timezone": "Europe/Moscow",
+      "verdict": "OK",
+      "contest_score": 90.83
+    }
+  ]
+}

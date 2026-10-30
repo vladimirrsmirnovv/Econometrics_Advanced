@@ -1,0 +1,299 @@
+{
+  "status": "passed",
+  "manual_WX_algebra": true,
+  "shop_ID_permutation": true,
+  "additional_features_ignore_current_target": true,
+  "original_X_and_targets_unchanged": true,
+  "implementation_sha256": "1a936cb1dd73fb9a61ada925c177efb1bf51929fa5a481d287ab6a7c2028c51d",
+  "weights_manifest_sha256": "95b237f0c828a07d9ac5b671585cdd67501359c8895e6aaa9a8d201a2cc7ee42",
+  "november_expected": {
+    "catboost_log_level": {
+      "wx_knn6": {
+        "columns": [
+          "log_lag1_x_region_feb_mar_growth_2024",
+          "region_feb_mar_growth_2024",
+          "lag1_x_global_feb_mar_growth_2024",
+          "settlement_feb_mar_growth_2024",
+          "lag1_x_trading_area_feb_mar_growth_2024",
+          "daily_pto_lag_3",
+          "settlement_poi_score_mean",
+          "recent_daily_weighted_123",
+          "recent_daily_mean_3_prediction",
+          "log_daily_pto_lag_1",
+          "day_scaled_lag1_prediction",
+          "log_recent_daily_median_3_prediction",
+          "log_daily_same_transition_last_year_prediction",
+          "number_of_cash_registers",
+          "log_day_scaled_x_region_share_change",
+          "day_scaled_x_region_share_change",
+          "recent_daily_mean_3",
+          "settlement_transition_prediction",
+          "log_recent_daily_mean_2_prediction",
+          "daily_same_transition_last_year_prediction",
+          "recent_mean_anchor_to_day_scaled_ratio",
+          "avg_items_per_receipt_lag_3",
+          "number_of_households",
+          "store_share_region_lag2",
+          "blend_day_scaled_and_region_march_growth",
+          "region_store_count",
+          "log_daily_pto_lag_2",
+          "pto_lag_1_to_settlement__trading_area_category_pto_mean_lag_1",
+          "log_pto_lag_2",
+          "log_pto_lag_1",
+          "log_pto_lag_3",
+          "log_pto_diff_lag_1_2",
+          "log_pto_diff_lag_1_3",
+          "log_pto_diff_lag_3_6",
+          "log_pto_diff_lag_1_12",
+          "pto_lag_1_to_region_pto_mean_lag_1",
+          "calendar_growth_multiplier",
+          "log_calendar_heuristic_prediction",
+          "log_pto_lag_1_to_calendar_heuristic"
+        ],
+        "WX_fingerprints": {
+          "train": "a8bcb9ed5f22a3ffa7ba0071af097cdd1e1ff60f87d0eda83f2d63b1f1edf527",
+          "validation": "9733be68cdf285490bb8ff6a49f044b191d8762f593369ff713769dd7ea8abe4"
+        }
+      },
+      "wx_knn12": {
+        "columns": [
+          "log_lag1_x_region_feb_mar_growth_2024",
+          "region_feb_mar_growth_2024",
+          "lag1_x_global_feb_mar_growth_2024",
+          "settlement_feb_mar_growth_2024",
+          "lag1_x_trading_area_feb_mar_growth_2024",
+          "daily_pto_lag_3",
+          "settlement_poi_score_mean",
+          "recent_daily_weighted_123",
+          "recent_daily_mean_3_prediction",
+          "log_daily_pto_lag_1",
+          "day_scaled_lag1_prediction",
+          "log_recent_daily_median_3_prediction",
+          "log_daily_same_transition_last_year_prediction",
+          "number_of_cash_registers",
+          "log_day_scaled_x_region_share_change",
+          "day_scaled_x_region_share_change",
+          "recent_daily_mean_3",
+          "settlement_transition_prediction",
+          "log_recent_daily_mean_2_prediction",
+          "daily_same_transition_last_year_prediction",
+          "recent_mean_anchor_to_day_scaled_ratio",
+          "avg_items_per_receipt_lag_3",
+          "number_of_households",
+          "store_share_region_lag2",
+          "blend_day_scaled_and_region_march_growth",
+          "region_store_count",
+          "log_daily_pto_lag_2",
+          "pto_lag_1_to_settlement__trading_area_category_pto_mean_lag_1",
+          "log_pto_lag_2",
+          "log_pto_lag_1",
+          "log_pto_lag_3",
+          "log_pto_diff_lag_1_2",
+          "log_pto_diff_lag_1_3",
+          "log_pto_diff_lag_3_6",
+          "log_pto_diff_lag_1_12",
+          "pto_lag_1_to_region_pto_mean_lag_1",
+          "calendar_growth_multiplier",
+          "log_calendar_heuristic_prediction",
+          "log_pto_lag_1_to_calendar_heuristic"
+        ],
+        "WX_fingerprints": {
+          "train": "a36194146c7bf5fbac3b7683f20474b90e4c66b64587499ed5d512a94d595937",
+          "validation": "09946b325d69755e024b384d3253bb1c2784040a01bdd3a48bafd947fe293f87"
+        }
+      }
+    },
+    "lightgbm_log_diff": {
+      "wx_knn6": {
+        "columns": [
+          "number_of_households",
+          "days_lag_6",
+          "n_working_days",
+          "daily_growth_1_2",
+          "log_daily_pto_diff_lag_1_2",
+          "region_grocery_stores_500m_mean",
+          "pto_roll_cv_12",
+          "settlement_pto_lag2_mean",
+          "pto_lag_1_to_roll_mean_12",
+          "pto_lag_1_to_roll_mean_3",
+          "log_population_size",
+          "n_single_public_holiday_days",
+          "region_store_count",
+          "households_per_cash_register",
+          "region_number_of_cash_registers_mean",
+          "pedestrian_traffic_per_1000_people",
+          "pto_roll_std_3",
+          "population_per_cash_register",
+          "avg_promo_items_per_receipt_roll_cv_3",
+          "settlement_pto_lag1_mean",
+          "traffic_per_1000_households",
+          "log_pto_lag_1"
+        ],
+        "WX_fingerprints": {
+          "train": "d6fcf2e0faddc5bf7e303e11d0d6e12d13e975cbf3362c1dd8b19949d2a4a968",
+          "validation": "be6f67876e8c74081bcc814404fc967aab6b096f6a47072be1d94da31f396810"
+        }
+      },
+      "wx_knn12": {
+        "columns": [
+          "number_of_households",
+          "days_lag_6",
+          "n_working_days",
+          "daily_growth_1_2",
+          "log_daily_pto_diff_lag_1_2",
+          "region_grocery_stores_500m_mean",
+          "pto_roll_cv_12",
+          "settlement_pto_lag2_mean",
+          "pto_lag_1_to_roll_mean_12",
+          "pto_lag_1_to_roll_mean_3",
+          "log_population_size",
+          "n_single_public_holiday_days",
+          "region_store_count",
+          "households_per_cash_register",
+          "region_number_of_cash_registers_mean",
+          "pedestrian_traffic_per_1000_people",
+          "pto_roll_std_3",
+          "population_per_cash_register",
+          "avg_promo_items_per_receipt_roll_cv_3",
+          "settlement_pto_lag1_mean",
+          "traffic_per_1000_households",
+          "log_pto_lag_1"
+        ],
+        "WX_fingerprints": {
+          "train": "270216bb9d86ada6c0a710e725fa98a39acb2bee5eedb9fafddec48ef1d7eb0a",
+          "validation": "1275b9bb0d6e5f1c3a8466e13859b63d59f8861ac23b5b8f0f0cab24bd0dd97b"
+        }
+      }
+    },
+    "lightgbm_log_level": {
+      "wx_knn6": {
+        "columns": [
+          "daily_pto_lag_1",
+          "log_day_scaled_lag1_prediction",
+          "day_scaled_lag1_prediction",
+          "day_scaled_x_region_share_change",
+          "month_cos",
+          "recent_daily_mean_2",
+          "blend_day_scaled_and_recent_mean_prediction",
+          "trend_day_scaled_lag1_prediction",
+          "month_sin",
+          "log_blend_day_scaled_and_recent_mean_prediction",
+          "pto_roll_mean_12",
+          "settlement_number_of_cash_registers_mean",
+          "number_of_households",
+          "region_number_of_cash_registers_mean",
+          "avg_items_per_receipt_lag_3",
+          "pto_lag_1_to_region_pto_mean_lag_1",
+          "trend_day_scaled_lag1_prediction_smooth",
+          "log_pto_lag_1",
+          "n_working_days",
+          "store_share_region_change_1_2",
+          "pto_roll_cv_12",
+          "recent_daily_median_3",
+          "households_per_cash_register",
+          "day_scaled_lag2_prediction",
+          "log_population_size",
+          "log_daily_pto_diff_lag_1_3",
+          "days_lag_2",
+          "daily_growth_1_3_clipped",
+          "daily_growth_1_3",
+          "month_sin_2",
+          "competition_per_1000_households",
+          "store_share_settlement_lag2",
+          "area_category_pto_lag1_mean"
+        ],
+        "WX_fingerprints": {
+          "train": "2bc532be235ee8f905cda4f932cd219b1c122b526d5cd11331215d2206c45a69",
+          "validation": "b7d98da6f4bae93a92fa6cb9a902ed092ae339de7a1085b59be9dba74f51fbb4"
+        }
+      },
+      "wx_knn12": {
+        "columns": [
+          "daily_pto_lag_1",
+          "log_day_scaled_lag1_prediction",
+          "day_scaled_lag1_prediction",
+          "day_scaled_x_region_share_change",
+          "month_cos",
+          "recent_daily_mean_2",
+          "blend_day_scaled_and_recent_mean_prediction",
+          "trend_day_scaled_lag1_prediction",
+          "month_sin",
+          "log_blend_day_scaled_and_recent_mean_prediction",
+          "pto_roll_mean_12",
+          "settlement_number_of_cash_registers_mean",
+          "number_of_households",
+          "region_number_of_cash_registers_mean",
+          "avg_items_per_receipt_lag_3",
+          "pto_lag_1_to_region_pto_mean_lag_1",
+          "trend_day_scaled_lag1_prediction_smooth",
+          "log_pto_lag_1",
+          "n_working_days",
+          "store_share_region_change_1_2",
+          "pto_roll_cv_12",
+          "recent_daily_median_3",
+          "households_per_cash_register",
+          "day_scaled_lag2_prediction",
+          "log_population_size",
+          "log_daily_pto_diff_lag_1_3",
+          "days_lag_2",
+          "daily_growth_1_3_clipped",
+          "daily_growth_1_3",
+          "month_sin_2",
+          "competition_per_1000_households",
+          "store_share_settlement_lag2",
+          "area_category_pto_lag1_mean"
+        ],
+        "WX_fingerprints": {
+          "train": "0f5b08f3cc43ffab6e8c75d59389630a46c38c1662da9199834136dac726089b",
+          "validation": "a3717895117734b556f0ea72df983d1e3b47457c27f4f900e7da328aaf8dc3a1"
+        }
+      }
+    },
+    "xgboost_log_diff": {
+      "wx_knn6": {
+        "columns": [
+          "store_share_region_change_1_2",
+          "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+          "pto_per_cash_register_hour_lag1",
+          "pto_per_cash_register_lag1",
+          "number_of_households",
+          "pto_lag_1_to_roll_mean_6",
+          "recent_mean_anchor_to_day_scaled_ratio",
+          "log_daily_pto_diff_lag_1_2",
+          "daily_growth_1_2_clipped",
+          "pto_roll_cv_3",
+          "pto_lag_1_to_roll_mean_3",
+          "population_size",
+          "avg_items_per_receipt_diff_lag_1_12",
+          "log_pto_diff_lag_6_12"
+        ],
+        "WX_fingerprints": {
+          "train": "305a7b067a1cda1ea9fc505dda0b782028276f42eadb3e8df611cd92bc66d303",
+          "validation": "db72d9397551e523242dc8f5922b75835aa882f03ad58819d251e13185712fce"
+        }
+      },
+      "wx_knn12": {
+        "columns": [
+          "store_share_region_change_1_2",
+          "pto_lag_1_to_region__opening_date_category_pto_mean_lag_1",
+          "pto_per_cash_register_hour_lag1",
+          "pto_per_cash_register_lag1",
+          "number_of_households",
+          "pto_lag_1_to_roll_mean_6",
+          "recent_mean_anchor_to_day_scaled_ratio",
+          "log_daily_pto_diff_lag_1_2",
+          "daily_growth_1_2_clipped",
+          "pto_roll_cv_3",
+          "pto_lag_1_to_roll_mean_3",
+          "population_size",
+          "avg_items_per_receipt_diff_lag_1_12",
+          "log_pto_diff_lag_6_12"
+        ],
+        "WX_fingerprints": {
+          "train": "78c01630c488af6541b8c29e2d1e0c5d53f6712e0a5203fba8d8776c829b53ae",
+          "validation": "6636372d0f32bf4efa3393fc9ee7e290947feff8e03395077e9ab8736d2f808e"
+        }
+      }
+    }
+  }
+}

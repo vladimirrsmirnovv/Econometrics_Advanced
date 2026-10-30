@@ -1,0 +1,126 @@
+{
+  "status": "passed",
+  "archives": [
+    {
+      "backend": "cpu_main",
+      "archive_sha256": "ac3d243a45aeb8eb30cd294e4ce6021553733fe78b93e47404bbfb0b2debf3c1",
+      "checks": {
+        "status": "passed",
+        "backend": "cpu",
+        "models": [
+          "catboost_log_level",
+          "lightgbm_log_diff"
+        ],
+        "original_legacy_exact": true,
+        "old_future_checks": {
+          "status": "passed",
+          "future_time": 26,
+          "historical_time": 25,
+          "historical_byte_parity": true,
+          "future_actuals_used": false,
+          "groups": [
+            "exp50_history",
+            "knn8_history",
+            "hybrid8_history",
+            "eigenvectors"
+          ]
+        },
+        "frozen_selection_sha256": "4573488327d7678dc982b4bff3b30ec9c2930cfb306ff1ce76e5373108240a99",
+        "canonical_features_sha256": "0dac17446f216a9a069606357caafe7924a26fd21c478101a97129393f3d83f4",
+        "original_march_frame_fingerprints": {
+          "test_train_features": "cbd838787ac3b848d801899c7b51a7b40c4477a3b092e4104e99c1ceb006b904",
+          "test_features": "ec1c90767b9d3635f27fe4a5ba0781d730c8331dea5c6b698a3a27b9135b6aae"
+        },
+        "environment": {
+          "numpy": "2.3.5",
+          "pandas": "2.2.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "catboost": "1.2.10",
+          "lightgbm": "4.7.0",
+          "xgboost": "3.1.3"
+        }
+      }
+    },
+    {
+      "backend": "cpu_level",
+      "archive_sha256": "2d13f6af738090df3b9a44c91eea4eea7ebf3bd8bee88f7c7a8ce162542c42f8",
+      "checks": {
+        "status": "passed",
+        "backend": "cpu",
+        "models": [
+          "lightgbm_log_level"
+        ],
+        "original_legacy_exact": true,
+        "old_future_checks": {
+          "status": "passed",
+          "future_time": 26,
+          "historical_time": 25,
+          "historical_byte_parity": true,
+          "future_actuals_used": false,
+          "groups": [
+            "exp50_history",
+            "knn8_history",
+            "hybrid8_history",
+            "eigenvectors"
+          ]
+        },
+        "frozen_selection_sha256": "4573488327d7678dc982b4bff3b30ec9c2930cfb306ff1ce76e5373108240a99",
+        "canonical_features_sha256": "0dac17446f216a9a069606357caafe7924a26fd21c478101a97129393f3d83f4",
+        "original_march_frame_fingerprints": {
+          "test_train_features": "cbd838787ac3b848d801899c7b51a7b40c4477a3b092e4104e99c1ceb006b904",
+          "test_features": "ec1c90767b9d3635f27fe4a5ba0781d730c8331dea5c6b698a3a27b9135b6aae"
+        },
+        "environment": {
+          "numpy": "2.3.5",
+          "pandas": "2.2.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "catboost": "1.2.10",
+          "lightgbm": "4.7.0",
+          "xgboost": "3.1.3"
+        }
+      }
+    },
+    {
+      "backend": "cuda",
+      "archive_sha256": "ebd2f4b3b7102a5d5f320766c9621942f16e7adafb487e9c41dc5e7041174871",
+      "checks": {
+        "status": "passed",
+        "backend": "cuda",
+        "models": [
+          "xgboost_log_diff"
+        ],
+        "original_legacy_exact": true,
+        "old_future_checks": {
+          "status": "passed",
+          "future_time": 26,
+          "historical_time": 25,
+          "historical_byte_parity": true,
+          "future_actuals_used": false,
+          "groups": [
+            "exp50_history",
+            "knn8_history",
+            "hybrid8_history",
+            "eigenvectors"
+          ]
+        },
+        "frozen_selection_sha256": "4573488327d7678dc982b4bff3b30ec9c2930cfb306ff1ce76e5373108240a99",
+        "canonical_features_sha256": "0dac17446f216a9a069606357caafe7924a26fd21c478101a97129393f3d83f4",
+        "original_march_frame_fingerprints": {
+          "test_train_features": "cbd838787ac3b848d801899c7b51a7b40c4477a3b092e4104e99c1ceb006b904",
+          "test_features": "ec1c90767b9d3635f27fe4a5ba0781d730c8331dea5c6b698a3a27b9135b6aae"
+        },
+        "environment": {
+          "numpy": "2.3.5",
+          "pandas": "2.2.3",
+          "scipy": "1.16.3",
+          "scikit-learn": "1.6.1",
+          "catboost": "1.2.10",
+          "lightgbm": "4.7.0",
+          "xgboost": "3.1.3"
+        }
+      }
+    }
+  ]
+}

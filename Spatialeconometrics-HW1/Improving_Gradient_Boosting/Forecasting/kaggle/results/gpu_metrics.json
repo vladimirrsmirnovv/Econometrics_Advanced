@@ -1,0 +1,26 @@
+{
+  "model_name": "xgboost_log_diff",
+  "target_mode": "growth_log",
+  "n_val_rows": 18657,
+  "mae": 3473680.084063112,
+  "rmse": 7005270.650963966,
+  "mape": 4.4314600477414245,
+  "bias_pct": 2.4043034193846933,
+  "best_iteration": 440,
+  "n_estimators_param": 3750,
+  "n_train_raw": 466425,
+  "n_train_fit": 447768,
+  "n_eval_raw": 18657,
+  "n_eval_fit": 18657,
+  "device": "cuda:0",
+  "notebook_sha256": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+  "original_saved_mape": 4.4314600477414245,
+  "delta_from_saved_mape": 0.0,
+  "runtime_versions": {
+    "xgboost": "3.1.3",
+    "pandas": "2.2.3",
+    "numpy": "2.3.5",
+    "pyarrow": "26.0.0",
+    "holidays": "0.106"
+  }
+}

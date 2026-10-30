@@ -1,0 +1,128 @@
+{
+  "status": "passed",
+  "unknown_target_guard_only": true,
+  "selection_unchanged": true,
+  "old_archive_sha256": "0048197fab2fbcd61a10334b74ab23d433ee4f9eb667da69e4497617110eec63",
+  "new_archive_sha256": "ebd2f4b3b7102a5d5f320766c9621942f16e7adafb487e9c41dc5e7041174871",
+  "comparisons": [
+    {
+      "file": "results/rolling/2024-11/xgboost_log_diff/previous.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.832047204594609,
+      "mape_after": 3.832047204594609,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/rolling/2024-11/xgboost_log_diff/seasonal_spatial.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.888046199039489,
+      "mape_after": 3.888046199039489,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/rolling/2024-11/xgboost_log_diff/baseline.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.9056441108486073,
+      "mape_after": 3.9056441108486073,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/rolling/2024-12/xgboost_log_diff/previous.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 6.166057348024022,
+      "mape_after": 6.166057348024022,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/rolling/2024-12/xgboost_log_diff/seasonal_spatial.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 4.251687508051101,
+      "mape_after": 4.251687508051101,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/rolling/2024-12/xgboost_log_diff/baseline.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 5.648377715297746,
+      "mape_after": 5.648377715297746,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/full/2024-11/xgboost_log_diff/previous.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.745537153227612,
+      "mape_after": 3.745537153227612,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/full/2024-11/xgboost_log_diff/baseline.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.8343113181066273,
+      "mape_after": 3.8343113181066273,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/full/2024-12/xgboost_log_diff/previous.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 6.162439028190108,
+      "mape_after": 6.162439028190108,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "results/full/2024-12/xgboost_log_diff/baseline.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 5.52553024512955,
+      "mape_after": 5.52553024512955,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "inner/2024-10/xgboost_log_diff/hybrid8_history.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 4.469509389331321,
+      "mape_after": 4.469509389331321,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "inner/2024-10/xgboost_log_diff/seasonal_spatial.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 4.099886180051231,
+      "mape_after": 4.099886180051231,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "inner/2024-10/xgboost_log_diff/baseline.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 4.440820432400932,
+      "mape_after": 4.440820432400932,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "inner/2024-11/xgboost_log_diff/hybrid8_history.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.791049257795389,
+      "mape_after": 3.791049257795389,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "inner/2024-11/xgboost_log_diff/seasonal_spatial.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.8820780273142494,
+      "mape_after": 3.8820780273142494,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "inner/2024-11/xgboost_log_diff/baseline.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 3.8825377532425756,
+      "mape_after": 3.8825377532425756,
+      "maximum_relative_prediction_difference": 0.0
+    },
+    {
+      "file": "march/individual/february_inner_xgboost_log_diff.csv",
+      "prediction_bytes_identical": true,
+      "mape_before": 6.0614082532043225,
+      "mape_after": 6.0614082532043225,
+      "maximum_relative_prediction_difference": 0.0
+    }
+  ]
+}

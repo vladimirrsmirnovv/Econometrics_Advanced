@@ -1,0 +1,9 @@
+{
+  "model": "lightgbm_log_diff",
+  "status": "passed",
+  "local_mape": 4.901435162166991,
+  "kaggle_mape": 4.901435162166991,
+  "maximum_relative_prediction_difference": 4.440892098500626e-16,
+  "bitwise_equality": false,
+  "note": "Differences are at double-precision rounding; MAPE is identical"
+}

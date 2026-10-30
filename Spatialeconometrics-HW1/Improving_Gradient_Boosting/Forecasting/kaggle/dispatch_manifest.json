@@ -1,0 +1,21 @@
+{
+  "dataset": "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+  "kernel": "vladimirsmirnovve/x5-xgboost-gpu-reproduction-20261009",
+  "private": true,
+  "inputs": {
+    "input_hashes": {
+      "train_2.csv": "f1422045d80c673b28d3abcef91feb78308499eb511d4f5090a81adbebd44338",
+      "original_solution.ipynb": "15a74a6b30c47fb9821b7d8ad5574868b7a793b744c7ce1997d1919aaa9caeb5",
+      "expected_validation_features.json": "92b2b2532f976c2735f5db72942b40cb41479af04037bd0a1f6cb8f7a5f578ea"
+    },
+    "validation": "2025-02",
+    "forecast": "2025-03",
+    "source_docker_image_version_id": 31401,
+    "scope": "XGBoost only; original features and parameters"
+  },
+  "xgboost_version": "3.1.3",
+  "dependencies": [
+    "kaggle==2.2.4",
+    "kagglesdk==0.1.37"
+  ]
+}

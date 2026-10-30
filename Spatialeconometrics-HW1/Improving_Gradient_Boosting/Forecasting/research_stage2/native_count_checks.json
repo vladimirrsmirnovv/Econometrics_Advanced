@@ -1,0 +1,1298 @@
+{
+  "Forecasting/research_stage2/results/full/2024-08/catboost_log_level/models/baseline.cbm": {
+    "sha256": "446850512b13073fa7c5d90a3390c26f7f457c545697ff13d01c5eab14274de7",
+    "trees": 6500
+  },
+  "Forecasting/research_stage2/results/full/2024-08/catboost_log_level/models/previous.cbm": {
+    "sha256": "8cf29eedfcdcb33a8174a577ae1d03c68ac13fcac6b0bd8580cac31bebd899fb",
+    "trees": 6500
+  },
+  "Forecasting/research_stage2/results/full/2024-08/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "d080ffaed7ed0846b51b180e3db22c838dd809414ccf8c5f4f34710e875b2844",
+    "trees": 7000
+  },
+  "Forecasting/research_stage2/results/full/2024-08/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "06037f7a77ecbd5536321df0f84e05d6bb693e9031b3e1019b2c2b59d102ce6c",
+    "trees": 7000
+  },
+  "Forecasting/research_stage2/results/full/2024-08/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "542e04be2ece7bb25f6e4e7a3980464868c64df1d1bb21214900d477fc9be638",
+    "trees": 8000
+  },
+  "Forecasting/research_stage2/results/full/2024-08/lightgbm_log_level/models/previous.txt": {
+    "sha256": "4136409d254fba7f9d64d007e0b45756b2259a37da3304b804dd25c927fa0b35",
+    "trees": 8000
+  },
+  "Forecasting/research_stage2/results/full/2024-08/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "dda6a63151b979adde692d3eb0ab128ba146b838fd7c02d3fe3a35d51cdb2049",
+    "trees": 3750
+  },
+  "Forecasting/research_stage2/results/full/2024-08/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "5e745deecc4031a24b5331ff7eace758032817700c4e95da3bd053f67adef056",
+    "trees": 3750
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/baseline.cbm": {
+    "sha256": "92f0aaa2e644fc31db2cb61847e57beb0c253cc9ab8ee4b68cc35be30ec851c9",
+    "trees": 3064
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/eigenvectors.cbm": {
+    "sha256": "90ff87c25e9edf11ccba95243ab467bf8ced5bb5c4f7a384a4aaad84da3ba8a4",
+    "trees": 2446
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "3dd8b19c124a80c04dd30600b0b0ecda9dbf1706b46e7f075e12774de59f7156",
+    "trees": 2270
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "bed9d8507b50c3e55d2c9fac82c35c0341c034caade8a599314080b7db36e105",
+    "trees": 2103
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/hybrid8_history.cbm": {
+    "sha256": "b8bf91b30ce6bba57b66c6cd1ff9ecf24d32e6aafbeba4eb6152521540ac73a7",
+    "trees": 2633
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/innovations_control.cbm": {
+    "sha256": "055314d91b863ced6f0280f6dc33d1233de82bf606e341444fe13119f183e94f",
+    "trees": 2488
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/knn8_history.cbm": {
+    "sha256": "e53feb057e43ab00233f0d39884d37cb1d2cdc055e5270464ef4ceb202cf00c2",
+    "trees": 1942
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/previous.cbm": {
+    "sha256": "d7fce384084a70de2f82f4c964183cb46376e630d909184cad22d88953f57e08",
+    "trees": 2270
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/seasonal_control.cbm": {
+    "sha256": "934d345d54461e2e43bb87ceb86624afdd24984e2a7d208bfd3afead5db20457",
+    "trees": 1909
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/catboost_log_level/models/seasonal_spatial.cbm": {
+    "sha256": "7add782ea09b6307beba9842214539c73482cd91f68c86eeaa5a413c760522c7",
+    "trees": 2399
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "e4aab382d4cd4ef2eccb879fba4c8b8e0d5902b44205dbab52e63511358a91b1",
+    "trees": 769
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "79328bf6fded768cacea1da92e6005bd204b4296867937acef267ae805d7f18d",
+    "trees": 697
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/exp50_history.txt": {
+    "sha256": "3a739ce573181e51552ba99ab0a88069859de594323ffcb2a11eedb52f903915",
+    "trees": 1222
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/hybrid8_history.txt": {
+    "sha256": "9c0cafe6c13f2ee8df40028ae1d0a78c8ff78535d6e7bf551d998de46bb112ab",
+    "trees": 1264
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/innovations_control.txt": {
+    "sha256": "557022bc66e03def89c78d42cf142ae7309e2072918862bd54fb4bedeb56b179",
+    "trees": 163
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "74b5cd3c06faca32457628d1bdde5bd9dc97a31be871280499796efbcda94383",
+    "trees": 231
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/knn8_history.txt": {
+    "sha256": "1671ea1a530d42ad66fd745d55604705381c4900483a7cf40f3e1e4b097aef1c",
+    "trees": 1105
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "79328bf6fded768cacea1da92e6005bd204b4296867937acef267ae805d7f18d",
+    "trees": 697
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "8af66d4add91c4050da1732b4e99162c197ce23a044ecf44b64fdd2dd3064c66",
+    "trees": 998
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/eigenvectors.txt": {
+    "sha256": "67e9e0a52719ec1b98456ad97e0e2b93b4864be85523be3d3f1433834aa73e17",
+    "trees": 1037
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/exp50_history.txt": {
+    "sha256": "e6f166d5e3054d181b5855f15a18365fa85e88e5e54e1b78fb91f82749633d8c",
+    "trees": 613
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/hybrid8_history.txt": {
+    "sha256": "66f69f4940eab285c4689a51d558b0af326768fe64f25713b614c46b0d3494ee",
+    "trees": 434
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/knn8_history.txt": {
+    "sha256": "31590a06842a8cbae21a049e87f2ac98ec0c1230eb31829d476925a3d24bdeeb",
+    "trees": 1004
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/previous.txt": {
+    "sha256": "da29fc71f4f7dd9a7c078d88bf30ec36b5d88a7e3d84ce1da131c2fffabf5ead",
+    "trees": 417
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/seasonal_control.txt": {
+    "sha256": "7952092e07031c59b5a008ee74974b6303bacddff2f82a2069de8d701b7f1d81",
+    "trees": 417
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "71cfe6b89e939ffa3549b183619cf31171164c559b8c91ea19aa8e130763aa80",
+    "trees": 346
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "b1743ff2afc7d712852f3de9a3ed9cb52e486056289bba937954ca24dca249c2",
+    "trees": 462
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/dynamic_history.ubj": {
+    "sha256": "2a7d3458a3ead65c1fcc1d2e7cac85942ad7b28aeffa1f75240fb80caab5b5d3",
+    "trees": 532
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/eigenvectors.ubj": {
+    "sha256": "d6b1c102b789fa2735de31ff27f4ebce42e19a812577ce7612c304777eb51e81",
+    "trees": 859
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/exp50_history.ubj": {
+    "sha256": "45eaafd726e550c0f98c3b0f7ecb8ebc3739dfdb354714b4fe570a91e39d6839",
+    "trees": 438
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/hybrid8_history+seasonal_spatial.ubj": {
+    "sha256": "c8105c46b4f4da3d8cf49bfb124462690511f9e3a2e50f82163de4e61a317a4b",
+    "trees": 454
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "fbcd683300943c88b75dab2d1cf96cb430b9b6cf0dce8add5d5f197479ab6b25",
+    "trees": 465
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/innovations_control.ubj": {
+    "sha256": "843d5a412147f480bc98b31ceef7f2d56255c5c8979a83e12af93ad7b7650c74",
+    "trees": 341
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/innovations_spatial.ubj": {
+    "sha256": "3b1daa25191f23d6b870d1acd47489f8438505502aa4129994386e5b7724cb59",
+    "trees": 364
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/knn8_history+eigenvectors.ubj": {
+    "sha256": "ee4f0ee286780bd53a550e03b93ed3bebd50b26ecd781da760571c0a1b6efc59",
+    "trees": 373
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/knn8_history.ubj": {
+    "sha256": "f0346c7dbb51ebf93b666817fb098254b226d04492ed3456df6f16deeb651018",
+    "trees": 628
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "fbcd683300943c88b75dab2d1cf96cb430b9b6cf0dce8add5d5f197479ab6b25",
+    "trees": 465
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/seasonal_control.ubj": {
+    "sha256": "3f31a46b1cd60c05d9a4686525de487b22655898fc8369cf4cc8bd8b0399941c",
+    "trees": 229
+  },
+  "Forecasting/research_stage2/results/rolling/2024-06/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "fb4738770941cbae207785fc7f9c10465a1446eaba74620f7555ebcdb54af088",
+    "trees": 285
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/baseline.cbm": {
+    "sha256": "94187671f3a39cd99c7f56a6c167708902b9749f04865119e274cf4ba7af828f",
+    "trees": 3754
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/eigenvectors.cbm": {
+    "sha256": "a05e7ed2f4a58451d5239a48febd47d3c67ee2896260a2cd476483d75532a588",
+    "trees": 4198
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "4c852d9cc20cefdb68f7b6c36dc28ad712d4791c9ef6f56354f1c9273c4dcfa2",
+    "trees": 3199
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "9e6d1f91582d271b13d80682b5f3d68f2d3c50c0864fe33d5361ed4ef88c66d5",
+    "trees": 2711
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/hybrid8_history.cbm": {
+    "sha256": "e43865c4f86b3d4a45dade1cfc96da291cb629db17455b86e91319a2e42cfd05",
+    "trees": 2644
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/innovations_control.cbm": {
+    "sha256": "07d81fffa37f2036f2270d0914d5e1453a8a43eb060f5bbf5f79037a5e629bd2",
+    "trees": 4353
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/knn8_history.cbm": {
+    "sha256": "2a786f2f4bff20bad98541954ca0b4192446fcaead5c912f6afb91c8f74e7d25",
+    "trees": 3600
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/previous.cbm": {
+    "sha256": "d8408bcec9972f123c40e85592bc543da34612ae6c5ed3b57e1f4ceb965f8806",
+    "trees": 3199
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/seasonal_control.cbm": {
+    "sha256": "be5834d4ac73684b77fc8c0412e004ecba184a0c0ab4b54bb17526b7403b12a2",
+    "trees": 1522
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/catboost_log_level/models/seasonal_spatial.cbm": {
+    "sha256": "17fa2016e188b34c43c3bfc35e8308d6550d428fa96b0c9176ede753184356d5",
+    "trees": 1953
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "6708801e715a0a180107dd53f405a367c4875507b64ffd5e626ade0a9daaefc8",
+    "trees": 905
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "ae17a0c2d10325181ec028d916f635866f83b6dc316d7e6e247bb837fc9a12ec",
+    "trees": 717
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/exp50_history.txt": {
+    "sha256": "e5633dc5a72208ae551983806a1afa374e880618c9f6a5c78bee3f3772ae326d",
+    "trees": 911
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/hybrid8_history.txt": {
+    "sha256": "c24f4aec763715df1e34c5e82c59c56a6ae47bf2226e61d118a74644b6d5f9ed",
+    "trees": 946
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/innovations_control.txt": {
+    "sha256": "65876f6a20d259b37d83886537fc857358530b9f6431d13d6a8b98a28fdf79df",
+    "trees": 2714
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "d7451874231cec7e87eb6990abd4fe9db700ccffc2c4f4ae42f909706249007c",
+    "trees": 3269
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/knn8_history.txt": {
+    "sha256": "ac0cbbfe84cf0891de1d7285decd800298b54e0ce007b172c58489c969689f23",
+    "trees": 808
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "ae17a0c2d10325181ec028d916f635866f83b6dc316d7e6e247bb837fc9a12ec",
+    "trees": 717
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "c6bc30cc636767faa67f30493e620fc705cb1344cc2916ebe0a350796703ca81",
+    "trees": 643
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/eigenvectors.txt": {
+    "sha256": "3581471fd56df7f64c802fd9e8160ccfe1c3df49ab519da84b337be6228314e6",
+    "trees": 813
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/exp50_history.txt": {
+    "sha256": "cfdb06ac33193a449734474b7c04b5493e124c02346b57ee2dc1b6e8da1a8d66",
+    "trees": 663
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/hybrid8_history.txt": {
+    "sha256": "152d2f0f68d335f86ebf9ebbea5cc6e861e8e7a084f33edddb2bafad5d508607",
+    "trees": 649
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/knn8_history.txt": {
+    "sha256": "4e63017b730924bc439115a70cff52f8fe657faa5e139c365de755cfb79c0bb3",
+    "trees": 822
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/previous.txt": {
+    "sha256": "d17009f29927425e8cec6c38951d1040923e846bafccd0aa708e9bf3321ddc02",
+    "trees": 938
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/seasonal_control.txt": {
+    "sha256": "7d97c1cc26c1bdedee666a1564502d652e1cbafa02d6304b11308566002ef202",
+    "trees": 285
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "b8be2b1ea93ab587c844edd181c282a3ea962afadc15d760ffe7aa37812f568d",
+    "trees": 306
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "21153b35b956e4eeec162cf37805de6ebdf6dc8542003004da4f7abb11565e92",
+    "trees": 433
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/dynamic_history.ubj": {
+    "sha256": "5b2d7a47100e4e0f88ef282ab471d639c1ff037e0bf501aa4d815b18ce8748ef",
+    "trees": 303
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/eigenvectors.ubj": {
+    "sha256": "11b3c814a41d9beb7a8c07500010fe1ef03dbab6830e54af4cdd6fe5cba15777",
+    "trees": 180
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/exp50_history.ubj": {
+    "sha256": "c8e4d3459ce67b730492aae66fce83f040cf13e51f01904dbe25d1f709413c43",
+    "trees": 457
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/hybrid8_history+seasonal_spatial.ubj": {
+    "sha256": "cf69e2eea286c11e13dbb66ba38a2047b7db8b51413dde4f8d0e098efd4f39f3",
+    "trees": 328
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "fbc16a9d5d8d8ad02fad21786be1474dd0ac44b74a37437fe6dec598d7a47f4b",
+    "trees": 679
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/innovations_control.ubj": {
+    "sha256": "a2d67c0e4f38f366bb64f31fe6fa2835a4d4892b11f1e5e64fbdba45817ad9d4",
+    "trees": 434
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/innovations_spatial.ubj": {
+    "sha256": "1912493e463ba1ecd133f5563bd3bfa55a4641fa9ea157bc373e8f8769f2a3f8",
+    "trees": 418
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/knn8_history+eigenvectors.ubj": {
+    "sha256": "de975d53ab310f56764f3efc6d6836213497dafa9d0af73d27564666543e24da",
+    "trees": 438
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/knn8_history.ubj": {
+    "sha256": "901677ae9b9f11df65678ac6aadb2fa6881170be3b83596912d0cb824b9799fe",
+    "trees": 321
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "fbc16a9d5d8d8ad02fad21786be1474dd0ac44b74a37437fe6dec598d7a47f4b",
+    "trees": 679
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/seasonal_control.ubj": {
+    "sha256": "2fb34decacb477a9f5b639028eae90589ac8c36e0d8d7496069e82a850f56b21",
+    "trees": 464
+  },
+  "Forecasting/research_stage2/results/rolling/2024-07/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "be882a45d2b53fa226d2d68267081f270ae1353b77b735aa7e2e95f7f00c05fc",
+    "trees": 336
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/baseline.cbm": {
+    "sha256": "4ca89f0345eb66d72d5603425d5ffd438205e85b195977c7bceaa43c8a6b8cae",
+    "trees": 1178
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/dynamic_history.cbm": {
+    "sha256": "37782316e062635aff9ecf28383fa80d2e8dbd30ef2e1a02e74ee86c7640649c",
+    "trees": 1172
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/eigenvectors.cbm": {
+    "sha256": "d157271dbb7fc22ed2f6c8543f6a17d8b21a10534673227d0c920724be937c27",
+    "trees": 2721
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "ff1ded6b9f03c06e8895ea4af484eaf279251d5b9513877480d824659aad76fc",
+    "trees": 1371
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "1a7676d7b19eebbe671caf3e4e818810106c9065c6e291b5fb851fd6226e0de3",
+    "trees": 1644
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/hybrid8_history.cbm": {
+    "sha256": "1f6150a435277420764627139fb5c557a3a3753dc600ccb068037519f8945eb6",
+    "trees": 1227
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/innovations_control.cbm": {
+    "sha256": "b18454987d986e25e61e3778ae0cc9d38e527c3f1c7c8119d36aff76b35c7423",
+    "trees": 3326
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/innovations_spatial.cbm": {
+    "sha256": "9adbc62a4be5f3c6bad9412f7c9127b51b331579e3009a6193ae76a0d47c8385",
+    "trees": 1940
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/knn8_history+eigenvectors.cbm": {
+    "sha256": "ba7d1841c593888be05594f2d940b03563d7ea6a3fc88a1333061e5d940278c6",
+    "trees": 1005
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/knn8_history.cbm": {
+    "sha256": "905138301b519f257651872312886db7be58831be7643082924e03d455cd6ced",
+    "trees": 1063
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/previous.cbm": {
+    "sha256": "1bc954515ebec58e18d46d086fbea08bf5acbefe383e0407aa3297d25065429c",
+    "trees": 1371
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/seasonal_control.cbm": {
+    "sha256": "ea53df387d1d580caf4ff8bf0e7c1605371de0e798dd45aaf134a8fa9352a901",
+    "trees": 1386
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/catboost_log_level/models/seasonal_spatial.cbm": {
+    "sha256": "e23ad0173bae5d81b08ef7e001846ec60ee04ac1f5791e4c61055c426a9af942",
+    "trees": 1254
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "fb979b71c6b563e41a346627218cfca973e986afcf4d0883d269249559d3afd7",
+    "trees": 518
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/dynamic_history.txt": {
+    "sha256": "d931919532583efe20d36c3510f819ffe2f37f35392924040670ab4dc050cadc",
+    "trees": 602
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "f5ec776b03afb353c2577d3421b9a49a035eeec19160641ce8c3203a7cf3bdfa",
+    "trees": 310
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/exp50_history.txt": {
+    "sha256": "ce0c629a90814bb15cb761b250eaf46ddad294c07367c3fefa41f18cbb78c40f",
+    "trees": 309
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/hybrid8_history+seasonal_spatial.txt": {
+    "sha256": "db733a4de64d92a0ca602bbc577489b2385a2bf13e086564ea8cad00b97bb411",
+    "trees": 469
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/hybrid8_history.txt": {
+    "sha256": "008863dd6289ed1d98a99c06202bbb4aae2e26b0148abb11eb49cfa1a4fcb566",
+    "trees": 402
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/innovations_control.txt": {
+    "sha256": "64b399758c9d31bc1d053aa5f157008bf1dc28bce4d8cd15a9abf8126fb75ab3",
+    "trees": 219
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "3ceb4775321a3ffb35ea08088c12afff9387ab6ecdbb581b77c55f9e5d845fbd",
+    "trees": 226
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/knn8_history+eigenvectors.txt": {
+    "sha256": "87c437619ac34f59df3ec69a2e72470e95d586047d73ae840c67e73af328b48e",
+    "trees": 292
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/knn8_history.txt": {
+    "sha256": "e957350736968d51010f6ee3de0b25ed73fefcd166add4d8d5f8c0698b72f457",
+    "trees": 286
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "f5ec776b03afb353c2577d3421b9a49a035eeec19160641ce8c3203a7cf3bdfa",
+    "trees": 310
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/seasonal_control.txt": {
+    "sha256": "c1d2fe6082597cef9196c67b41669aa7e3a4394c5444972bb20e03fda8cc53fd",
+    "trees": 421
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_diff/models/seasonal_spatial.txt": {
+    "sha256": "f09081a450ece9c1410681571b54c8fa45563317cdad2e807c6a00c3cb5b0478",
+    "trees": 374
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "f6bfb07b403ef377729d32bba27c8e3e7e866e0f527c1bd73d6e77b06c35b23c",
+    "trees": 1865
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/dynamic_history.txt": {
+    "sha256": "eb85056b9dce479bf180647cd5f7c64268e853f923bc3aa98c200a75d4a8da24",
+    "trees": 1461
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/eigenvectors.txt": {
+    "sha256": "cc1f0fd046d17a9233811ee6c590459e3e7d05d54ea0f90b6cbba5e0c5671bcf",
+    "trees": 785
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/exp50_history.txt": {
+    "sha256": "71905deb99ef113027d1dfbac65d35b92c2b3e8a95978a011348921ab10c0aac",
+    "trees": 740
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/hybrid8_history+seasonal_spatial.txt": {
+    "sha256": "fbc58620f158a122a7cd41322f945f177df5e966213bb93a33f19df4a452a57c",
+    "trees": 398
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/hybrid8_history.txt": {
+    "sha256": "76e7723fdd8d853121c390cf54eb5b992cfee008847648e7ddef285cf13cc7a4",
+    "trees": 1150
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/innovations_control.txt": {
+    "sha256": "ed527b74562ebc7afb1e3668d546a28ee38fc0ef2e7a95abe5544e05f4d7dde0",
+    "trees": 1624
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/innovations_spatial.txt": {
+    "sha256": "260fcbed8d18c2c3a3da74b17b5186848698d992152888e5837d2b12d184a630",
+    "trees": 1298
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/knn8_history+eigenvectors.txt": {
+    "sha256": "a94ad2543b0e35a2f5eb86468a83c76d29812639f3596d9580a7a25be3c29086",
+    "trees": 1073
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/knn8_history.txt": {
+    "sha256": "e6788f7069707b6d8ea16082b310e22138276270446201b4a8931cff19278b54",
+    "trees": 586
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/previous.txt": {
+    "sha256": "3c890f66d08624f28cdd1f29e1e2ca4300cfbd83909b843cfcf15ca0f215031f",
+    "trees": 1915
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/seasonal_control.txt": {
+    "sha256": "ccab75507185cd671f02c6803de566a175f19450d6654cdc5a8c75cf5872d6bd",
+    "trees": 771
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "c3f741905ae7f0793963e0ed721d6d90c60682672ba63e5e6b67a4f0a9dfe210",
+    "trees": 724
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "9dbb62db21d7398faf2535e6dac163097ad054142ba0b933b6c8036a36067d56",
+    "trees": 15
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/dynamic_history.ubj": {
+    "sha256": "cd3fe11b2f2b81a0461badb4e96ea6c687247b3010b8f535874a6191a20e63e9",
+    "trees": 21
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/eigenvectors.ubj": {
+    "sha256": "9a1abf1621c69b0847fc67a88c29e17f05d33c612c30be58458aa1ecf198869a",
+    "trees": 24
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/exp50_history.ubj": {
+    "sha256": "bad64f64881e1a17d7ff9d3aad5d869eb75d86c19acdde0b9cb69a3fa1039cdb",
+    "trees": 26
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/hybrid8_history+seasonal_spatial.ubj": {
+    "sha256": "67557f5edef1ea1b5dcd432a64aac914a1e707631e5e50c89987f5ebcbfaea40",
+    "trees": 295
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "75bd7c40b576884ab2f9fd5511e0582a4c4211b6cf058212cb1f0936889b2bea",
+    "trees": 21
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/innovations_control.ubj": {
+    "sha256": "d956dda6232801f8382bcdcd71709bb10d8b8837da6c6aea854d40c13ed9b68e",
+    "trees": 21
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/innovations_spatial.ubj": {
+    "sha256": "f2ed379de49e0df79a074c77d739fa841e27a7e30d20d6e6da93e408f28fa6b7",
+    "trees": 22
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/knn8_history+eigenvectors.ubj": {
+    "sha256": "44062543322e476046bd0e2ada7fc41a69413399b26c819dccc06d6c1b7551c1",
+    "trees": 23
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/knn8_history.ubj": {
+    "sha256": "df07115ac4ecf42466bc3012e8f2b8361fdc9fad60b0328641dc5008cae1149e",
+    "trees": 28
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "75bd7c40b576884ab2f9fd5511e0582a4c4211b6cf058212cb1f0936889b2bea",
+    "trees": 21
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/seasonal_control.ubj": {
+    "sha256": "74fc86ce9845feadf6b768414fc4dcd0d854fcd5d48ed6cad38a90e13386bb9d",
+    "trees": 230
+  },
+  "Forecasting/research_stage2/results/rolling/2024-08/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "13c3e72e26058a251c3ea9e09f7140213d6f5118caa5cf9b5b8fc58ed278384b",
+    "trees": 231
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/baseline.cbm": {
+    "sha256": "28e8d6132561f7224bbd4234ab9b4ff9c0ff470a274e113a80809a6f4b28f355",
+    "trees": 3064
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/eigenvectors.cbm": {
+    "sha256": "df6c302ec791d0076b7163f7bdedc5086c45eb39809fe5d9f3833c80c322eb3e",
+    "trees": 2446
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "71128b904156442751fc24199b6803a346c7cb308efe346a7aa14d916d112fed",
+    "trees": 2270
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "e0dfb06ae99b0525408c7c6ce009575053c59ea52ed508e74104df2cd7df1166",
+    "trees": 2103
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/hybrid8_history.cbm": {
+    "sha256": "0c441ae06fa7e879006387d26fc381792922fb259d38990c755e277fff108624",
+    "trees": 2633
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/innovations_control.cbm": {
+    "sha256": "38e2d988d44effbb85fe6bc94cde2f2f0f1d8b952355a48be6f13ed8d191e315",
+    "trees": 2488
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/knn8_history.cbm": {
+    "sha256": "c65c50d8cd73849ce40b0740295817b9848be34142da3a16867bf6743debfef2",
+    "trees": 1942
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/seasonal_control.cbm": {
+    "sha256": "37e89d9a1717173c63bd68e368f6faf101ad37a5e8f9219cd43593d3dc6776a0",
+    "trees": 1909
+  },
+  "Forecasting/research_stage2/inner/2024-05/catboost_log_level/models/seasonal_spatial.cbm": {
+    "sha256": "e661ddbee3156ab0f758bc33fab204af0fe0f37ec40dd42e540fa92147017050",
+    "trees": 2399
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "24c3b6b4e3a668bb93c928176af1014bc011e8ead93dca27cc0fb60d1f952757",
+    "trees": 769
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "7c37f4098f87bd5c1e7c9f2d5f716baa25e6d3e84f723eb6260db9ac7ca53ee9",
+    "trees": 697
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/exp50_history.txt": {
+    "sha256": "b6b036fe95623fa278db7461dc6bdabf7b9d0bcdf27c023e604731f083e055ab",
+    "trees": 1222
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/hybrid8_history.txt": {
+    "sha256": "6e0d28e703e7059ade676f4ff5e0c56294e34480f40229ee3bc5dcb03ac94be9",
+    "trees": 1264
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/innovations_control.txt": {
+    "sha256": "c309c9769d014364c3efaa3d8b64b28665213103c92e3fa79014a0e9f4a47bd5",
+    "trees": 163
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "3cbacb23a3a883b720953dcebeaf35d7a4dd6154486aae56aa820340a4d2f5d7",
+    "trees": 231
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_diff/models/knn8_history.txt": {
+    "sha256": "770a8808ddfa61ea0309c44850c37addd412fd79ac15ba1aae59fb19d76c8c84",
+    "trees": 1105
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "280b0334381d1d01a4d430f33e52e3d08307d65d57c2e658a62e7943ca5c17eb",
+    "trees": 998
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/density_weight.txt": {
+    "sha256": "c80ca9d5ce871f4d9a1e744a65cba180c7dbb9a91ace04d971fa4436768711b7",
+    "trees": 417
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/eigenvectors.txt": {
+    "sha256": "a7b536a0c45606b829610084d4378e2ebe1ba415b3c76d665fd746ba5a43dce1",
+    "trees": 1037
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/exp50_history.txt": {
+    "sha256": "fb65b4c22a67549b253566d3fbb180a5e9128b9655b68d52df0c5b9262db775a",
+    "trees": 613
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/hybrid8_history.txt": {
+    "sha256": "b6825d8ab2f5c646fdb31fa8acca07fbc62414a8c08aa7aab1600d3877aeac3c",
+    "trees": 434
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/knn8_history.txt": {
+    "sha256": "ae057546f8fecfeae637e44c29e3ff96dda910575778461ff91c01ffc2807034",
+    "trees": 1004
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/seasonal_control.txt": {
+    "sha256": "854f2c4b11e952c2eb8187c9a67ff5b2925b09d38bf3f267fa572d03c0dba061",
+    "trees": 417
+  },
+  "Forecasting/research_stage2/inner/2024-05/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "31a0c2ebe306f8da38e3b76d9f614139d5732f4fa20f9b95f501010fa12e1751",
+    "trees": 346
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "40d5902fe738ab9676284bae92e1955fb418544d1dfbb1ad234d379976142bf3",
+    "trees": 562
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/dynamic_history.ubj": {
+    "sha256": "bdcc4d8c1e3611f8bbe9c0138198ffa857e98ea87447f175f89109bb82c5cf07",
+    "trees": 632
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/eigenvectors.ubj": {
+    "sha256": "c51fafc7771339df1e7268e49a6cd2a279729e779b905e503d30b4048ae33a6d",
+    "trees": 959
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/exp50_history.ubj": {
+    "sha256": "c2399128aced017b02c06fef9fc8f378a431bc74e0cb36801113f0e350ea3f7e",
+    "trees": 538
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/hybrid8_history+seasonal_spatial.ubj": {
+    "sha256": "7de1eb77e2345a730230a0e03b5c55e08848c8ca7a888e4711eab930a34ddcd5",
+    "trees": 554
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "11536c1dad855173c7b619120ac2966f0983832dc26fde35fb819226ca6414c7",
+    "trees": 565
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/innovations_control.ubj": {
+    "sha256": "939e3bbac757543f098c3d0fd651242e8525ff8d266697cb2ee20c7562441d94",
+    "trees": 441
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/innovations_spatial.ubj": {
+    "sha256": "05c8fca8e3d30dde785e90d65bf32a40484ae83854095d4d98e0016f18923d07",
+    "trees": 464
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/knn8_history+eigenvectors.ubj": {
+    "sha256": "7a393b909e9ba0f868ac175e2db6ccb1e6aa5db5194b837875c298e8f76b2f43",
+    "trees": 473
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/knn8_history.ubj": {
+    "sha256": "c494b6d28a33c993213c755af383d6d16781e0d76f5c64fa6404a70ae7ab01b3",
+    "trees": 728
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/seasonal_control.ubj": {
+    "sha256": "4f37ebb1cca52cadd9bad70b6b8752495efb8e2d0b75da701df67877511d18e5",
+    "trees": 329
+  },
+  "Forecasting/research_stage2/inner/2024-05/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "00b41a0cc92a96eb19026b9e74543f9d89ca52acb15a5b0d0b2bf5fd2fcaa9b6",
+    "trees": 385
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/baseline.cbm": {
+    "sha256": "e30c4e7c7c3b586c99a590d151673bdd77d1b0920cafaa32cbbda78deefea720",
+    "trees": 3754
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/eigenvectors.cbm": {
+    "sha256": "93c9da1cde4892dd22ddb6d58010630a5a7202ab978d5842a3c9d99f7606d30a",
+    "trees": 4198
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "044f98b1e0a13acc2aa7c5cbba0cb1a35ea5ab0eb2b6e5910e89a4e6b18caaf1",
+    "trees": 3199
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "48134edaf18d7da252031023f006111d0887e26140938f3004142b26c611ec00",
+    "trees": 2711
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/hybrid8_history.cbm": {
+    "sha256": "428ec97d98e42e82bcd432a78b3bbec64bcf52daa64abd9e80cf78e8889c1143",
+    "trees": 2644
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/innovations_control.cbm": {
+    "sha256": "6cd4a9612aceaf0467d8aa4367a4f25b28f3960158bb99a91609ead2df9df7d6",
+    "trees": 4353
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/knn8_history.cbm": {
+    "sha256": "e0d8fb07331946b95646d2ec873a87102400d2dc4703eb9ef2cc9262605981ea",
+    "trees": 3600
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/seasonal_control.cbm": {
+    "sha256": "cbb6a4c3c838684d14e4f7ec4d63276558c051489cf97ba8af4cf16a06117597",
+    "trees": 1522
+  },
+  "Forecasting/research_stage2/inner/2024-06/catboost_log_level/models/seasonal_spatial.cbm": {
+    "sha256": "8f35c766bb69206d6ca7ae7f2c1cfb0a03b5d1f952aee60cedef7b467c3df49f",
+    "trees": 1953
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "f7c8f55e9e43cd1cd72b16f1121c2c8e4faa1bdd33fccb481fed95fafcfb0606",
+    "trees": 905
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "4556cb6c03a11c3003fa967670b1ccf60d59b998cba3482c057cffea6ff9fc53",
+    "trees": 717
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/exp50_history.txt": {
+    "sha256": "d0e3de5e9ac0ebec0c06f7559d067e627d8902cd22bfb90551f54ae89f54b850",
+    "trees": 911
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/hybrid8_history.txt": {
+    "sha256": "d298487c848d15d9011f610915dbcb2e71c01853ea1881f8e31979b42cce6e1e",
+    "trees": 946
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/innovations_control.txt": {
+    "sha256": "8696d7f56308cc934c757b3b7a1a3064dd4e039fbfb4a1b09e34cbbb7c28d219",
+    "trees": 2714
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "d9ffbb4137bb2105a4a9590e06cda7d443bfa1bd15997311dec3007bf1050c9d",
+    "trees": 3269
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_diff/models/knn8_history.txt": {
+    "sha256": "b78844474010fc15e4ebbfc6b9c6ad795522905bd3f9cb1b5d8d6aeed6693a46",
+    "trees": 808
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "3bedcdbb951fdf916adf0295bea9abb2c0cb7091af0ddcb6c02d3317cab3ff23",
+    "trees": 643
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/density_weight.txt": {
+    "sha256": "893ea3668abc0fbf5eec60ade49020cb413cf0be1835a1583a51ade47ff2556e",
+    "trees": 938
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/eigenvectors.txt": {
+    "sha256": "9261dfe8b84c295773adab299251a87e309943df67ad299c74c6973415274488",
+    "trees": 813
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/exp50_history.txt": {
+    "sha256": "078d2b433031044e2ee6b1e70d32081ded2c6920c05e9e352da6730b920bc620",
+    "trees": 663
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/hybrid8_history.txt": {
+    "sha256": "10b2a50af8aca8bf58fd399bf7e40821ae8a2ee141030f1eb112e63e82275e43",
+    "trees": 649
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/knn8_history.txt": {
+    "sha256": "dec0cca761ff60674f6536576fb080f685d622c11ec7c3fad2310fd097f55a5f",
+    "trees": 822
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/seasonal_control.txt": {
+    "sha256": "ffeee93ea16363870fd445adb406825499b602683766dda621c3042c7700cfa8",
+    "trees": 285
+  },
+  "Forecasting/research_stage2/inner/2024-06/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "7cb89a23131ac8539168afd303cd7c069ec47f7086543c23a5f1c81f3df4f1db",
+    "trees": 306
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "b6226dd017488a82c4fc6786bc74ccfafc4c7e59adea4276c1c9186ae348a840",
+    "trees": 533
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/dynamic_history.ubj": {
+    "sha256": "69790d7d2037d96ccbd61c407430e67939662be339776f1dfaed54dc0455486e",
+    "trees": 403
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/eigenvectors.ubj": {
+    "sha256": "329ecd2d9b94a85ee657084b9586d2e9e54ba655c3fcd6d6ca89d26c6e1f6576",
+    "trees": 280
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/exp50_history.ubj": {
+    "sha256": "298b4d4dd98381683dbfac39a134497d818b1e37fedfbda0c1b5553f11e2aee1",
+    "trees": 557
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/hybrid8_history+seasonal_spatial.ubj": {
+    "sha256": "8f50793ec9047a58bfcc4d386bd83967fff424a64a6cd349b0c9b5307862d34a",
+    "trees": 428
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "b6d63f9b64d62af9d126504ba31ba7067013e60e0db63ba7e89a0479d976b1b5",
+    "trees": 779
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/innovations_control.ubj": {
+    "sha256": "506ae2c0d6de2f24c2408374f421b4acc3da645a1159d17ed74e5a1773ec3a4e",
+    "trees": 534
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/innovations_spatial.ubj": {
+    "sha256": "fc34ac7b1a39e7bc5d10a8742d61aa64700d1a75ee550b76f1c4dcb92c0fef24",
+    "trees": 518
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/knn8_history+eigenvectors.ubj": {
+    "sha256": "82ea695a8ea4487562e60d44b32163d29275878392b7ddcac2f16ef31b9a49f3",
+    "trees": 538
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/knn8_history.ubj": {
+    "sha256": "8ba7ea9eaf7e7d7454e446d298765ea76ccb580871a4b7ef2f6db443e075805a",
+    "trees": 421
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/seasonal_control.ubj": {
+    "sha256": "4e32782df569b9fd6c33a351dc1058a2a5a956533b9acf543d167774c91a2a77",
+    "trees": 564
+  },
+  "Forecasting/research_stage2/inner/2024-06/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "d110b9dfac757bf27a483fa721a39d47eb5777f8a2bcfb58fa592f5f42be69bf",
+    "trees": 436
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/baseline.cbm": {
+    "sha256": "71b8967b4344b1e3a43ec0b9902e57466602f800533586cf85d379bab4696223",
+    "trees": 1178
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/dynamic_history.cbm": {
+    "sha256": "cd48d1c13155616497bb82eb25af820e1bb81c0f1701a333fbad2e2d74a4bc6a",
+    "trees": 1172
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/eigenvectors.cbm": {
+    "sha256": "efa8ee8bf06db427c5cd703a23a681e46990711fbf30961d8f6040f67125af1d",
+    "trees": 2721
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "2f3c6ca64ef6dacba16cb9d7d6866c5f925f52220ad56d76c75d1e1f0a1a2bae",
+    "trees": 1371
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "b2a7d00b85f6998fff6bde310293c8c6c3317a888d4c1c824b7afbb931425830",
+    "trees": 1644
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/hybrid8_history.cbm": {
+    "sha256": "779f8f0f4187162d13e1573582fa371aa610d897a45b5cbbfa4892218c6c71ee",
+    "trees": 1227
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/innovations_control.cbm": {
+    "sha256": "3d6c294eacd57a86fbddbbdb491a55a8e6130a23755aead0d7adf14276b9f202",
+    "trees": 3326
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/innovations_spatial.cbm": {
+    "sha256": "d76d085483eafa1ad8db86b8c55eb5d24bdd788cc112ebe0bcf5b049c6e54087",
+    "trees": 1940
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/knn8_history+eigenvectors.cbm": {
+    "sha256": "cfa15a4b5dd06f39fffc1200c75e180e496297305fe333f0f2f79324e7f8b409",
+    "trees": 1005
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/knn8_history.cbm": {
+    "sha256": "fc1456d58f1d79cfd1b6086fa5906487a13464554ef9e87a2520757708d813e5",
+    "trees": 1063
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/seasonal_control.cbm": {
+    "sha256": "2b8d2f7b31aae79ede894c6d3aa96b04e6de52aeba6ecd4ebf63a47afeb2e361",
+    "trees": 1386
+  },
+  "Forecasting/research_stage2/inner/2024-07/catboost_log_level/models/seasonal_spatial.cbm": {
+    "sha256": "af461a78be0ab1558dc0ef96bec3c48e803c013c5da6ac457c082a52644c6d47",
+    "trees": 1254
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "f1416dfe6517e560a0bd4fe0e907c17f9b78650a45ce07728f83431cf2b94bda",
+    "trees": 518
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/dynamic_history.txt": {
+    "sha256": "3e3b4315d86fc756ffe3e5ca2d54cb00ea10fe03a6ac133d1519a727fddc8fe0",
+    "trees": 602
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "877fa4c3e598e05e84306239c8b108931a6f571978954897dd3d13cacb568b0a",
+    "trees": 310
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/exp50_history.txt": {
+    "sha256": "f28b33cd31d0d76abb8beb455c1e7ef413e1da01bb2d1e6abed7bdf34f600815",
+    "trees": 309
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/hybrid8_history+seasonal_spatial.txt": {
+    "sha256": "ee764ef7566feceecbdb719052be75cad81599fab61be2fb67201e952174dd9b",
+    "trees": 469
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/hybrid8_history.txt": {
+    "sha256": "a5e3fc4494b3102594e9b2462b3936f3afda9bfe602ff5f4bd33428d231f2aca",
+    "trees": 402
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/innovations_control.txt": {
+    "sha256": "7cc69603b5b7e4cf016195b1baf02500934fc3f517d74b8f3c17ccf0b07a5641",
+    "trees": 219
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "db7fe7f1e5dff8f2d356bf26c52102fda6b900cebfe110f627c8926edabfef2d",
+    "trees": 226
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/knn8_history+eigenvectors.txt": {
+    "sha256": "0bddb871260291c138a8f49d835eb19e7d6835ec97830e969586dbfe6d8e7c54",
+    "trees": 292
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/knn8_history.txt": {
+    "sha256": "03637630218a9861ff0fcb5ee45faeba71eebda70fa4d09d29533da5e7d7330c",
+    "trees": 286
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/seasonal_control.txt": {
+    "sha256": "0b5d8ebe97d53eb895d2ec6a181e06331df4ff25b8cbd49b21e936947eec582d",
+    "trees": 421
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_diff/models/seasonal_spatial.txt": {
+    "sha256": "345f77da09709ac198e49fe72c15d2d05ba31a020e291d286af838a450654ad7",
+    "trees": 374
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "3148106834d1951b490103ac2933100078b253ea1aed12ef8536bbccc22e47e7",
+    "trees": 1865
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/density_weight.txt": {
+    "sha256": "f6aee6c434ec4d77d14872427ff33f3495b5c1901479ab7bcdb99ee74065dbf3",
+    "trees": 1915
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/dynamic_history.txt": {
+    "sha256": "0f06710b889f698575838a85e4404995a55add302b6204db7b26d5266a330ab3",
+    "trees": 1461
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/eigenvectors.txt": {
+    "sha256": "0cbf0ff619589f3c63885be023d724d4abeb00faa650b9ca42dbbb8919358e2f",
+    "trees": 785
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/exp50_history.txt": {
+    "sha256": "aaba71963854eb4dacd6e9cb3fa8da271141f8a25bbd66bf86766c6da17c8730",
+    "trees": 740
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/hybrid8_history+seasonal_spatial.txt": {
+    "sha256": "9cc8c7a32bbbafb1c1a1f7b60c4bc00d364cf0d5b512305b69c02eab7e276c2d",
+    "trees": 398
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/hybrid8_history.txt": {
+    "sha256": "297f000b0becc8ed765d91c30f8bc08f3ad75dfd1ae17a5d945a8e8429df3bd0",
+    "trees": 1150
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/innovations_control.txt": {
+    "sha256": "f2eb6781d6e78513b589b4ed889568cb8f21c2993b76609580db5f6d6b252c15",
+    "trees": 1624
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/innovations_spatial.txt": {
+    "sha256": "273417d95c9dd23162dff779f308f897308dbcea42ebbb7c5e7af8bcbce19dc5",
+    "trees": 1298
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/knn8_history+eigenvectors.txt": {
+    "sha256": "a753f79f7837e9e0a24bface08db3beffbb5b860b565e60ce708ba3e6562a70c",
+    "trees": 1073
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/knn8_history.txt": {
+    "sha256": "3e45693c23e3528e9e8a1a3c254cefd859b99330f4f8610ac425bd62fdc460c5",
+    "trees": 586
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/seasonal_control.txt": {
+    "sha256": "650f515b057638284b30782fc0cce822e343ca3815cb50fbad1c3eaae8177f3a",
+    "trees": 771
+  },
+  "Forecasting/research_stage2/inner/2024-07/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "c886ca3e27db420b790478114bbb8a75f3ccc5a1d624340b0afa678e3b2f4da8",
+    "trees": 724
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "aa638c05199d89c113365d41627f9c5e65d3d46745897e78170805a6a585a407",
+    "trees": 115
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/dynamic_history.ubj": {
+    "sha256": "754f49c3d6186b3d83fd7e7f146db9fd5de27690efb3d716ad7c872db37ba840",
+    "trees": 121
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/eigenvectors.ubj": {
+    "sha256": "d7eab3c5be9f10af93b314a8d0911d0798f76da248f66eab7137a993cad1b7a0",
+    "trees": 124
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/exp50_history.ubj": {
+    "sha256": "2fdada33507025c8bceb6d9b5e19147db1b2fc325055ba0d9416952283524641",
+    "trees": 126
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/hybrid8_history+seasonal_spatial.ubj": {
+    "sha256": "d540a1b6400f4c84d0bd905e178126e496640e31eb8a3f27e48e7b3e6baa6f92",
+    "trees": 395
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "5940f2d0831289a8d9e78c69015bff6e547de53353e10356de04a2b31d4b274d",
+    "trees": 121
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/innovations_control.ubj": {
+    "sha256": "44bfaa0f37e2d0bbfe67a286804dcfd839dab9c452c75b7196ddaf024f8654cb",
+    "trees": 121
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/innovations_spatial.ubj": {
+    "sha256": "ea4ed52ec0d018f5ed1d26fa8272dcf67121bce3022d41e3e38e0ad143a5c4c1",
+    "trees": 122
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/knn8_history+eigenvectors.ubj": {
+    "sha256": "f4d955d9d45008484ed02c0350cd1dc7b3a501f16b0f955c492db89c8571434d",
+    "trees": 123
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/knn8_history.ubj": {
+    "sha256": "3b4ea5196721fe25d5af1d0e7521c65e659106ecb993912a5755bd9f1c894dfd",
+    "trees": 128
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/seasonal_control.ubj": {
+    "sha256": "260357057f6207fe1f61f111ab30567bde4389587161c598e6bc871bc435e02f",
+    "trees": 330
+  },
+  "Forecasting/research_stage2/inner/2024-07/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "e6693ac75e53a42ec761b540509346f13548b48def1430becdd498999fcff270",
+    "trees": 331
+  },
+  "Forecasting/research_stage2/results/full/2024-11/catboost_log_level/models/baseline.cbm": {
+    "sha256": "b0af9c3fd01eb41c0b93e8a27244d06102b2e7fd59c903365e50ea02edf6de35",
+    "trees": 6500
+  },
+  "Forecasting/research_stage2/results/full/2024-11/catboost_log_level/models/previous.cbm": {
+    "sha256": "37a0055fb3344b95bf2ea009ca8c84e18fcf8df204a843d43c86be083a78248d",
+    "trees": 6500
+  },
+  "Forecasting/research_stage2/results/full/2024-11/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "fbc03c1cc44b442f123e6c574871f46e703ddd29d63196e62d6cd5572c6d0a41",
+    "trees": 7000
+  },
+  "Forecasting/research_stage2/results/full/2024-11/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "89425130e1799e8883bbb19df68b39be97047b0afea1830a88934c2f45d90e4b",
+    "trees": 7000
+  },
+  "Forecasting/research_stage2/results/full/2024-11/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "c78121221146c300a9db9c938c3f2987d193edc9e5c156d0fb87dba627fbcfea",
+    "trees": 8000
+  },
+  "Forecasting/research_stage2/results/full/2024-11/lightgbm_log_level/models/previous.txt": {
+    "sha256": "e3f11fd07972be7ddc102c40f9ffcc86b7edc80f836c9b8b3a18fd75acabfa34",
+    "trees": 8000
+  },
+  "Forecasting/research_stage2/results/full/2024-11/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "80ce92990e6b6c645b0925850952b0ae8eea14d434849e618b7084ee614dbbf4",
+    "trees": 3750
+  },
+  "Forecasting/research_stage2/results/full/2024-11/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "778834368a5aa179b3cbd090c75508df72d5c287e9d566d30dd9a6167575f200",
+    "trees": 3750
+  },
+  "Forecasting/research_stage2/results/full/2024-12/catboost_log_level/models/baseline.cbm": {
+    "sha256": "8b476a0bd29a4b821097b1a4857e42042f841a7e07ce20189d0d5fe02b3ab814",
+    "trees": 6500
+  },
+  "Forecasting/research_stage2/results/full/2024-12/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "7e1ffba76b2b644ab0a894779f7ae888d165bfe7c2458b524702f9cac29b4ddb",
+    "trees": 7000
+  },
+  "Forecasting/research_stage2/results/full/2024-12/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "a53b39a205dbeada4609792825fd24ed1a6ec9f2a9cc29e38f3cc49d380fa0b7",
+    "trees": 8000
+  },
+  "Forecasting/research_stage2/results/full/2024-12/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "011f9d8eda7967be499b177136e353bd66e4cba9b1ba2e6e1b9f382b3b554237",
+    "trees": 3750
+  },
+  "Forecasting/research_stage2/results/full/2024-12/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "2c3454ff44125c27c11829885c19a1ed67c534a6d033187a8f34c88b9dd4479d",
+    "trees": 3750
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/catboost_log_level/models/baseline.cbm": {
+    "sha256": "1f7683dfcd160ef173a718720b8009741260936df977b0b6e288932e7e672346",
+    "trees": 3616
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "dbee5cf5309f663085418273a9987e14f8d0ba9cb1c5f3582bcb7240dde42cb8",
+    "trees": 3677
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/catboost_log_level/models/previous.cbm": {
+    "sha256": "cac4013b6fb81ac4c7ec1c0b49001f8881fe5353207dd574048a419bab63340d",
+    "trees": 3576
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "0c9b0b2369341b23e18865de31e8410b3fafe0392bde18ec0abc1b1e9728e325",
+    "trees": 207
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "fc402cca430e2bb563e879faca8c17a054adf325d15ead9fa790c55d07a14358",
+    "trees": 1459
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "072aa9c1916680385cb272a13f6ab4a45d82b4aed0bd2e45dcc5597814be7a8d",
+    "trees": 223
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "90dd23287ed5b58c148783488c517c8f5db739a4c83bbfc0150ded71383f092c",
+    "trees": 964
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/lightgbm_log_level/models/previous.txt": {
+    "sha256": "0698c1c9f6f5a0070366b4373fd008343783030398baa5f071441e047f8b8540",
+    "trees": 1415
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "888ede3a0d58088200e89c1b7325f5a94374b8600a90862c5092265351113902",
+    "trees": 1028
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "331c80d93040a58f7db402c54b91fdbcd8384d564b4e50240cd837738741df4b",
+    "trees": 496
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "98879ce1b2a06151803b73c421bfd311c5d53914b27011945fb8b271052f1d4a",
+    "trees": 490
+  },
+  "Forecasting/research_stage2/results/rolling/2024-11/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "58d49321f0277bbf2b48b1e606c9d4c8486c98ea499dbfc810aa33b2f1918090",
+    "trees": 270
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/catboost_log_level/models/baseline.cbm": {
+    "sha256": "405cdb2d994336f607b697d897693cd419ec131cf7cc4c97f515d5f437dce999",
+    "trees": 1217
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "50cfc55f9b736600a75e4e61d8602fa8dd11d824e95c71ea4a85853a6b678f56",
+    "trees": 1458
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/catboost_log_level/models/previous.cbm": {
+    "sha256": "871b1a1846e2f58f7f04062272850b94f89f22c90fab638aa48c38e7a61a16d9",
+    "trees": 1321
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "2b758be2c8a8b06a2c5c1385502e4c63b8609ec0fceb768334754d12b6c266df",
+    "trees": 56
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "191745ad18606c731f9e1f1900e469d7fa972120a7d12ef12b84a17e0af91a17",
+    "trees": 2638
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/lightgbm_log_diff/models/previous.txt": {
+    "sha256": "fd3655c141d6cf9fd9c9572fc1b65892d6f3e1dc35bebdbca0ff38b0023db74a",
+    "trees": 51
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "2f18b13a6da45ee174221b6e32a10548ad029411c07ea8065d94f5039ea9cbc7",
+    "trees": 2275
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/lightgbm_log_level/models/previous.txt": {
+    "sha256": "7d26739c5fdbaffc1ffe77add42396727ced6e2770a87ba58bf188dc17409482",
+    "trees": 1554
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "4dc33be4efa06a7c3f246ac5d9b0cc1cdb05611343422c8e1a4077b4963db068",
+    "trees": 711
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "191817d8e7d05cd23355d8eef1b27538b1545646f2f6e81108c5204808fcc49e",
+    "trees": 730
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/xgboost_log_diff/models/previous.ubj": {
+    "sha256": "2f282beffff495bb79550b887ab9e74858dd2677343da8c4356649290c9c2752",
+    "trees": 908
+  },
+  "Forecasting/research_stage2/results/rolling/2024-12/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "98df7d4ed3b7d68b312b3a235084637a0ade197adb29ce1170b148a31232c723",
+    "trees": 124
+  },
+  "Forecasting/research_stage2/inner/2024-10/catboost_log_level/models/baseline.cbm": {
+    "sha256": "fcb9d4caddb5db1369f049eb56f0488d71e777809bb151b8d63a46031204357a",
+    "trees": 3616
+  },
+  "Forecasting/research_stage2/inner/2024-10/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "673d699cdf6f7029da2baf85f406557e33fd496091cd306155d1927ce4db9684",
+    "trees": 3576
+  },
+  "Forecasting/research_stage2/inner/2024-10/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "06809c455b035560e67dd4419fe6fa92dd8a09ee97188fd964b2f5a9c5c95594",
+    "trees": 3677
+  },
+  "Forecasting/research_stage2/inner/2024-10/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "5e65245a5e0d066b9c72480855e0fbbc09d65e267b58d3c476229cf20283584f",
+    "trees": 207
+  },
+  "Forecasting/research_stage2/inner/2024-10/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "67ccca15d5886d3b2380132377c7286303cbea8c6bcefe42ce16f84da0be3257",
+    "trees": 223
+  },
+  "Forecasting/research_stage2/inner/2024-10/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "c69f2d30381c23ce0feac3ebfb4cbc69617add7e5f445a097d91954f1dfa0cdd",
+    "trees": 1459
+  },
+  "Forecasting/research_stage2/inner/2024-10/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "9b2f32c1a34cb2d4260ef2294e6cc01c246a52319700165dd94e8ca26e785ec4",
+    "trees": 964
+  },
+  "Forecasting/research_stage2/inner/2024-10/lightgbm_log_level/models/density_weight.txt": {
+    "sha256": "ad79f7fb72c254087684601a04cf3edd9d65ffc3ed4f527619c53ff412ee7c30",
+    "trees": 1415
+  },
+  "Forecasting/research_stage2/inner/2024-10/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "a778f23791596b09808bed8f55a22d9feb34e914d883c27bff1b32852ea56cbf",
+    "trees": 1028
+  },
+  "Forecasting/research_stage2/inner/2024-10/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "dc5056e0f9cb835f1c988f7ad9e65373500b3b48b13530705dfa80783745994b",
+    "trees": 596
+  },
+  "Forecasting/research_stage2/inner/2024-10/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "052b5f266a75d1613b4f167de3fec1db82113682aef89754ba6a49b4465d4449",
+    "trees": 590
+  },
+  "Forecasting/research_stage2/inner/2024-10/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "34d9f5d986793563798aeff2c7b4569f08b0d422cea01281f51424ab457587c8",
+    "trees": 370
+  },
+  "Forecasting/research_stage2/inner/2024-11/catboost_log_level/models/baseline.cbm": {
+    "sha256": "8e5b797b382350344cb1400279dee4f924505bbb394fcb9c414d76251aa26fd5",
+    "trees": 1217
+  },
+  "Forecasting/research_stage2/inner/2024-11/catboost_log_level/models/exp50_history.cbm": {
+    "sha256": "13a14e0128d272d4941e015476322015b9d534a4c5e6355484d731e2de200c29",
+    "trees": 1321
+  },
+  "Forecasting/research_stage2/inner/2024-11/catboost_log_level/models/hybrid8_history+seasonal_spatial.cbm": {
+    "sha256": "6b3328c84bd9c3ea411505e7872d432ef701cba15548fc9789754134b07dd8a8",
+    "trees": 1458
+  },
+  "Forecasting/research_stage2/inner/2024-11/lightgbm_log_diff/models/baseline.txt": {
+    "sha256": "0873895f58aba83c57bc493fbae8ed3cd30b166aeadf073461e76e0321439fb3",
+    "trees": 56
+  },
+  "Forecasting/research_stage2/inner/2024-11/lightgbm_log_diff/models/eigenvectors.txt": {
+    "sha256": "d7120068f2c862da09c78858405a25c72df97f0757a1ea975682bd873dae5514",
+    "trees": 51
+  },
+  "Forecasting/research_stage2/inner/2024-11/lightgbm_log_diff/models/innovations_spatial.txt": {
+    "sha256": "000e38d8dc559d4b14631f71b8f4004b142f0dd123b48796c93221de6421a374",
+    "trees": 2638
+  },
+  "Forecasting/research_stage2/inner/2024-11/lightgbm_log_level/models/baseline.txt": {
+    "sha256": "c521e1aa60e41e3b02fd2f1e8a789e0034f1b1eccf3e0de054be088c7fd9b859",
+    "trees": 2275
+  },
+  "Forecasting/research_stage2/inner/2024-11/lightgbm_log_level/models/density_weight.txt": {
+    "sha256": "748f83729555845dab2d0d065f68d7635b6c1fa31608924ae3cadb9329f4cfcf",
+    "trees": 1554
+  },
+  "Forecasting/research_stage2/inner/2024-11/lightgbm_log_level/models/seasonal_spatial.txt": {
+    "sha256": "0537913d0b37e3ba84bb147f4ec1bba31d500e2b6e5306f3f095d5fb939bffc7",
+    "trees": 711
+  },
+  "Forecasting/research_stage2/inner/2024-11/xgboost_log_diff/models/baseline.ubj": {
+    "sha256": "730dfc629243e5dcf9b7762ba139abf8e0158efa2c55d44dd7d9a713643d4c5a",
+    "trees": 830
+  },
+  "Forecasting/research_stage2/inner/2024-11/xgboost_log_diff/models/hybrid8_history.ubj": {
+    "sha256": "744eb24b248fc0a30323eefc6cf9da2b5087dd9ad792a056109b55560bd627e8",
+    "trees": 1008
+  },
+  "Forecasting/research_stage2/inner/2024-11/xgboost_log_diff/models/seasonal_spatial.ubj": {
+    "sha256": "6323d7d04282d2fc87e9af9ab3283055b8cad87161783ae95abe4d823d1811fd",
+    "trees": 224
+  },
+  "Forecasting/submissions/2025-03-stage2/models/selected/catboost_log_level.cbm": {
+    "sha256": "18a81bae56e78e25dc13be1f00ede5cc9d52499541b8f711caa24856a3578fa9",
+    "trees": 856
+  },
+  "Forecasting/submissions/2025-03-stage2/models/selected/lightgbm_log_diff.txt": {
+    "sha256": "777f839891e25d3b3e931c9b2d62f4bd98978a814660b87482c217e0901f459f",
+    "trees": 51
+  },
+  "Forecasting/submissions/2025-03-stage2/models/selected/lightgbm_log_level.txt": {
+    "sha256": "67a3fbbdb816772ee586b480bb83db73196a4f402668a272034b916ec495b098",
+    "trees": 134
+  },
+  "Forecasting/submissions/2025-03-stage2/models/selected/xgboost_log_diff.ubj": {
+    "sha256": "720d519bf08f66a13ffbc3ed733a6b34f2d57646f5b9e8c3dcc31812e5c2cdc8",
+    "trees": 1
+  }
+}

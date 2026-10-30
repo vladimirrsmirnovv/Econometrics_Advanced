@@ -1,0 +1,18 @@
+{
+  "id": "vladimirsmirnovve/x5-spatial-xgboost-research-20261009",
+  "title": "X5 Spatial XGBoost Research 20261009",
+  "code_file": "spatial_xgboost.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "machine_shape": "NvidiaTeslaT4",
+  "dataset_sources": [
+    "vladimirsmirnovve/x5-spatial-research-20261009",
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009"
+  ],
+  "competition_sources": [],
+  "kernel_sources": [],
+  "model_sources": []
+}

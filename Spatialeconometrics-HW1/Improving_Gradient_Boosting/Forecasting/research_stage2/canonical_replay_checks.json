@@ -1,0 +1,10 @@
+{
+  "status": "passed",
+  "original_builder_unchanged": true,
+  "canonical_feature_exact": true,
+  "canonical_geo_control_exact": true,
+  "fake_current_march_target_replacement_passed": true,
+  "graph_sha256": "ae264427a54ffabd5d7112d4128e5b3c05cb28240d9deaf34fbf4d73873bbdec",
+  "builder_sha256": "e86d30fbc3a1bc40cf14fd04fd3f9d936feb2ea0f393e1a2c7d0dbb3e4b1d5e3",
+  "graph_node_mapping": "Preserved node order and locations in the approved code payload"
+}

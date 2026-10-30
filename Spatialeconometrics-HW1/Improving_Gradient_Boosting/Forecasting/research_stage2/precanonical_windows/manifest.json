@@ -1,0 +1,20 @@
+{
+  "reason": "Spatial graph differed from the common Linux feature artifact",
+  "excluded_from_selection": true,
+  "predictions_and_models_preserved": true,
+  "actual_loaded_source_sha256": "33c34a049e3389cc0851653c7190b82237cec55b5a51feb34a7b2d04d6eff4d0",
+  "moved": [
+    "precanonical_windows/results/rolling/2024-06/lightgbm_log_diff",
+    "precanonical_windows/results/rolling/2024-06/lightgbm_log_level",
+    "precanonical_windows/results/rolling/2024-07/lightgbm_log_diff",
+    "precanonical_windows/results/rolling/2024-07/lightgbm_log_level",
+    "precanonical_windows/results/rolling/2024-08/lightgbm_log_diff",
+    "precanonical_windows/results/rolling/2024-08/lightgbm_log_level",
+    "precanonical_windows/inner/2024-05/lightgbm_log_diff",
+    "precanonical_windows/inner/2024-05/lightgbm_log_level",
+    "precanonical_windows/inner/2024-06/lightgbm_log_diff",
+    "precanonical_windows/inner/2024-06/lightgbm_log_level",
+    "precanonical_windows/inner/2024-07/lightgbm_log_diff",
+    "precanonical_windows/inner/2024-07/lightgbm_log_level"
+  ]
+}

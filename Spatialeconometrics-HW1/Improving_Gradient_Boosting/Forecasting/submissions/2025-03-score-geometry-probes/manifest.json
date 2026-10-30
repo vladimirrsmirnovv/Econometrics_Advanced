@@ -1,0 +1,90 @@
+{
+  "no_models_retrained": true,
+  "no_new_features": true,
+  "no_new_spatial_methods": true,
+  "automatic_submissions": false,
+  "based_on_full_test_feedback": true,
+  "required_upload_filename": "test.csv",
+  "sources": {
+    "Forecasting/submissions/2025-03-course-final-five/01_leaders_equal/test.csv": "37e2c7a2d7f07768e9b5b4b66b2df1f9ac985bfd0e099eb39d5f690272760876",
+    "Forecasting/submissions/2025-03-course-final-five/02_leaders_log_average/test.csv": "2235e7000983eabb5c52cd2ca336ce7baf8aa9f7372e9f744f12fda30f54b87c",
+    "Forecasting/submissions/2025-03-course-final-five/03_leaders_plus_01_equal/test.csv": "98edeebbf42790980b179cd27272505a376ace8ae8bce6034761bb46dc611b4f",
+    "Forecasting/submissions/2025-03-course-final-five/04_leaders_plus_08_equal/test.csv": "302b0d47a95ee1d68142fb08b3024794a3a5cf42777fb6a2e825b5ae80295eb4",
+    "Forecasting/submissions/2025-03-course-final-five/05_leaders_plus_08_log_average/test.csv": "99378800f6cf2df5cd43c9fabb0f5c5ce0bff5671e381a8c56a430687aa0f3fb"
+  },
+  "files": [
+    {
+      "file": "01_half_U_half_E3/test.csv",
+      "sha256": "aecaa1ac4fe74f6a56454af8bb8da66615688fce42fb42b24d96f8519922c1a7",
+      "weights_over_final_five": {
+        "1": 0.5,
+        "3": 0.5
+      },
+      "rows": 18657,
+      "bytes": 443353,
+      "actual_score": 90.83,
+      "mathematical_rounded_score_lower_bound": 90.83,
+      "exact_score_prediction": null,
+      "lower_bound_assumptions": [
+        "same full test and MAPE scoring",
+        "the five final files are the scored five-file batch",
+        "arithmetic averaging with nonnegative weights"
+      ],
+      "submission_id": 167933029,
+      "verdict": "OK",
+      "submitted_at": "2026-10-11 16:40:29",
+      "mapping_order_explicitly_confirmed": false
+    },
+    {
+      "file": "02_half_U_half_E4/test.csv",
+      "sha256": "fa538298e3b165433ac6e81be4f962757d5e42ccd373905011c5a94807723da8",
+      "weights_over_final_five": {
+        "1": 0.5,
+        "4": 0.5
+      },
+      "rows": 18657,
+      "bytes": 443565,
+      "actual_score": 90.83,
+      "mathematical_rounded_score_lower_bound": 90.83,
+      "exact_score_prediction": null,
+      "lower_bound_assumptions": [
+        "same full test and MAPE scoring",
+        "the five final files are the scored five-file batch",
+        "arithmetic averaging with nonnegative weights"
+      ],
+      "submission_id": 167933039,
+      "verdict": "OK",
+      "submitted_at": "2026-10-11 16:40:37",
+      "mapping_order_explicitly_confirmed": false
+    },
+    {
+      "file": "03_half_U_quarter_E3_E4/test.csv",
+      "sha256": "96f42ad0e9503988e77ddd59230ece58f75ccb4455d146065f497974e72ad646",
+      "weights_over_final_five": {
+        "1": 0.5,
+        "3": 0.25,
+        "4": 0.25
+      },
+      "rows": 18657,
+      "bytes": 443305,
+      "actual_score": 90.83,
+      "mathematical_rounded_score_lower_bound": 90.83,
+      "exact_score_prediction": null,
+      "lower_bound_assumptions": [
+        "same full test and MAPE scoring",
+        "the five final files are the scored five-file batch",
+        "arithmetic averaging with nonnegative weights"
+      ],
+      "submission_id": 167933042,
+      "verdict": "OK",
+      "submitted_at": "2026-10-11 16:40:43",
+      "mapping_order_explicitly_confirmed": false
+    }
+  ],
+  "method": "arithmetic convex mixtures of scored final-five predictions; no claimed RMSLE vertex for MAPE",
+  "contest_results_file": "contest_results.json",
+  "server_acceptance_verified": true,
+  "observed_best_score": 90.83,
+  "additional_displayed_score_gain": 0.0,
+  "screenshot_order_inferred": true
+}

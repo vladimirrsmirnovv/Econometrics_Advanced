@@ -1,0 +1,20 @@
+{
+  "id": "vladimirsmirnovve/x5-course-wx-xgb-20261010",
+  "title": "X5 Course WX XGB 20261010",
+  "code_file": "course.ipynb",
+  "language": "python",
+  "kernel_type": "notebook",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_internet": true,
+  "dataset_sources": [
+    "vladimirsmirnovve/x5-xgboost-reproduction-20261009",
+    "vladimirsmirnovve/x5-spatial-research-20261009"
+  ],
+  "kernel_sources": [
+    "vladimirsmirnovve/x5-spatial-final-iteration-20261009"
+  ],
+  "competition_sources": [],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}
