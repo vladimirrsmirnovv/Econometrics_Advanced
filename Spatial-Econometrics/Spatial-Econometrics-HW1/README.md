@@ -37,7 +37,7 @@
 ## Структура репозитория
 
 ```text
-Spatialeconometrics-HW1/
+Spatial-Econometrics-HW1/
 ├── Analysis/          анализ на R, один цельный скрипт и графики в assets
 ├── Data/              данные исследования и описание источников
 ├── Export/            итоговые файлы для сдачи
