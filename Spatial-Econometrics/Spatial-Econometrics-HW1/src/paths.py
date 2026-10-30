@@ -28,14 +28,14 @@ POPULATION_CSV = DATA / "Population" / "urban_settlement_population_2024.csv"
 GEONAMES_FEATURES = (
     PROJECT_ROOT
     / "Parsing"
-    / "geonames_settlement_coordinates"
+    / 'geonames-settlement-coordinates'
     / "result"
     / "settlement_geographic_features.csv"
 )
 GEONAMES_DIAGNOSTICS = (
     PROJECT_ROOT
     / "Parsing"
-    / "geonames_settlement_coordinates"
+    / 'geonames-settlement-coordinates'
     / "tmp"
     / "geonames_ru"
     / "service_outputs"

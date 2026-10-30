@@ -5,7 +5,7 @@ SCRIPT_DIR="$(cd "$(dirname "${BASH_SOURCE[0]}")" && pwd)"
 PROJECT_ROOT="$(cd "$SCRIPT_DIR/.." && pwd)"
 BUILD_DIR="$PROJECT_ROOT/tmp/paper-build"
 SOURCE_FILE="$SCRIPT_DIR/main.tex"
-OUTPUT_FILE="$SCRIPT_DIR/Пространственная_эконометрика_ДЗ1.pdf"
+OUTPUT_FILE="$SCRIPT_DIR/Пространственная-эконометрика-ДЗ1.pdf"
 
 cd "$PROJECT_ROOT"
 mkdir -p "$BUILD_DIR"

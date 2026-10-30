@@ -41,7 +41,7 @@ Spatial-Econometrics-HW1/
 ├── Analysis/          анализ на R, один цельный скрипт и графики в assets
 ├── Data/              данные исследования и описание источников
 ├── Export/            итоговые файлы для сдачи
-├── Improving_Gradient_Boosting/  код, эксперименты, прогнозы и финальный отчёт об улучшении бустинга
+├── Improving-Gradient-Boosting/  код, эксперименты, прогнозы и финальный отчёт об улучшении бустинга
 ├── Paper/             текст отчета в LaTeX и скрипт компиляции
 ├── Parsing/           собственный парсинг внешних источников
 ├── Rules/             правила изложения и оформления документов
@@ -54,9 +54,9 @@ Spatial-Econometrics-HW1/
 ```
 
 Эксперименты по улучшению прогнозов бустинга собраны в
-[`Improving_Gradient_Boosting`](Improving_Gradient_Boosting/README.md).
+[`Improving-Gradient-Boosting`](Improving-Gradient-Boosting/README.md).
 Финальная версия дополнительного отчёта:
-[`Прогноз_РТО_финальный_отчёт.pdf`](Improving_Gradient_Boosting/Forecasting/report/output/pdf/Прогноз_РТО_финальный_отчёт.pdf).
+[`Прогноз_РТО_финальный_отчёт.pdf`](Improving-Gradient-Boosting/Forecasting/report/output/pdf/Прогноз_РТО_финальный_отчёт.pdf).
 
 ## Анализ
 
